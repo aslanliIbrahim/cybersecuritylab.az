@@ -1,0 +1,121 @@
+header{
+    // @include border($border:2px solid red);
+    border-bottom: 1px solid rgb(168, 168, 168);
+    nav{
+        // @include border($border:2px solid black);
+        display: block;
+        position: sticky;
+        top: 0;
+        user-select: none;
+        width: 100%;
+        z-index: 10;
+        .navigation{
+            @include flexible($jus:space-between);
+            .logo-area{
+                @include flexible($items:center);
+                @include padding(26px 24px);
+            }
+            .nav-side{
+                @include flexible($jus:space-between,$items:center, $direction:row);
+                width:85%;
+                @media (max-width:992px) {
+                    display: none  !important;
+                }
+                ul{
+                    @include flexible($jus:space-between, $items:center);
+                    @include ul($pad:0, $mar:0, $list-style:none, $width:45%);
+                    li{
+                        position: relative;
+                        .sub-menu-active{
+                            display: block !important;
+                            position: absolute;
+                            top: 51px;
+                            left:0;
+                            border: 2px solid $black;
+                            width: 360px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            align-items: flex-start;
+                            padding: 20px;
+                        }
+                        .sub-menu{
+                            display: none !important; 
+                            position: absolute;
+                            top: 51px;
+                            left:0;
+                            border: 2px solid $black;
+                            width: 360px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            align-items: flex-start;
+                            padding: 20px;
+                        }
+                        
+                        a{
+                            // border: 2px solid red;
+                            font-size: $p-size;
+                            color: $black;
+                            text-decoration: none;
+                            transition: 0.3s ease-in-out;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            // width: 100%;
+                            .arrow-nav{
+                                // border: 2px solid red;
+                                padding-left: 10px;
+                                img{
+                                    width: 14px;
+                                    transform: rotate(180deg);
+                                    transition: 0.3s linear 0s;
+                                }
+                            }
+                            .arrow-nav-rotate{
+                               img{
+                                transform: rotate(0deg);
+                                transition: 0.3s linear 0s;
+                               }
+                            }
+                            &:hover{
+                                color: $special-blue;
+                            }
+                        }
+                    }
+                }
+                .button-area{
+                    width: 25%;
+                    @include flexible($jus:space-around);
+                    .sign-in{
+                        a{
+                            text-decoration: none;
+                            color: $special-blue;
+                            font-size: $p-size;
+                        }
+                    }
+                    .have-question{
+                        a{
+                            text-decoration: none;
+                            color: $white;
+                            background-color: $special-blue;
+                            @include border(1px solid $special-blue, 24px);
+                            @include padding(10px 32px);
+                            transition: 0.3s ease-in-out;
+                            &:hover{
+                                background-color: $white;
+                                color: $special-blue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .nav-phone{
+            @media (min-width:992px) {
+                display: none;
+            }
+        }
+        
+    }
+}
