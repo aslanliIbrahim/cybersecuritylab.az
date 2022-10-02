@@ -486,6 +486,30 @@ footer .footer-middle {
   border-bottom: 2px solid white;
 }
 
+footer .footer-middle .footer-write-side p {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 31px 0;
+  font-weight: 600;
+}
+
+footer .footer-middle .footer-input {
+  border: 2px solid red;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer-middle .footer-input input {
+  height: 50px;
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;

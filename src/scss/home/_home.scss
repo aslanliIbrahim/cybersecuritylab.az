@@ -311,5 +311,23 @@ footer{
     }
     .footer-middle{
         border-bottom: 2px solid $white;
+        .footer-write-side{
+            p{
+                font-size: 20px;
+                line-height: 24px;
+                @include margin(31px 0);
+                font-weight:600;
+            }
+        }
+        .footer-input{
+            border: 2px solid red;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            input{
+                height: 50px;
+                width: 100%;
+            }
+        }
     }
 }
