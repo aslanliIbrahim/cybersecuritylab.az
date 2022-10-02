@@ -96,10 +96,11 @@ header{
                     }
                     .have-question{
                         a{
+                            font-weight: 700;
                             text-decoration: none;
                             color: $white;
                             background-color: $special-blue;
-                            @include border(1px solid $special-blue, 24px);
+                            @include border(1px solid $special-blue, $border-radius);
                             @include padding(10px 32px);
                             transition: 0.3s ease-in-out;
                             &:hover{
@@ -117,5 +118,138 @@ header{
             }
         }
         
+    }
+}
+
+main{
+    #one{
+        .first-left-side{
+            // border: 2px solid red;
+            padding: 32px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            .first-side-up{
+                h1{
+                    font-size: 2.6rem;
+                    font-weight: 700;
+                }
+            }
+            .first-side-middle{
+                // border: 2px solid red;
+                height: 33.3%;
+                ul{
+                    // border: 2px solid black;
+                    @include ul($pad:0,$mar:0,$list-style:none,$height:100%);
+                    @include flexible(space-evenly, flex-start, column);
+                }
+            }
+            .first-side-down{
+                // border: 2px solid black;
+                // height: 33.3%;
+                .send-area{
+                    // border: 2px solid red;
+                    // height: 207px;
+                    // height: 100% !important;
+                    @include flexible($jus:space-between, $direction:column);
+                    .first-select{
+                        margin-bottom: 20px;
+                        // border: 2px solid purple;
+                        @include flexible(space-between, flex-start, column);
+                        select{
+                            width: 80%;
+                            height: 46px;
+                        }
+                    }
+                    .email-side{
+                        // border: 2px solid red;
+                        @include flexible(space-between, flex-start, column);
+                        input{
+                            width: 80%;
+                            height: 46px;
+                        }
+                        margin-bottom: 20px;
+                    }
+                    .button-side{
+                        // border: 2px solid black;
+                        @include flexible(flex-end, flex-end, row);
+                        width: 80%;
+                        button{
+                            @include border(1px solid $special-blue, $border-radius);
+                            @include padding(10px 32px);
+                            background-color: $special-blue;
+                            color: $white;
+                            transition: 0.3s;
+                            &:hover{
+                                background-color: $white;
+                                color: $special-blue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .first-right-side{
+            @media (max-width:992px) {
+                display: none;
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 77%;
+                height: 700px;
+                object-fit: cover;
+            }
+        }
+    }
+    #two{
+        // border: 2px solid red;
+        .two-side-left{
+            // border: 2px solid blue;
+            // height: 100%;
+            @include flexible(center, flex-start, column);
+            h2{
+                width: 65%;
+                line-height: 1.07;
+                text-align: inherit;
+                font-weight: 700;
+                margin-bottom: 40px;
+            }
+            p{
+                // border: 2px solid red;
+                width: 88%;
+                font-size: 1.125rem;
+                line-height: 1.4;
+                margin-bottom: 1rem;
+                a{
+                    color: $special-blue;
+                    text-decoration: none;
+                }
+            }
+            .outline-a{
+                // text-align: center;
+                @include flexible(center, center,row);
+                @include border(1px solid $special-blue, 1.5rem);
+                @include padding(0px 2.25rem);
+                background-color: $special-blue;
+                color: $white;
+
+                font-size: 1rem;
+                text-decoration: none;
+                transition: 0.3s ease-in-out;
+                height: 48px;
+                &:hover{
+                    background-color: $purple-color;
+                }
+            }
+        }
+        .two-right-side{
+            // border: 2px solid red;
+            img{
+                width: 100%;
+                object-fit: contain;
+            }
+        }
     }
 }
