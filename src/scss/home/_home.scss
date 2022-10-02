@@ -129,6 +129,50 @@ main{
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
+            //media start
+            @media (max-width:768px) {
+                overflow-x: hidden;
+                @include padding(32px 20px);
+                .first-side-up{
+                    h1{
+                        font-size: 2.25rem !important;
+                    }
+                }
+                .first-side-middle{
+                    ul{
+                        li{
+                            font-size: 16px;
+                            display: flex;
+                            margin-bottom: 15px;
+                            img{
+                                margin-right: 10px;
+                                object-fit: contain;
+                            }
+                        }
+                    }
+                }
+                .first-side-down{
+                    .send-area{
+                        .first-select{
+                            select{
+                                width: 100% !important;
+                            }
+                        }
+                        .email-side{
+                            input{
+                                width: 100% !important;
+                            }
+                        }
+                        .button-side{
+                            width: 100% !important;
+                            button{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            //media end
             .first-side-up{
                 h1{
                     font-size: 2.6rem;
@@ -251,5 +295,21 @@ main{
                 object-fit: contain;
             }
         }
+    }
+}
+
+footer{
+    background-color: $footer-black;
+    color: $white;
+    .footer-up-side{
+        img{
+            width: 160px;
+            object-fit: contain;
+            margin-bottom: 35px;
+        }
+        border-bottom: 2px solid $white;
+    }
+    .footer-middle{
+        border-bottom: 2px solid $white;
     }
 }
