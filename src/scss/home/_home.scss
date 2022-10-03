@@ -301,6 +301,9 @@ main{
 footer{
     background-color: $footer-black;
     color: $white;
+    @media (max-width:768px) {
+        padding: 7px;
+    }
     .footer-up-side{
         img{
             width: 160px;
@@ -360,11 +363,24 @@ footer{
             }
             
         }
-        .footer-social-medias{
-            li{
-                text-align: center;
-            }
-        }
+        // .footer-social-medias{
+        //     li{
+        //         text-align: center;
+        //     }
+        //     .footer-social-media{
+        //         a{
+                
+        //             display: flex;
+        //             align-items: center;
+        //             justify-content: space-evenly;
+        //             i{
+        //                 font-size: 30px;
+        //                 color: $social-media;
+        //                 margin-right: 12px;
+        //             }
+        //         }
+        //     }
+        // }
         ul{
             padding: 0;
             margin: 0;
@@ -374,9 +390,9 @@ footer{
             .footer-social-media{
                 a{
                 
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-evenly;
+                    // display: flex;
+                    // align-items: center;
+                    // justify-content: space-evenly;
                     i{
                         font-size: 30px;
                         color: $social-media;
@@ -399,7 +415,9 @@ footer{
         }
     }
     .footer-down-left{
-        // border: 2px solid red;
+        @media (max-width:768px) {
+            margin-bottom: 10px;
+        }
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -411,6 +429,13 @@ footer{
         }
     }
     .footer-down-right{
+        @media (max-width:768px) {
+            flex-direction: column;
+            align-items: flex-start;
+            a{
+                margin-bottom: 10px;
+            }
+        }
         // border: 2px solid red;
         display: flex;
         justify-content: space-around;
@@ -419,6 +444,8 @@ footer{
             font-size: 16px;
             text-decoration: none;
             color: $social-media;
+            margin-left: 17px;
         }
+
     }
 }
