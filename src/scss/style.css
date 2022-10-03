@@ -466,6 +466,116 @@ main #two .two-right-side img {
      object-fit: contain;
 }
 
+main #three .programs-title h2 {
+  text-align: center;
+}
+
+main #three .cards-area {
+  background-color: #FAFAFA;
+}
+
+main #three .cards-area .card-area a {
+  text-decoration: none;
+}
+
+main #three .cards-area .card-area a .img-side img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main #three .cards-area .card-area a .card-content {
+  padding-left: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #three .cards-area .card-area a .card-content .first {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  font-size: 1.25rem;
+  color: black;
+}
+
+main #three .cards-area .card-area a .card-content .second {
+  font-size: 1.125rem;
+  color: black;
+  margin-bottom: 16px;
+}
+
+main #three .cards-area .card-area a .card-content .third {
+  font-size: 1.125rem;
+  color: black;
+  margin-bottom: 16px;
+}
+
+main #three .cards-area .card-area a .card-content .third span {
+  font-weight: 700;
+  color: black;
+}
+
+main #three .cards-area .card-area a .card-content .fourth {
+  font-size: 1.125rem;
+  color: black;
+  margin-bottom: 16px;
+}
+
+main #three .cards-area .card-area a .card-content .fourth span {
+  font-weight: 700;
+  color: black;
+}
+
+main #four {
+  background-color: #03523C;
+}
+
+main #four ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main #four ul li {
+  list-style: none;
+}
+
+main #four ul li h1 {
+  color: #C7E3E2;
+  text-align: center;
+}
+
+main #four ul li h4 {
+  color: white;
+  font-size: 22px;
+}
+
+main #four ul li .firsth4 {
+  width: 90%;
+}
+
+main #four ul li .secondh4 {
+  width: 88%;
+}
+
 footer {
   background-color: #201E1E;
   color: white;
