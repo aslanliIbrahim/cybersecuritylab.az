@@ -2,31 +2,62 @@ const button = document.querySelectorAll(".for-click");
 const arrowNav = document.querySelectorAll(".arrow-nav");
 const subMenu = document.querySelectorAll(".sub-menu");
 
-for (let i = 0; i < button.length; i++) {
-  button[i].addEventListener("click", function () {
-    // if (arrowNav.classList.contains("arrow-nav-rotate")) {
-    //     arrowNav.classList.remove("arrow-nav-rotate");
-    // } else {
-    //     arrowNav.classList.add("arrow-nav-rotate");
-    // }
 
-    for (let j = 0; j < arrowNav.length; j++) {
+for (let i = 0; i < arrowNav.length; i++) {
+  arrowNav[i].addEventListener('click', function() {
 
-      arrowNav[i].addEventListener("click", function () {
-        
-        if (this.classList.contains("arrow-nav-rotate")) {
-            
-          this.classList.remove("arrow-nav-rotate");
+    if (this.classList.contains("arrow-nav-rotate")) {
+      this.classList.remove("arrow-nav-rotate");
 
-        } else {
-
-          this.classList.add("arrow-nav-rotate");
-          
-        }
-      });
+    } else {
+      this.classList.add("arrow-nav-rotate");
     }
-  });
+  })
+  
 }
+
+for (let j = 0; j < button.length; j++) {
+  button[j].addEventListener('click', function() {
+    
+    for (let h = 0; h < subMenu.length; h++) {
+     if ( subMenu[j].classList.contains('sub-menu-active')) {
+      subMenu[j].classList.remove('sub-menu-active');
+     } else {
+      subMenu[j].classList.add('sub-menu-active');
+     }
+      
+    }
+    
+  });
+  
+}
+
+
+// for (let i = 0; i < button.length; i++) {
+//   button[i].addEventListener("click", function () {
+//     // if (arrowNav.classList.contains("arrow-nav-rotate")) {
+//     //     arrowNav.classList.remove("arrow-nav-rotate");
+//     // } else {
+//     //     arrowNav.classList.add("arrow-nav-rotate");
+//     // }
+
+//     for (let j = 0; j < arrowNav.length; j++) {
+
+//       arrowNav[i].addEventListener("click", function () {
+        
+//         if (this.classList.contains("arrow-nav-rotate")) {
+            
+//           this.classList.remove("arrow-nav-rotate");
+
+//         } else {
+
+//           this.classList.add("arrow-nav-rotate");
+          
+//         }
+//       });
+//     }
+//   });
+// }
 
 // for (let i = 0; i < button.length; i++) {
 
