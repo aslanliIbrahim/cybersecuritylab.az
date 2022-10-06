@@ -1,36 +1,46 @@
-const button = document.querySelectorAll(".for-click");
-const arrowNav = document.querySelectorAll(".arrow-nav");
-const subMenu = document.querySelectorAll(".sub-menu");
+const buttons = document.querySelectorAll(".for-click");
 
+buttons.forEach(button => {
+  const arrowNav = button.querySelector(".arrow-nav");
+  const subMenu = button.querySelector(".sub-menu");
+  const salam = button.querySelector(".salam");
 
-for (let i = 0; i < arrowNav.length; i++) {
-  arrowNav[i].addEventListener('click', function() {
-
-    if (this.classList.contains("arrow-nav-rotate")) {
-      this.classList.remove("arrow-nav-rotate");
-
-    } else {
-      this.classList.add("arrow-nav-rotate");
-    }
-  })
-  
-}
-
-for (let j = 0; j < button.length; j++) {
-  button[j].addEventListener('click', function() {
-    
-    for (let h = 0; h < subMenu.length; h++) {
-     if ( subMenu[j].classList.contains('sub-menu-active')) {
-      subMenu[j].classList.remove('sub-menu-active');
-     } else {
-      subMenu[j].classList.add('sub-menu-active');
-     }
-      
-    }
-    
+  salam.addEventListener('click', function() {
+    arrowNav.classList.toggle('arrow-nav-rotate');
+    subMenu.classList.toggle('sub-menu-active')
   });
   
-}
+});
+
+
+// for (let i = 0; i < arrowNav.length; i++) {
+//   arrowNav[i].addEventListener('click', function() {
+
+//     if (this.classList.contains("arrow-nav-rotate")) {
+//       this.classList.remove("arrow-nav-rotate");
+
+//     } else {
+//       this.classList.add("arrow-nav-rotate");
+//     }
+//   })
+  
+// }
+
+// for (let j = 0; j < button.length; j++) {
+//   button[j].addEventListener('click', function() {
+    
+//     for (let h = 0; h < subMenu.length; h++) {
+//      if ( subMenu[j].classList.contains('sub-menu-active')) {
+//       subMenu[j].classList.remove('sub-menu-active');
+//      } else {
+//       subMenu[j].classList.add('sub-menu-active');
+//      }
+      
+//     }
+    
+//   });
+  
+// }
 
 
 // for (let i = 0; i < button.length; i++) {
