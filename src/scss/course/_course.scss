@@ -1,3 +1,69 @@
 #course-one{
-    
+    background-color: $soft-blue;
+    .course-one-left{
+        // border: 2px solid red;
+        // @include padding(32px 0px);
+        .course-one-up{
+            @include margin(32px 0px);
+            @include padding(0px 40px);
+            h3{
+                @include TextFont($f_size:20px,$margin:0 0 8px 0, $f_color:$black);
+            }
+            h1{
+                @include TextFont($f_size:51px,$line_height:1, $f_color:$black, $text_weight:700);
+            }
+        }
+        .course-one-middle-up{
+            @include padding(0px 40px);
+            @include margin(32px 0px);
+            p{
+                @include TextFont($f_size:18px, $margin:16px);
+            }
+            a{
+                @include TextFont($padding:0px 36px, $f_size:16px, $text_decaration:none, $f_color:$white, $background:$special-blue, $transition:0.2s);
+                @include border($border-radius:24px);
+                height:48px;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                &:hover{
+                    @include TextFont($background:$purple-color);
+                }
+            }
+        }
+        .course-one-down{
+            @include margin(32px 0px);
+            @include padding(0px 40px);
+            ul{
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                // border: 2px solid red;
+                display: grid;
+                row-gap: 24px;
+                grid-template-columns: 1fr;
+                // justify-items: center;
+                column-gap: 3%;
+                li{
+                    @include flexible($items:center,$direction:row);
+                    
+                    // border: 2px solid red;
+                    img{
+                        @include padding(0 10px 0 0); 
+                        @include Img($img_width:auto, $img_height:auto, $object_fit:contain);
+                    }
+                   
+                }
+            }
+        }
+    }
+    .course-one-right{
+        @include flexible($jus:center);
+        // display: block;
+        // background-image: url("../../img/course/SE_HERO_IMAGE_20210224.jpg");
+        // height: 552.375px;
+        img{
+            @include Img($img_height:552.375px, $object_fit:contain);
+        }
+    }
 }

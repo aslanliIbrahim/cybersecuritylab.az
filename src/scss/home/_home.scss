@@ -553,7 +553,7 @@ main{
     #seven{
         background-color: $background-color-white;
         .seven-side-left{
-            border: 2px solid red;
+            // border: 2px solid red;
             h3{
                 font-size: 16px;
                 padding: 0;
@@ -561,7 +561,7 @@ main{
             }
             h2{
                 font-weight: 700;
-                border: 2px solid;
+                // border: 2px solid;
                 width: 81%;
                 padding-bottom: 1rem;
                 line-height: 1.07;
@@ -585,99 +585,146 @@ main{
                     }
                 }
             }
-            .slider-area{
+            
+            .slider-area-side{
                 // border: 2px solid red;
-                width: 450px;
-                background-color: $white;
-                .span-area{
-                    .progessBar{
-                        width: 100%;
-                        height: 4px;
-                        background-color: rgba(255, 255, 255, 0.4);
-                        display: block;
-                    }
-                    .inProgress {
-                        background-color: rgba(255, 255, 255, 1);
-                        width: 0%;
-                        height: 4px;
-                    }
-                }
-                h6{
-                    font-size: 16px;
-                    font-weight: 700;
-                    margin-bottom: 8px;
-                    margin-left: 22px;
-                }
-                .about-area{
-                    // border: 2px solid green;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-around;
+                    width: 70%;
+                    .for-span-area{
+                        // border: 2px solid red;
+                        @include flexible(space-around, center, row);
+                        background-color: $white;
+                        span{
+                            height: 6px;
+                            width: 30%;
+                            border: 1px solid $special-blue;
+                            border-radius: 15px;
+                            margin: 5px 0;
+                        }
+                        .first-bar{
+                            .first-time{
+                                // background-color: $special-blue;
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 15px;
+                                animation: loading 3s forwards cubic-bezier(0,0,0,0);
+                                animation-iteration-count:3;
+                            }
+                            
+                            @keyframes loading {
+                                0%{
+                                    width: 0%;
+                                    background-color: $white;
+                                }
+                                100%{
+                                    width: 100%;
+                                    background-color: $special-blue;
+                                }
+                                0%{
+                                    width: 0%   ;
+                                    background-color: $white;
+                                }
+                                
+                            }
 
-                    .slider-img{
+                        }
+                        .second-bar{
+                            .second-time{
+                                // background-color: $special-blue;
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 15px;
+                                animation: loading 3s forwards cubic-bezier(0,0,0,0);
+                                animation-iteration-count:3;
+                                animation-delay: 3s;
+                            }
+                            @keyframes loading {
+                                0%{
+                                    width: 0%;
+                                    background-color: $white;
+                                }
+                                100%{
+                                    width: 100%;
+                                    background-color: $special-blue;
+                                }
+                            }
+                        }
+                        .third-bar{
+                            .third-time{
+                                // background-color: $special-blue;
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 15px;
+                                animation: loading 3s forwards cubic-bezier(0,0,0,0);
+                                animation-iteration-count:3;
+                                animation-delay: 6s;
+                            }
+                            @keyframes loading {
+                                0%{
+                                    width: 0%;
+                                    background-color: $white;
+                                }
+                                100%{
+                                    width: 100%;
+                                    background-color: $special-blue;
+                                }
+                            }
+                        }
+                    }
+                    h6{
+                        background-color: $white;
+                        padding-top: 8px;
+                        padding-bottom: 8px;
+                        margin: 0 !important;
+                        font-size: 16px;
+                        font-weight: 600;
+                        padding-left: 21px;
+                    }
+                    .slide-area{
                         // border: 2px solid black;
                         display: flex;
+                        justify-content: space-evenly;
                         align-items: center;
-                        justify-content: center;
-                        img{
+                        background-color: $white;
+                        padding: 20px 0;
+                        .img-area{
+                            
+                            img{
+                                // border: 2px solid red;
                             border-radius: 50%;
-                            flex: 0 0 60px;
-                            height: 60px;
-                           
-                        }
-                    }
-                    .slider-about-area{
-                        // border: 2px solid purple;
-                        width: 67%;
-                        .about-area-up{
-                            border-bottom: 0.5px solid $black;
-                            display: flex;
-                            .about-left{
-                                width: 50%;
-                                padding: 12px 10px 12px 0px
-                            }
-                            .about-right{
-                                font-weight: 700;
-                                width: 50%;
-                                font-size: 15px;
-                                padding: 12px 10px 12px 0px
-                            }
-
-                        }
-                        .about-area-middle{
-                            border-bottom: 0.5px solid $black;
-                            display: flex;
-                            .about-left{
-                                width: 50%;
-                                padding: 12px 10px 12px 0px
-                            }
-                            .about-right{
-                                width: 50%;
-                                font-weight: 700;
-                                font-size: 15px;
-                                padding: 12px 10px 12px 0px
-
+                                width: 60px;
+                                height: 60px;
+                                object-fit: contain;
                             }
                         }
-                        .about-area-down{
-                            border-bottom: 0.5px solid $black;
-                            display: flex;
-                            .about-left{
-                                width: 50%;
-                                padding: 12px 10px 12px 0px
-                            }
-                            .about-right{
-                                width: 50%;
-                                font-weight: 700;
-                                font-size: 15px;
-                                padding: 12px 10px 12px 0px
+                        .content-area{
+                            // border: 2px solid red;
+                            width: 70%;
+                            ul{
+                                @include ul($pad:0, $mar:0, $list-style:none, $width:100%);
+                                li{
+                                    border-bottom: 1px solid $black;
+                                    @include flexible($jus:space-around);
+                                    @include margin(0 0 10px 0);
+                                    p{
+                                        @include padding(0);
+                                        @include margin(0);
+                                        font-size: 15px;
+                                    }
+                                    .first-p{
+                                        width: 50%;
+                                    }
+                                    .second-p{
+                                        width: 50%;
+                                        font-weight: 700;
+                                    }
+                                }
                             }
                         }
                     }
-                }
+                
+                
             }
-            
-                a{
+            a{
                     text-decoration: none;
                     color: $special-blue;
                     background-color: transparent;
@@ -690,7 +737,7 @@ main{
                         background-color: $special-blue;
                         color: $white;
                     }
-                }
+            }
             
         }
         .seven-side-img{
