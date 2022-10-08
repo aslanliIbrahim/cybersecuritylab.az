@@ -67,3 +67,233 @@
         }
     }
 }
+#course-two{
+    // border: 2px solid red;
+    .option-side{
+        text-align: center;
+        // border: 2px solid red;
+        @include padding(20px 0px);
+        a{
+            // border-bottom: 2px solid red;
+            text-decoration:none;
+            color: $black;
+            font-size: 16px;
+        }
+        
+    }
+    .active{
+        border-bottom: 3px solid black;
+        a{
+            font-weight: 600;
+        }
+    }
+}
+#strat-learning{
+    background-color: $cards-white;
+    .learning-left{
+        // border: 2px solid red;
+        .left-up{
+            @include padding(0px 40px);
+            @include margin(32px 0px);
+            h3{
+                font-size: 54px;
+                font-weight: 700;
+            }
+        }
+        .left-down{
+            @include padding(0px 40px);
+            @include margin(32px 0px);
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+    .learning-right{
+        .form-area{
+            // border: 2px solid red;
+            .input-area{
+                @include padding(0px 40px);
+                @include margin(32px 0px);
+                @include flexible(space-between, flex-start, column);
+                input{
+                    display: block;
+                    width: 80%;
+                    outline: none;
+                    border: 1px solid $social-media;
+                    font-size: 18px;
+                    height: 46px;
+                    box-sizing: border-box;
+                    @include padding(0px 16px);
+                    transition: 0.3s ease-in-out;
+                    &:hover{
+                        border-color: $special-blue
+                    }
+                    
+                }
+            }
+            .button-area{
+                @include padding(0px 40px);
+                @include margin(32px 0px);
+                // border: 2px solid red;
+                button{
+                    width: max-content;
+                box-sizing: border-box;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
+                border-radius: 24px;
+                border: 1px solid $special-blue;
+                @include padding(0px 36px);
+                height: 48px;
+                transition: all 100ms ease-in 0;
+                color: $white;
+                background-color: $special-blue;
+                &:hover{
+                    background-color: $purple-color;
+                }
+                }
+            }
+
+        }
+    }
+}
+#course-select-first{
+    // border: 1px solid $social-media;
+    .table-for-padding{
+        @include padding(0 80px);
+        .table-area-up{
+            h3{
+                font-size: 18px;
+                margin-bottom: 8px;
+                color: $footer-black;
+            }
+            h2{
+                font-size: 44px;
+                @include margin(0 0 40px 0);
+                line-height: 1.07;
+                font-weight: 700;
+            }
+        }
+        .table-area{
+            // border: 2px solid red;
+            margin: 0;
+            padding: 0;
+            border: 1px solid $social-media;
+            display: flex;
+    
+            .table-left{
+                // border: 1px solid red;
+                background-color: $table-left-white;
+                @include padding(30px);
+                width: 100%;
+                max-width: 356px;
+                p{
+                    font-size: 18px;
+                }
+                .first-h5{
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                .second-h5{
+                    font-size: 54px;
+                    font-weight: bold;
+                }
+            }
+           
+            .table-right{
+                // border: 2px solid orange;
+                width: 100%;
+                display: flex;
+                // justify-content: space-evenly;
+                @include padding(30px);
+                .leftSide{
+                    // border: 2px solid red;
+                    width: 40%;
+                    .leftSide-up{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        @include margin(0 0 20px 0);
+                        // border: 2px solid red;
+                        img{
+                            margin-right: 8px;
+                            object-fit: contain;
+                        }
+                        h5{
+                            // margin-bottom: 20px;
+                            line-height: 1.25;
+                            font-weight: 700;
+                        }
+                        
+                    }
+                    ul{
+                        @include ul($pad:0, $mar:0, $list-style:none);
+                        // border: 2px solid black;
+                        li{
+                            @include margin(0 0 20px 36px);
+                            font-size: 18px;
+                            line-height: 1.4;
+                            img{
+                                width: 18px;
+                                height: 18px;
+                                // border: 2px solid red;
+                                object-fit: contain;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}
+#accordion-side{
+    .accordion{
+        
+        .contentbx{
+            position: relative;
+            margin: 10px 20px;
+            
+            .label{
+                position: relative;
+                padding: 10px;
+                // background-color: red;
+                display: flex;
+                justify-content: space-between;
+                transition: 0.3s ease-in-out;
+                border-bottom: 1px solid $footer-black;
+                margin-bottom: 10px;
+                &:hover{
+                    cursor: pointer;
+                }
+                .hello{
+                    width: 14px;
+                    transform: rotate(180deg);
+                    transition: 0.3s linear 0s;
+                }
+                .hello-transform{
+                    transform: rotate(0deg);
+                    transition: 0.3s linear 0s;
+                }
+            }
+            .border-bottom{
+                border-bottom: none !important;
+            }
+            .content{
+                height: 0;
+                overflow: hidden;
+                transition: .5s;
+                overflow-y: hidden;
+            }
+            .content-active{
+                height: 150px;
+                overflow: visible;
+                border-bottom: 1px solid $footer-black;
+            }
+            
+        }
+        
+    }
+}

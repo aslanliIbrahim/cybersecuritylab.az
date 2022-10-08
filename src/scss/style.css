@@ -1461,6 +1461,278 @@ footer .footer-down-right a {
      object-fit: contain;
 }
 
+#course-two .option-side {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+#course-two .option-side a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+#course-two .active {
+  border-bottom: 3px solid black;
+}
+
+#course-two .active a {
+  font-weight: 600;
+}
+
+#strat-learning {
+  background-color: #FAFAFA;
+}
+
+#strat-learning .learning-left .left-up {
+  padding: 0px 40px;
+  margin: 32px 0px;
+}
+
+#strat-learning .learning-left .left-up h3 {
+  font-size: 54px;
+  font-weight: 700;
+}
+
+#strat-learning .learning-left .left-down {
+  padding: 0px 40px;
+  margin: 32px 0px;
+}
+
+#strat-learning .learning-left .left-down p {
+  font-size: 18px;
+}
+
+#strat-learning .learning-right .form-area .input-area {
+  padding: 0px 40px;
+  margin: 32px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#strat-learning .learning-right .form-area .input-area input {
+  display: block;
+  width: 80%;
+  outline: none;
+  border: 1px solid #A8A8A0;
+  font-size: 18px;
+  height: 46px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px 16px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#strat-learning .learning-right .form-area .input-area input:hover {
+  border-color: #2A32C5;
+}
+
+#strat-learning .learning-right .form-area .button-area {
+  padding: 0px 40px;
+  margin: 32px 0px;
+}
+
+#strat-learning .learning-right .form-area .button-area button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  border-radius: 24px;
+  border: 1px solid #2A32C5;
+  padding: 0px 36px;
+  height: 48px;
+  -webkit-transition: all 100ms ease-in 0;
+  transition: all 100ms ease-in 0;
+  color: white;
+  background-color: #2A32C5;
+}
+
+#strat-learning .learning-right .form-area .button-area button:hover {
+  background-color: #272C8C;
+}
+
+#course-select-first .table-for-padding {
+  padding: 0 80px;
+}
+
+#course-select-first .table-for-padding .table-area-up h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #201E1E;
+}
+
+#course-select-first .table-for-padding .table-area-up h2 {
+  font-size: 44px;
+  margin: 0 0 40px 0;
+  line-height: 1.07;
+  font-weight: 700;
+}
+
+#course-select-first .table-for-padding .table-area {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #A8A8A0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#course-select-first .table-for-padding .table-area .table-left {
+  background-color: #F2F2F2;
+  padding: 30px;
+  width: 100%;
+  max-width: 356px;
+}
+
+#course-select-first .table-for-padding .table-area .table-left p {
+  font-size: 18px;
+}
+
+#course-select-first .table-for-padding .table-area .table-left .first-h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#course-select-first .table-for-padding .table-area .table-left .second-h5 {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+#course-select-first .table-for-padding .table-area .table-right {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+}
+
+#course-select-first .table-for-padding .table-area .table-right .leftSide {
+  width: 40%;
+}
+
+#course-select-first .table-for-padding .table-area .table-right .leftSide .leftSide-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 20px 0;
+}
+
+#course-select-first .table-for-padding .table-area .table-right .leftSide .leftSide-up img {
+  margin-right: 8px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#course-select-first .table-for-padding .table-area .table-right .leftSide .leftSide-up h5 {
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+#course-select-first .table-for-padding .table-area .table-right .leftSide ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#course-select-first .table-for-padding .table-area .table-right .leftSide ul li {
+  margin: 0 0 20px 36px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+#course-select-first .table-for-padding .table-area .table-right .leftSide ul li img {
+  width: 18px;
+  height: 18px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#accordion-side .accordion .contentbx {
+  position: relative;
+  margin: 10px 20px;
+}
+
+#accordion-side .accordion .contentbx .label {
+  position: relative;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border-bottom: 1px solid #201E1E;
+  margin-bottom: 10px;
+}
+
+#accordion-side .accordion .contentbx .label:hover {
+  cursor: pointer;
+}
+
+#accordion-side .accordion .contentbx .label .hello {
+  width: 14px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: 0.3s linear 0s;
+  transition: 0.3s linear 0s;
+}
+
+#accordion-side .accordion .contentbx .label .hello-transform {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.3s linear 0s;
+  transition: 0.3s linear 0s;
+}
+
+#accordion-side .accordion .contentbx .border-bottom {
+  border-bottom: none !important;
+}
+
+#accordion-side .accordion .contentbx .content {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
+  overflow-y: hidden;
+}
+
+#accordion-side .accordion .contentbx .content-active {
+  height: 150px;
+  overflow: visible;
+  border-bottom: 1px solid #201E1E;
+}
+
 * {
   margin: 0;
   padding: 0;
