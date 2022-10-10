@@ -1793,6 +1793,109 @@ footer .footer-down-right a {
   color: #03523C;
 }
 
+#job-skills {
+  background-color: #F2EDDF;
+}
+
+#job-skills .job-up {
+  padding: 48px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#job-skills .job-up .up-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+}
+
+#job-skills .job-up .up-left h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+#job-skills .job-up .up-left h2 {
+  font-size: 44px;
+  line-height: 1.07;
+  font-weight: 700;
+}
+
+#job-skills .job-up .up-right img {
+  height: 100%;
+}
+
+@media (min-width: 992px) {
+  #job-skills .job-up .up-right img {
+    max-height: 506px;
+  }
+}
+
+#job-skills .syllabus-gradient {
+  display: block;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 237, 223, 0)), to(#f2eddf));
+  background-image: linear-gradient(rgba(242, 237, 223, 0), #f2eddf);
+  height: 450px;
+  margin-top: -450px;
+  position: relative;
+}
+
+#job-skills .syllabus-list .list-up {
+  border-bottom: 1px solid #201E1E;
+  padding: 24px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#job-skills .syllabus-list .list-up h2 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+#job-skills .syllabus-list .list-up .list-middle {
+  padding: 0 30px 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 54%;
+}
+
+#job-skills .syllabus-list .list-up .list-middle h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#job-skills .syllabus-list .list-up .list-middle2 p {
+  padding: 0;
+  margin: 0;
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+#job-skills .job-form-area {
+  border: 2px solid red;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -345,3 +345,81 @@
         }
     }
 }
+#job-skills{
+    background-color: $soft-white;
+    .job-up{
+        // border: 2px solid red;
+        @include padding(48px 0);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .up-left{
+            // border: 2px solid red;
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            h3{
+                font-size: 20px;
+                margin-bottom: 8px;
+            }
+            h2{
+                font-size: 44px;
+                line-height: 1.07;
+                font-weight: 700;
+            }
+        }
+        .up-right{
+            // border: 2px solid red;
+            img{
+                height: 100%;
+                @media (min-width:992px) {
+                    max-height: 506px;
+                }
+            }
+        }
+    }
+    .syllabus-gradient{
+        // border: 2px solid red;
+        display: block;
+        background-image: linear-gradient(rgba(242, 237, 223, 0), rgb(242, 237, 223));
+        height: 450px;
+        margin-top: -450px;
+        position: relative;
+    }
+    .syllabus-list{
+        .list-up{
+            border-bottom: 1px solid $footer-black;
+            @include padding(24px 0px);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h2{
+                font-size: 44px;
+                font-weight: 700;
+                // order: 1;
+            }
+            .list-middle{
+                @include padding(0 30px 0 50px);
+                @include flexible($items:center);
+                width: 54%;
+                h5{
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+            .list-middle2{
+                p{
+                    padding: 0;
+                    margin: 0;
+                    line-height: 1.4;
+                    font-size: 18px;
+                }
+            }
+        }
+
+    }
+    .job-form-area{
+        border: 2px solid red;
+        
+    }
+}
