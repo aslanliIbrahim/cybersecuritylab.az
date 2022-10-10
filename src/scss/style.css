@@ -1733,6 +1733,66 @@ footer .footer-down-right a {
   border-bottom: 1px solid #201E1E;
 }
 
+#flexible .flexible-area {
+  background-color: #03523C;
+  color: white;
+  width: 90%;
+  padding: 30px;
+  margin: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#flexible .flexible-area .flexible-left h3 {
+  font-size: 30px;
+  font-weight: 700;
+  width: 72%;
+  margin-bottom: 8px;
+}
+
+#flexible .flexible-area .flexible-right {
+  width: 50%;
+}
+
+#flexible .flexible-area .flexible-right p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0 0 20px 0;
+}
+
+#flexible .flexible-area .flexible-right a {
+  background-color: transparent;
+  border: 1px solid white;
+  height: 3rem;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  padding: 0px 2.25rem;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  white-space: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#flexible .flexible-area .flexible-right a:hover {
+  background-color: white;
+  color: #03523C;
+}
+
 * {
   margin: 0;
   padding: 0;

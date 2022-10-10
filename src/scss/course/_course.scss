@@ -297,3 +297,51 @@
         
     }
 }
+#flexible{
+    .flexible-area{
+        background-color: $green-color;
+        color: $white;
+        width: 90%;
+        @include padding(30px);
+        @include margin(40px 0);
+        @include flexible($jus:space-between);
+        .flexible-left{
+            // border: 2px solid red;
+            h3{
+                font-size: 30px;
+                font-weight: 700;
+                width: 72%;
+                margin-bottom: 8px;
+            }
+        }
+        .flexible-right{
+            // border: 2px solid red;
+            width: 50%;
+            p{
+                font-size: 18px;
+                line-height: 1.4;
+                @include margin(0 0 20px 0);
+            }
+            a{
+                background-color: transparent;
+                border: 1px solid $white;
+                height: 3rem;
+                font-size: 1rem;
+                border-radius: 1.5rem;
+                display: inline-flex;
+                font-weight: 600;
+                text-decoration: none;
+                color: $white;
+                padding: 0px 2.25rem;
+                transition: all 100ms ease-in;
+                white-space: nowrap;
+                align-items: center;
+                justify-content: center;
+                &:hover{
+                    background-color: $white;
+                    color: $green-color;
+                }
+            }
+        }
+    }
+}
