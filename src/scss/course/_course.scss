@@ -419,7 +419,57 @@
 
     }
     .job-form-area{
+        
         border: 2px solid red;
+        background-color: $special-blue;
+        color: $white;
+        .job-area-left{
+            width: 50%;
+            border: 2px solid red;
+            h5{
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1.25;
+                padding-right: 40px;
+                margin-bottom: 31px;
+            }
+            .job-select{
+                border: 2px solid red;
+                display: flex;
+                justify-content: flex-start;
+                padding: 10px;
+                .button-group{
+                    border: 2px solid white;
+                    width: 40%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    .left-button{
+                        width: 50%;
+                        border: 2px solid red;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center; 
+                        p{
+                            font-size: 18px;
+                            margin:0;
+                            padding: 0;
+                        }
+                    }
+                    .right-button{
+                        width: 50%;
+                        border: 2px solid orange;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center; 
+                        p{
+                            font-size: 18px;
+                            margin:0;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
         
     }
 }
