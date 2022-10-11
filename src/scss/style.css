@@ -201,6 +201,23 @@ nav .navigation .nav-side .button-area .have-question a:hover {
   }
 }
 
+@media (max-width: 768px) {
+  nav .nav-phone {
+    width: 16%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 29px;
+    font-weight: 700;
+  }
+}
+
 main #one .first-left-side {
   padding: 32px 0px;
   display: -webkit-box;
@@ -820,6 +837,12 @@ main #seven .seven-side-left {
   padding: 94px 0px;
 }
 
+@media (max-width: 768px) {
+  main #seven .seven-side-left {
+    padding: 48px 24px;
+  }
+}
+
 main #seven .seven-side-left h3 {
   font-size: 16px;
   padding: 0;
@@ -848,7 +871,7 @@ main #seven .seven-side-left .seven-right-middleside .seven-middle p {
 }
 
 main #seven .seven-side-left .seven-right-middleside .seven-middle .seven-border-side {
-  border-top: 1px solid red;
+  border-top: 1px solid #A8A8A0;
   width: 5%;
   margin: 0 10px 0 10px;
 }
@@ -860,6 +883,12 @@ main #seven .seven-side-left .seven-right-middleside .seven-middle .seven-num {
 
 main #seven .seven-side-left .slider-area-side {
   width: 70%;
+}
+
+@media (max-width: 768px) {
+  main #seven .seven-side-left .slider-area-side {
+    width: 100%;
+  }
 }
 
 main #seven .seven-side-left .slider-area-side .for-span-area {
@@ -1053,6 +1082,14 @@ main #seven .seven-side-left a {
   font-weight: 700;
 }
 
+@media (max-width: 768px) {
+  main #seven .seven-side-left a {
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
 main #seven .seven-side-left a:hover {
   background-color: #2A32C5;
   color: white;
@@ -1060,6 +1097,13 @@ main #seven .seven-side-left a:hover {
 
 main #seven .seven-side-img {
   padding-left: 30px;
+}
+
+@media (max-width: 768px) {
+  main #seven .seven-side-img {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 main #seven .seven-side-img img {
@@ -1131,6 +1175,7 @@ main #eight .eight-input-side p {
   }
   main #eight .eight-input-side form input {
     width: 100%;
+    color: white;
   }
   main #eight .eight-input-side form button {
     margin: 10px 0 0 0;
@@ -1169,6 +1214,16 @@ main #eight .eight-input-side button:hover {
 footer {
   background-color: #201E1E;
   color: white;
+}
+
+footer .row {
+  padding: 24px;
+}
+
+@media (max-width: 768px) {
+  footer .row {
+    padding: 0;
+  }
 }
 
 @media (max-width: 768px) {
