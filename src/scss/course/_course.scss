@@ -419,55 +419,135 @@
 
     }
     .job-form-area{
-        
-        border: 2px solid red;
+        // border: 2px solid red;
         background-color: $special-blue;
         color: $white;
+        @include padding(24px); 
+        @include flexible($jus:space-between);
         .job-area-left{
             width: 50%;
-            border: 2px solid red;
+            // border: 2px solid red;
             h5{
-                font-size: 18px;
-                font-weight: 700;
-                line-height: 1.25;
-                padding-right: 40px;
-                margin-bottom: 31px;
+                @include TextFont($f_size:18px, $text_weight:700, $line_height:1.25,$padding:0 40px 0 0, $margin:0 0 31px 0);
+                width: 90%;
             }
             .job-select{
-                border: 2px solid red;
+                // border: 2px solid red;
                 display: flex;
                 justify-content: flex-start;
                 padding: 10px;
                 .button-group{
-                    border: 2px solid white;
+                    border: 1px solid white;
+                    border-radius: 4px;
                     width: 40%;
                     display: flex;
                     justify-content: space-evenly;
+                    .backGroundColor{
+                        background-color: $white;
+                        color: $special-blue;
+                        font-weight: 700;
+                    }
                     .left-button{
                         width: 50%;
-                        border: 2px solid red;
+                        // border: 2px solid red;
                         display: flex;
                         align-items: center;
                         justify-content: center; 
+                        transition: 0.3s ease-in-out;
                         p{
                             font-size: 18px;
                             margin:0;
                             padding: 0;
+                        }
+                        &:hover{
+                            cursor: pointer;
                         }
                     }
                     .right-button{
                         width: 50%;
-                        border: 2px solid orange;
+                        // border: 2px solid orange;
                         display: flex;
                         align-items: center;
                         justify-content: center; 
+                        transition: 0.3s ease-in-out;
                         p{
                             font-size: 18px;
                             margin:0;
                             padding: 0;
                         }
+                        &:hover{
+                            cursor: pointer;
+                        }
                     }
                 }
+            }
+        }
+        .job-area-right{
+            // border: 2px solid orange;
+            // display: flex;
+            .input-and-button-area{
+                // border: 2px solid whitesmoke;
+                display: flex;
+                justify-content: space-evenly;
+                .job-input{
+                    // border: 2px solid red;
+                    display: flex;
+                    flex-direction: column;
+                    width: 60%;
+                    label{
+                        p{
+                            margin: 0;
+                            padding: 0;
+                            font-size: 15px;
+                        }
+                    }
+                    input{
+                        width: 100%;
+                        background: transparent;
+                        border-color: $white;
+                        border: 1px solid;
+                        font-size: 18px;
+                        height: 46px;
+                        color: $white;
+                        @include padding(0 16px);
+                    }
+                }
+                .job-button{
+                    @include flexible(center, flex-end, row);
+                    button{
+                        font-weight: 700;
+                        height: 3rem;
+                        padding: 0px 2.25rem;
+                        font-size: 1rem;
+                        border-radius: 1.5rem;
+                        display: inline-flex !important;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        color: $special-blue;
+                        background-color: $white;
+                        transition: all 100ms ease-in 0s;
+                        border: none;
+                        &:hover{
+                            background-color: $purple-color;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+            
+            .input-down-write{
+                font-size: 0.75rem;
+                padding-left: 21px;
+                line-height: 1.4;
+                grid-column: 1 / auto;
+                margin-top: 8px;
+                font-style: italic;
+                p{
+                    width: 62%;
+                    opacity: 0.5;
+                }
+
             }
         }
         

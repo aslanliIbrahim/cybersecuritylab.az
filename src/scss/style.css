@@ -1893,26 +1893,31 @@ footer .footer-down-right a {
 }
 
 #job-skills .job-form-area {
-  border: 2px solid red;
   background-color: #2A32C5;
   color: white;
+  padding: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #job-skills .job-form-area .job-area-left {
   width: 50%;
-  border: 2px solid red;
 }
 
 #job-skills .job-form-area .job-area-left h5 {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.25;
-  padding-right: 40px;
-  margin-bottom: 31px;
+  margin: 0 0 31px 0;
+  padding: 0 40px 0 0;
+  width: 90%;
 }
 
 #job-skills .job-form-area .job-area-left .job-select {
-  border: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1923,7 +1928,8 @@ footer .footer-down-right a {
 }
 
 #job-skills .job-form-area .job-area-left .job-select .button-group {
-  border: 2px solid white;
+  border: 1px solid white;
+  border-radius: 4px;
   width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1933,9 +1939,14 @@ footer .footer-down-right a {
           justify-content: space-evenly;
 }
 
+#job-skills .job-form-area .job-area-left .job-select .button-group .backGroundColor {
+  background-color: white;
+  color: #2A32C5;
+  font-weight: 700;
+}
+
 #job-skills .job-form-area .job-area-left .job-select .button-group .left-button {
   width: 50%;
-  border: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1945,6 +1956,8 @@ footer .footer-down-right a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 #job-skills .job-form-area .job-area-left .job-select .button-group .left-button p {
@@ -1953,9 +1966,12 @@ footer .footer-down-right a {
   padding: 0;
 }
 
+#job-skills .job-form-area .job-area-left .job-select .button-group .left-button:hover {
+  cursor: pointer;
+}
+
 #job-skills .job-form-area .job-area-left .job-select .button-group .right-button {
   width: 50%;
-  border: 2px solid orange;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1965,12 +1981,113 @@ footer .footer-down-right a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 #job-skills .job-form-area .job-area-left .job-select .button-group .right-button p {
   font-size: 18px;
   margin: 0;
   padding: 0;
+}
+
+#job-skills .job-form-area .job-area-left .job-select .button-group .right-button:hover {
+  cursor: pointer;
+}
+
+#job-skills .job-form-area .job-area-right .input-and-button-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#job-skills .job-form-area .job-area-right .input-and-button-area .job-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+}
+
+#job-skills .job-form-area .job-area-right .input-and-button-area .job-input label p {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+#job-skills .job-form-area .job-area-right .input-and-button-area .job-input input {
+  width: 100%;
+  background: transparent;
+  border-color: white;
+  border: 1px solid;
+  font-size: 18px;
+  height: 46px;
+  color: white;
+  padding: 0 16px;
+}
+
+#job-skills .job-form-area .job-area-right .input-and-button-area .job-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#job-skills .job-form-area .job-area-right .input-and-button-area .job-button button {
+  font-weight: 700;
+  height: 3rem;
+  padding: 0px 2.25rem;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  color: #2A32C5;
+  background-color: white;
+  -webkit-transition: all 100ms ease-in 0s;
+  transition: all 100ms ease-in 0s;
+  border: none;
+}
+
+#job-skills .job-form-area .job-area-right .input-and-button-area .job-button button:hover {
+  background-color: #272C8C;
+  color: white;
+}
+
+#job-skills .job-form-area .job-area-right .input-down-write {
+  font-size: 0.75rem;
+  padding-left: 21px;
+  line-height: 1.4;
+  grid-column: 1 / auto;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+#job-skills .job-form-area .job-area-right .input-down-write p {
+  width: 62%;
+  opacity: 0.5;
 }
 
 * {
