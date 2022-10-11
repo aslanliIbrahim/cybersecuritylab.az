@@ -806,6 +806,20 @@ main #seven {
   background-color: #E6EEED;
 }
 
+main #seven .seven-side-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 94px 0px;
+}
+
 main #seven .seven-side-left h3 {
   font-size: 16px;
   padding: 0;
@@ -1027,6 +1041,7 @@ main #seven .seven-side-left .slider-area-side .slide-area .content-area ul li .
 }
 
 main #seven .seven-side-left a {
+  width: 37%;
   text-decoration: none;
   color: #2A32C5;
   background-color: transparent;
@@ -2088,6 +2103,113 @@ footer .footer-down-right a {
 #job-skills .job-form-area .job-area-right .input-down-write p {
   width: 62%;
   opacity: 0.5;
+}
+
+#schedule-options {
+  border: 2px solid red;
+}
+
+#schedule-options .option-title-area {
+  border: 2px solid red;
+  margin: 0px auto 64px;
+  width: 70%;
+  text-align: center;
+}
+
+#schedule-options .option-title-area .options-first-p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+#schedule-options .option-title-area h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.16;
+  color: #201E1E;
+  margin: 8px 0 16px 0;
+}
+
+#schedule-options .option-title-area .option-second-p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0 0 16px 0;
+}
+
+#schedule-options .option-table-area {
+  border: 2px solid red;
+}
+
+#schedule-options .option-table-area .table-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#schedule-options .option-table-area .table-one .table-first {
+  border: 2px solid red;
+  width: 25%;
+}
+
+#schedule-options .option-table-area .table-one .table-second {
+  border: 2px solid black;
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 16px;
+  margin: 0px 4px;
+  position: relative;
+}
+
+#schedule-options .option-table-area .table-one .table-second::after {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 0px;
+  left: 16px;
+  right: 16px;
+  bottom: 0px;
+  border-bottom: 1px solid #a8a8a8;
+}
+
+#schedule-options .option-table-area .table-one .table-second .table-img {
+  padding-bottom: 22px;
+}
+
+#schedule-options .option-table-area .table-one .table-second .table-img img {
+  width: 38px;
+  margin-right: 12px;
+}
+
+#schedule-options .option-table-area .table-one .table-second .table-write-area h4 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 8px 0;
+}
+
+#schedule-options .option-table-area .table-one .table-second .table-write-area p {
+  font-size: 15px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+#schedule-options .option-table-area .table-one .table-third {
+  border: 2px solid orange;
+  width: 35%;
 }
 
 * {

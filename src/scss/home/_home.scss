@@ -554,6 +554,10 @@ main{
         background-color: $background-color-white;
         .seven-side-left{
             // border: 2px solid red;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 94px 0px;
             h3{
                 font-size: 16px;
                 padding: 0;
@@ -725,6 +729,7 @@ main{
                 
             }
             a{
+                width: 37%;
                     text-decoration: none;
                     color: $special-blue;
                     background-color: transparent;

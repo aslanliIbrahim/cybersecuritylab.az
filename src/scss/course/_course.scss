@@ -553,3 +553,75 @@
         
     }
 }
+#schedule-options{
+    border: 2px solid red;
+    .option-title-area{
+        border: 2px solid red;
+        margin: 0px auto 64px;
+        width: 70%;
+        text-align: center;
+        .options-first-p{
+            @include TextFont($f_size:18px,$margin:0, $padding:0, $line_height:1.4);
+        }
+        h3{
+            @include TextFont($text_weight:700, $f_size:30px, $f_color:$footer-black, $line_height:1.16, $margin:(8px 0 16px 0));
+        }
+        .option-second-p{
+            @include TextFont($f_size:18px, $margin:(0 0 16px 0), $line_height:1.4,);
+        }
+    }
+    .option-table-area{
+        border: 2px solid red;
+        .table-one{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .table-first{
+                border: 2px solid red;
+                width: 25%;
+            }
+            .table-second{
+                border: 2px solid black;
+                width: 35%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 20px 16px;
+                margin: 0px 4px;
+                position: relative;
+                &::after{
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    height: 0px;
+                    left: 16px;
+                    right: 16px;
+                    bottom: 0px;
+                    border-bottom: 1px solid rgb(168, 168, 168);
+                }
+                .table-img{
+                    // border: 2px solid red;
+                    padding-bottom: 22px;
+                    img{
+                        width: 38px;
+                        margin-right: 12px;
+                    }
+                }
+                .table-write-area{
+                    h4{
+                        @include TextFont($f_size:28px, $line_height:1, $margin:(0 0 8px 0), $text_weight:700);
+                    }
+                    p{
+                        @include TextFont($margin:0, $padding:0, $line_height:1.4, $f_size:15px);
+                    }
+                }
+               
+            }
+            .table-third{
+                border: 2px solid orange;
+                width: 35%;
+            }
+        }
+    }
+}
