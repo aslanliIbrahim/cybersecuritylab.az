@@ -2160,12 +2160,7 @@ footer .footer-down-right a {
   opacity: 0.5;
 }
 
-#schedule-options {
-  border: 2px solid red;
-}
-
 #schedule-options .option-title-area {
-  border: 2px solid red;
   margin: 0px auto 64px;
   width: 70%;
   text-align: center;
@@ -2192,10 +2187,6 @@ footer .footer-down-right a {
   margin: 0 0 16px 0;
 }
 
-#schedule-options .option-table-area {
-  border: 2px solid red;
-}
-
 #schedule-options .option-table-area .table-one {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2208,18 +2199,18 @@ footer .footer-down-right a {
 }
 
 #schedule-options .option-table-area .table-one .table-first {
-  border: 2px solid red;
   width: 25%;
 }
 
 #schedule-options .option-table-area .table-one .table-second {
-  border: 2px solid black;
-  width: 35%;
+  background-color: #F2F2F2;
+  width: 37%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2245,7 +2236,6 @@ footer .footer-down-right a {
 
 #schedule-options .option-table-area .table-one .table-second .table-img img {
   width: 38px;
-  margin-right: 12px;
 }
 
 #schedule-options .option-table-area .table-one .table-second .table-write-area h4 {
@@ -2262,9 +2252,63 @@ footer .footer-down-right a {
   padding: 0;
 }
 
-#schedule-options .option-table-area .table-one .table-third {
-  border: 2px solid orange;
-  width: 35%;
+#schedule-options .option-table-area .table-common {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#schedule-options .option-table-area .table-common .table-common-first {
+  width: 25%;
+}
+
+#schedule-options .option-table-area .table-common .table-common-second {
+  position: relative;
+  width: 37%;
+  margin: 0px 4px;
+  padding: 20px 9px;
+  background-color: #F2F2F2;
+}
+
+#schedule-options .option-table-area .table-common .table-common-second p {
+  margin: 0;
+  font-weight: 700;
+}
+
+#schedule-options .option-table-area .table-common .table-common-second::after {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 0px;
+  left: 16px;
+  right: 16px;
+  bottom: 0px;
+  border-bottom: 1px solid #a8a8a8;
+}
+
+#schedule-options .option-table-area .table-down {
+  margin-bottom: 45px;
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#schedule-options .option-table-area .table-down .table-down-textArea {
+  width: 50%;
+}
+
+#schedule-options .option-table-area .table-down .table-down-textArea p {
+  font-size: 12px;
+  font-style: italic;
 }
 
 * {

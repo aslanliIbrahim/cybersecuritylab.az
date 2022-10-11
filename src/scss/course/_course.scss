@@ -554,9 +554,9 @@
     }
 }
 #schedule-options{
-    border: 2px solid red;
+    // border: 2px solid red;
     .option-title-area{
-        border: 2px solid red;
+        // border: 2px solid red;
         margin: 0px auto 64px;
         width: 70%;
         text-align: center;
@@ -571,21 +571,22 @@
         }
     }
     .option-table-area{
-        border: 2px solid red;
+        // border: 2px solid red;
         .table-one{
             display: flex;
             justify-content: space-around;
             align-items: center;
 
             .table-first{
-                border: 2px solid red;
+                // border: 2px solid red;
                 width: 25%;
             }
             .table-second{
-                border: 2px solid black;
-                width: 35%;
+                // border: 2px solid black;
+                background-color: $table-left-white;
+                width: 37%;
                 display: flex;
-                justify-content: space-around;
+                justify-content: space-evenly;
                 align-items: center;
                 padding: 20px 16px;
                 margin: 0px 4px;
@@ -605,7 +606,7 @@
                     padding-bottom: 22px;
                     img{
                         width: 38px;
-                        margin-right: 12px;
+                        // margin-right: 12px;
                     }
                 }
                 .table-write-area{
@@ -618,10 +619,58 @@
                 }
                
             }
-            .table-third{
-                border: 2px solid orange;
-                width: 35%;
+            // .table-third{
+            //     border: 2px solid orange;
+            //     width: 35%;
+            // }
+        }
+        .table-common{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .table-common-first{
+                // border: 2px solid red;
+                width: 25%;
+            }
+            .table-common-second{
+                // border: 2px solid red;
+                position: relative;
+                width: 37%;
+                margin: 0px 4px;
+                padding: 20px 9px;
+                background-color: $table-left-white;
+                p{
+                    margin: 0;
+                    font-weight: 700;
+                }
+                &::after{
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    height: 0px;
+                    left: 16px;
+                    right: 16px;
+                    bottom: 0px;
+                    border-bottom: 1px solid rgb(168, 168, 168);
+                }
             }
         }
+        .table-down{
+            // border: 2px solid red;
+            margin-bottom: 45px;
+            margin-top: 12px;
+            display: flex;
+            justify-content: center;
+            
+            .table-down-textArea{
+                // border: 2px solid red;
+                width: 50%;
+                p{
+                    font-size: 12px;
+                    font-style: italic;
+                }
+            }
+        }
+
     }
 }
