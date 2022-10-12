@@ -2311,6 +2311,78 @@ footer .footer-down-right a {
   font-style: italic;
 }
 
+#payment-options {
+  border: 2px solid red;
+}
+
+#payment-options .payment-button-area {
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#payment-options .payment-button-area .payment-button-left {
+  border: 2px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 8px 20px;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+#payment-options .payment-button-area .payment-button-left:hover {
+  cursor: pointer;
+}
+
+#payment-options .payment-button-area .payment-button-left p {
+  padding: 0;
+  margin: 0;
+}
+
+#payment-options .payment-button-area .payment-button-right {
+  border: 2px solid purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 8px 20px;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+#payment-options .payment-button-area .payment-button-right:hover {
+  cursor: pointer;
+}
+
+#payment-options .payment-button-area .payment-button-right p {
+  padding: 0;
+  margin: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
