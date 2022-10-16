@@ -147,6 +147,7 @@ main{
                 .first-side-up{
                     h1{
                         font-size: 2.25rem !important;
+                        line-height: 1;
                     }
                 }
                 .first-side-middle{
@@ -311,6 +312,8 @@ main{
         .programs-title{
             h2{
                 text-align: center;
+                font-weight: 700;
+                margin-bottom: 15px;
             }
         }
         .cards-area{

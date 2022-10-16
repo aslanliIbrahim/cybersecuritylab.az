@@ -1,3 +1,4 @@
+@import url("http://fonts.cdnfonts.com/css/maison-neue");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 nav {
   border-bottom: 1px solid #a8a8a8;
@@ -239,6 +240,7 @@ main #one .first-left-side {
   }
   main #one .first-left-side .first-side-up h1 {
     font-size: 2.25rem !important;
+    line-height: 1;
   }
   main #one .first-left-side .first-side-middle ul li {
     font-size: 16px;
@@ -483,6 +485,8 @@ main #two .two-right-side img {
 
 main #three .programs-title h2 {
   text-align: center;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
 main #three .cards-area {
@@ -1428,6 +1432,18 @@ footer .footer-down-right a {
   padding: 0px 40px;
 }
 
+@media screen and (max-width: 768px) {
+  #course-one .course-one-left .course-one-up {
+    padding: 0px 0px !important;
+  }
+  #course-one .course-one-left .course-one-up h3 {
+    font-size: 16px !important;
+  }
+  #course-one .course-one-left .course-one-up h1 {
+    font-size: 36px !important;
+  }
+}
+
 #course-one .course-one-left .course-one-up h3 {
   font-size: 20px;
   color: black;
@@ -1444,6 +1460,19 @@ footer .footer-down-right a {
 #course-one .course-one-left .course-one-middle-up {
   padding: 0px 40px;
   margin: 32px 0px;
+}
+
+@media (max-width: 768px) {
+  #course-one .course-one-left .course-one-middle-up {
+    padding: 0px 0px !important;
+  }
+  #course-one .course-one-left .course-one-middle-up p {
+    font-size: 16px !important;
+    margin: 0 0 16px 0 !important;
+  }
+  #course-one .course-one-left .course-one-middle-up a {
+    padding: 0 119px !important;
+  }
 }
 
 #course-one .course-one-left .course-one-middle-up p {
@@ -1480,6 +1509,12 @@ footer .footer-down-right a {
 #course-one .course-one-left .course-one-down {
   margin: 32px 0px;
   padding: 0px 40px;
+}
+
+@media (max-width: 768px) {
+  #course-one .course-one-left .course-one-down {
+    padding: 0px 0px !important;
+  }
 }
 
 #course-one .course-one-left .course-one-down ul {
@@ -1525,6 +1560,12 @@ footer .footer-down-right a {
           justify-content: center;
 }
 
+@media (max-width: 768px) {
+  #course-one .course-one-right {
+    display: none;
+  }
+}
+
 #course-one .course-one-right img {
   height: 552.375px;
   -o-object-fit: contain;
@@ -1559,6 +1600,16 @@ footer .footer-down-right a {
   margin: 32px 0px;
 }
 
+@media (max-width: 768px) {
+  #strat-learning .learning-left .left-up {
+    margin: 16px 0;
+    padding: 0 0;
+  }
+  #strat-learning .learning-left .left-up h3 {
+    font-size: 36px !important;
+  }
+}
+
 #strat-learning .learning-left .left-up h3 {
   font-size: 54px;
   font-weight: 700;
@@ -1567,6 +1618,16 @@ footer .footer-down-right a {
 #strat-learning .learning-left .left-down {
   padding: 0px 40px;
   margin: 32px 0px;
+}
+
+@media (max-width: 768px) {
+  #strat-learning .learning-left .left-down {
+    padding: 0 0;
+    margin: 16px 0px;
+  }
+  #strat-learning .learning-left .left-down p {
+    font-size: 16px !important;
+  }
 }
 
 #strat-learning .learning-left .left-down p {
@@ -1591,6 +1652,16 @@ footer .footer-down-right a {
           flex-direction: column;
 }
 
+@media (max-width: 768px) {
+  #strat-learning .learning-right .form-area .input-area {
+    padding: 0 0;
+    margin: 16px 0px;
+  }
+  #strat-learning .learning-right .form-area .input-area input {
+    width: 100% !important;
+  }
+}
+
 #strat-learning .learning-right .form-area .input-area input {
   display: block;
   width: 80%;
@@ -1612,6 +1683,16 @@ footer .footer-down-right a {
 #strat-learning .learning-right .form-area .button-area {
   padding: 0px 40px;
   margin: 32px 0px;
+}
+
+@media (max-width: 768px) {
+  #strat-learning .learning-right .form-area .button-area {
+    padding: 0 0;
+    margin: 16px 0;
+  }
+  #strat-learning .learning-right .form-area .button-area button {
+    width: 100% !important;
+  }
 }
 
 #strat-learning .learning-right .form-area .button-area button {
@@ -1648,6 +1729,22 @@ footer .footer-down-right a {
   padding: 0 80px;
 }
 
+@media (max-width: 768px) {
+  #course-select-first .table-for-padding {
+    padding: 0 24px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #course-select-first .table-for-padding .table-area-up h3 {
+    font-size: 16px !important;
+  }
+  #course-select-first .table-for-padding .table-area-up h2 {
+    font-size: 30px !important;
+    margin-bottom: 24px !important;
+  }
+}
+
 #course-select-first .table-for-padding .table-area-up h3 {
   font-size: 18px;
   margin-bottom: 8px;
@@ -1670,11 +1767,35 @@ footer .footer-down-right a {
   display: flex;
 }
 
+@media (max-width: 768px) {
+  #course-select-first .table-for-padding .table-area {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+
 #course-select-first .table-for-padding .table-area .table-left {
   background-color: #F2F2F2;
   padding: 30px;
   width: 100%;
   max-width: 356px;
+}
+
+@media (max-width: 768px) {
+  #course-select-first .table-for-padding .table-area .table-left {
+    padding: 20px 24px !important;
+  }
+  #course-select-first .table-for-padding .table-area .table-left p {
+    font-size: 16px !important;
+  }
+  #course-select-first .table-for-padding .table-area .table-left .second-h5 {
+    font-size: 36px !important;
+  }
 }
 
 #course-select-first .table-for-padding .table-area .table-left p {
@@ -1697,6 +1818,25 @@ footer .footer-down-right a {
   display: -ms-flexbox;
   display: flex;
   padding: 30px;
+}
+
+@media (max-width: 768px) {
+  #course-select-first .table-for-padding .table-area .table-right {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #course-select-first .table-for-padding .table-area .table-right .leftSide {
+    width: 100% !important;
+  }
+  #course-select-first .table-for-padding .table-area .table-right .leftSide ul li {
+    margin: 0 0 20px 0 !important;
+    font-size: 15px !important;
+  }
 }
 
 #course-select-first .table-for-padding .table-area .table-right .leftSide {
@@ -1803,6 +1943,12 @@ footer .footer-down-right a {
   border-bottom: 1px solid #201E1E;
 }
 
+@media (max-width: 768px) {
+  #accordion-side .accordion .contentbx .content-active {
+    height: 450px !important;
+  }
+}
+
 #flexible .flexible-area {
   background-color: #03523C;
   color: white;
@@ -1815,6 +1961,33 @@ footer .footer-down-right a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  #flexible .flexible-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 20px 0px;
+    padding: 20px !important;
+  }
+  #flexible .flexible-area .flexible-left h3 {
+    font-size: 24px !important;
+    width: 100% !important;
+  }
+  #flexible .flexible-area .flexible-right {
+    width: 100% !important;
+  }
+  #flexible .flexible-area .flexible-right p {
+    font-size: 16px !important;
+  }
+  #flexible .flexible-area .flexible-right a {
+    padding: 1.25rem !important;
+  }
 }
 
 #flexible .flexible-area .flexible-left h3 {
@@ -1867,6 +2040,25 @@ footer .footer-down-right a {
   background-color: #F2EDDF;
 }
 
+@media (max-width: 768px) {
+  #job-skills .row {
+    padding: 0 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #job-skills #first-gradient {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #job-skills #second-gradient {
+    height: 300px !important;
+    margin-top: -266px !important;
+  }
+}
+
 #job-skills .job-up {
   padding: 48px 0;
   display: -webkit-box;
@@ -1890,6 +2082,19 @@ footer .footer-down-right a {
   width: 40%;
 }
 
+@media (max-width: 768px) {
+  #job-skills .job-up .up-left {
+    padding: 0px 24px;
+    width: 100% !important;
+  }
+  #job-skills .job-up .up-left h3 {
+    font-size: 16px !important;
+  }
+  #job-skills .job-up .up-left h2 {
+    font-size: 29px !important;
+  }
+}
+
 #job-skills .job-up .up-left h3 {
   font-size: 20px;
   margin-bottom: 8px;
@@ -1899,6 +2104,12 @@ footer .footer-down-right a {
   font-size: 44px;
   line-height: 1.07;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  #job-skills .job-up .up-right {
+    display: none;
+  }
 }
 
 #job-skills .job-up .up-right img {
@@ -1926,12 +2137,51 @@ footer .footer-down-right a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  #job-skills .syllabus-list .list-up {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: unset !important;
+        -ms-flex-align: unset !important;
+            align-items: unset !important;
+  }
+  #job-skills .syllabus-list .list-up h2 {
+    font-size: 30px !important;
+  }
+  #job-skills .syllabus-list .list-up .list-area-middle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    height: 100% !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 24px !important;
+    padding-right: 10px !important;
+  }
+  #job-skills .syllabus-list .list-up .list-area-middle h5 {
+    font-size: 18px !important;
+  }
+  #job-skills .syllabus-list .list-up .list-area-middle p {
+    font-size: 17px !important;
+    padding-top: 10px !important;
+  }
 }
 
 #job-skills .syllabus-list .list-up h2 {
@@ -1939,27 +2189,43 @@ footer .footer-down-right a {
   font-weight: 700;
 }
 
-#job-skills .syllabus-list .list-up .list-middle {
-  padding: 0 30px 0 50px;
+#job-skills .syllabus-list .list-up .list-area-middle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 54%;
+  height: 50px;
+  width: 85%;
 }
 
-#job-skills .syllabus-list .list-up .list-middle h5 {
+@media (max-width: 768px) {
+  #job-skills .syllabus-list .list-up .list-area-middle {
+    -webkit-box-align: unset !important;
+        -ms-flex-align: unset !important;
+            align-items: unset !important;
+  }
+  #job-skills .syllabus-list .list-up .list-area-middle p {
+    width: 100% !important;
+  }
+}
+
+#job-skills .syllabus-list .list-up .list-area-middle h5 {
+  padding: 0;
+  margin: 0;
   font-size: 20px;
   font-weight: 700;
 }
 
-#job-skills .syllabus-list .list-up .list-middle2 p {
+#job-skills .syllabus-list .list-up .list-area-middle p {
   padding: 0;
   margin: 0;
-  line-height: 1.4;
   font-size: 18px;
+  width: 47%;
 }
 
 #job-skills .job-form-area {
@@ -1974,8 +2240,29 @@ footer .footer-down-right a {
           justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  #job-skills .job-form-area {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+
 #job-skills .job-form-area .job-area-left {
   width: 50%;
+}
+
+@media (max-width: 768px) {
+  #job-skills .job-form-area .job-area-left {
+    width: 100%;
+  }
+  #job-skills .job-form-area .job-area-left h5 {
+    width: 100% !important;
+    font-size: 17px !important;
+    padding: 0px !important;
+    margin: 0 0 20px 0 !important;
+  }
 }
 
 #job-skills .job-form-area .job-area-left h5 {
@@ -1997,6 +2284,12 @@ footer .footer-down-right a {
   padding: 10px;
 }
 
+@media (max-width: 768px) {
+  #job-skills .job-form-area .job-area-left .job-select {
+    padding: 0 !important;
+  }
+}
+
 #job-skills .job-form-area .job-area-left .job-select .button-group {
   border: 1px solid white;
   border-radius: 4px;
@@ -2009,10 +2302,22 @@ footer .footer-down-right a {
           justify-content: space-evenly;
 }
 
+@media (max-width: 768px) {
+  #job-skills .job-form-area .job-area-left .job-select .button-group {
+    width: 60% !important;
+  }
+}
+
 #job-skills .job-form-area .job-area-left .job-select .button-group .backGroundColor {
   background-color: white;
   color: #2A32C5;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  #job-skills .job-form-area .job-area-left .job-select .button-group .backGroundColor p {
+    font-size: 18px !important;
+  }
 }
 
 #job-skills .job-form-area .job-area-left .job-select .button-group .left-button {
@@ -2030,10 +2335,22 @@ footer .footer-down-right a {
   transition: 0.3s ease-in-out;
 }
 
+@media (max-width: 768px) {
+  #job-skills .job-form-area .job-area-left .job-select .button-group .left-button {
+    padding: 5px !important;
+  }
+}
+
 #job-skills .job-form-area .job-area-left .job-select .button-group .left-button p {
   font-size: 18px;
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 768px) {
+  #job-skills .job-form-area .job-area-left .job-select .button-group .left-button p {
+    font-size: 14px !important;
+  }
 }
 
 #job-skills .job-form-area .job-area-left .job-select .button-group .left-button:hover {
@@ -2055,14 +2372,32 @@ footer .footer-down-right a {
   transition: 0.3s ease-in-out;
 }
 
+@media (max-width: 768px) {
+  #job-skills .job-form-area .job-area-left .job-select .button-group .right-button {
+    padding: 5px !important;
+  }
+}
+
 #job-skills .job-form-area .job-area-left .job-select .button-group .right-button p {
   font-size: 18px;
   margin: 0;
   padding: 0;
 }
 
+@media (max-width: 768px) {
+  #job-skills .job-form-area .job-area-left .job-select .button-group .right-button p {
+    font-size: 14px !important;
+  }
+}
+
 #job-skills .job-form-area .job-area-left .job-select .button-group .right-button:hover {
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #job-skills .job-form-area .job-area-right {
+    margin-top: 20px;
+  }
 }
 
 #job-skills .job-form-area .job-area-right .input-and-button-area {
@@ -2072,6 +2407,18 @@ footer .footer-down-right a {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  #job-skills .job-form-area .job-area-right .input-and-button-area {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #job-skills .job-form-area .job-area-right .input-and-button-area .job-input {
+    width: 100% !important;
+  }
 }
 
 #job-skills .job-form-area .job-area-right .input-and-button-area .job-input {
@@ -2118,6 +2465,15 @@ footer .footer-down-right a {
           flex-direction: row;
 }
 
+@media (max-width: 768px) {
+  #job-skills .job-form-area .job-area-right .input-and-button-area .job-button {
+    margin: 15px 0 0 0;
+  }
+  #job-skills .job-form-area .job-area-right .input-and-button-area .job-button button {
+    width: 100% !important;
+  }
+}
+
 #job-skills .job-form-area .job-area-right .input-and-button-area .job-button button {
   font-weight: 700;
   height: 3rem;
@@ -2153,6 +2509,15 @@ footer .footer-down-right a {
   grid-column: 1 / auto;
   margin-top: 8px;
   font-style: italic;
+}
+
+@media (max-width: 768px) {
+  #job-skills .job-form-area .job-area-right .input-down-write {
+    padding-left: 11px !important;
+  }
+  #job-skills .job-form-area .job-area-right .input-down-write p {
+    width: 100% !important;
+  }
 }
 
 #job-skills .job-form-area .job-area-right .input-down-write p {

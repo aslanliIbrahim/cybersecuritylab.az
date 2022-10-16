@@ -3,9 +3,23 @@
     .course-one-left{
         // border: 2px solid red;
         // @include padding(32px 0px);
+
         .course-one-up{
             @include margin(32px 0px);
             @include padding(0px 40px);
+
+            //mediaScreen
+            @media screen and (max-width:768px) {
+                @include padding(0px 0px !important);
+                h3{
+                    font-size: 16px !important;
+                }
+                h1{
+                    font-size: 36px !important;
+                }
+            }
+            //mediaScreen
+
             h3{
                 @include TextFont($f_size:20px,$margin:0 0 8px 0, $f_color:$black);
             }
@@ -16,8 +30,23 @@
         .course-one-middle-up{
             @include padding(0px 40px);
             @include margin(32px 0px);
+
+            //mediaScreen
+            @media (max-width:768px) {
+                @include padding(0px 0px !important);
+                p{
+                    font-size: 16px !important;
+                    margin: 0 0 16px 0 !important;
+                }
+                a{
+                    @include TextFont($padding:0 119px !important);
+                }
+            }
+            //mediaScreen
+
             p{
                 @include TextFont($f_size:18px, $margin:16px);
+
             }
             a{
                 @include TextFont($padding:0px 36px, $f_size:16px, $text_decaration:none, $f_color:$white, $background:$special-blue, $transition:0.2s);
@@ -34,6 +63,11 @@
         .course-one-down{
             @include margin(32px 0px);
             @include padding(0px 40px);
+
+            @media (max-width:768px) {
+                @include padding(0px 0px !important);
+            }
+
             ul{
                 padding: 0;
                 margin: 0;
@@ -58,6 +92,9 @@
         }
     }
     .course-one-right{
+        @media (max-width:768px) {
+            display: none;
+        }
         @include flexible($jus:center);
         // display: block;
         // background-image: url("../../img/course/SE_HERO_IMAGE_20210224.jpg");
@@ -95,7 +132,15 @@
         .left-up{
             @include padding(0px 40px);
             @include margin(32px 0px);
+            @media (max-width:768px) {
+                @include margin(16px 0);
+                @include padding(0 0);
+                h3{
+                    font-size: 36px !important;
+                }
+            }
             h3{
+                
                 font-size: 54px;
                 font-weight: 700;
             }
@@ -103,18 +148,35 @@
         .left-down{
             @include padding(0px 40px);
             @include margin(32px 0px);
+
+            @media (max-width:768px) {
+                @include padding(0 0);
+                @include margin(16px 0px);
+                p{
+                    font-size: 16px !important;
+                }
+            }
+
             p{
                 font-size: 18px;
             }
         }
     }
     .learning-right{
+
         .form-area{
             // border: 2px solid red;
             .input-area{
                 @include padding(0px 40px);
                 @include margin(32px 0px);
                 @include flexible(space-between, flex-start, column);
+                @media  (max-width:768px) {
+                    @include padding(0 0);
+                    @include margin(16px 0px);
+                    input{
+                        width: 100% !important;
+                    }
+                }
                 input{
                     display: block;
                     width: 80%;
@@ -135,6 +197,14 @@
                 @include padding(0px 40px);
                 @include margin(32px 0px);
                 // border: 2px solid red;
+                @media (max-width:768px) {
+                    @include padding(0 0);
+                    @include margin(16px 0);
+                    button{
+                        width: 100% !important;
+                    }
+                   
+                }
                 button{
                     width: max-content;
                 box-sizing: border-box;
@@ -162,7 +232,19 @@
     // border: 1px solid $social-media;
     .table-for-padding{
         @include padding(0 80px);
+        @media (max-width:768px) {
+            @include padding(0 24px !important);
+        }
         .table-area-up{
+            @media (max-width:768px) {
+                h3{
+                    font-size: 16px !important;
+                }
+                h2{
+                    font-size: 30px !important;
+                    margin-bottom: 24px !important;
+                }
+            }
             h3{
                 font-size: 18px;
                 margin-bottom: 8px;
@@ -182,12 +264,26 @@
             border: 1px solid $social-media;
             display: flex;
     
+            @media (max-width:768px) {
+                display: flex !important;
+                flex-direction: column !important;
+            }
             .table-left{
                 // border: 1px solid red;
                 background-color: $table-left-white;
                 @include padding(30px);
                 width: 100%;
                 max-width: 356px;
+                @media (max-width:768px) {
+                    @include padding(20px 24px !important);
+                    p{
+                        font-size:16px !important;
+
+                    }
+                    .second-h5{
+                        font-size: 36px !important;
+                    }
+                }
                 p{
                     font-size: 18px;
                 }
@@ -207,6 +303,20 @@
                 display: flex;
                 // justify-content: space-evenly;
                 @include padding(30px);
+
+                @media (max-width:768px) {
+                    display: flex !important;
+                    flex-direction: column !important;
+                    .leftSide{
+                        width: 100% !important;
+                        ul{
+                            li{
+                                @include margin(0 0 20px 0 !important);
+                                font-size: 15px !important;
+                            }
+                        }
+                    }
+                }
                 .leftSide{
                     // border: 2px solid red;
                     width: 40%;
@@ -288,6 +398,9 @@
                 overflow-y: hidden;
             }
             .content-active{
+                @media (max-width:768px) {
+                    height: 450px !important;
+                }
                 height: 150px;
                 overflow: visible;
                 border-bottom: 1px solid $footer-black;
@@ -305,6 +418,26 @@
         @include padding(30px);
         @include margin(40px 0);
         @include flexible($jus:space-between);
+        @media (max-width:768px) {
+            @include flexible($direction:column);
+            @include margin(20px 0px);
+            @include padding(20px !important);
+            .flexible-left{
+                h3{
+                    font-size: 24px !important;
+                    width: 100% !important;
+                }
+            }
+            .flexible-right{
+                width: 100% !important;
+                p{
+                    font-size: 16px !important;
+                }
+                a{
+                    padding: 1.25rem !important;
+                }
+            }
+        }
         .flexible-left{
             // border: 2px solid red;
             h3{
@@ -347,6 +480,22 @@
 }
 #job-skills{
     background-color: $soft-white;
+    .row{
+        @media (max-width:768px) {
+            padding: 0 0 !important;
+        }
+    }
+    #first-gradient{
+        @media (max-width:768px) {
+            display: none !important;
+        }
+    }
+    #second-gradient{
+        @media (max-width:768px) {
+            height: 300px !important;
+            margin-top: -266px !important;
+        }
+    }
     .job-up{
         // border: 2px solid red;
         @include padding(48px 0);
@@ -355,6 +504,17 @@
         align-items: center;
         .up-left{
             // border: 2px solid red;
+            @media (max-width:768px) {
+                @include padding(0px 24px);
+                width: 100% !important;
+
+                h3{
+                    font-size: 16px !important;
+                }
+                h2{
+                    font-size: 29px !important;
+                }
+            }
             display: flex;
             flex-direction: column;
             width: 40%;
@@ -370,6 +530,9 @@
         }
         .up-right{
             // border: 2px solid red;
+            @media (max-width:768px) {
+                display: none;
+            }
             img{
                 height: 100%;
                 @media (min-width:992px) {
@@ -390,29 +553,66 @@
         .list-up{
             border-bottom: 1px solid $footer-black;
             @include padding(24px 0px);
+            @include flexible($jus:space-between, $items:center);
             display: flex;
             align-items: center;
             justify-content: space-between;
+
+            @media (max-width:768px) {
+                @include flexible($items:unset !important);
+                h2{
+                    font-size: 30px !important;
+                }
+
+                .list-area-middle{
+                    display: flex;
+                    flex-direction: column !important;
+                    height: 100% !important;
+                    justify-content: space-between;
+                    padding-left: 24px !important;
+                    padding-right: 10px !important;
+                    h5{
+                        font-size: 18px !important;
+                    }
+                    p{
+                        font-size: 17px !important;
+                        padding-top: 10px !important;
+                    }
+                }
+            }
+
             h2{
                 font-size: 44px;
                 font-weight: 700;
                 // order: 1;
             }
-            .list-middle{
-                @include padding(0 30px 0 50px);
-                @include flexible($items:center);
-                width: 54%;
+
+            .list-area-middle{
+                // border: 2px solid red;
+                @media (max-width:768px) {
+                    align-items: unset !important;
+
+                    p{
+                        width: 100% !important;
+                    }
+                }
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 50px;
+                width: 85%;
+
                 h5{
+                    padding: 0;
+                    margin: 0;
                     font-size: 20px;
                     font-weight: 700;
                 }
-            }
-            .list-middle2{
                 p{
                     padding: 0;
                     margin: 0;
-                    line-height: 1.4;
                     font-size: 18px;
+                    width: 47%;
                 }
             }
         }
@@ -424,11 +624,25 @@
         color: $white;
         @include padding(24px); 
         @include flexible($jus:space-between);
+        @media  (max-width:768px) {
+            flex-direction: column !important;
+        }
         .job-area-left{
             width: 50%;
+
+            @media (max-width:768px) {
+                width: 100%;
+                h5{
+                    width: 100% !important;
+                    font-size: 17px !important;
+                    padding: 0px !important;
+                    margin: 0 0 20px 0 !important;
+                }
+            }
             // border: 2px solid red;
             h5{
                 @include TextFont($f_size:18px, $text_weight:700, $line_height:1.25,$padding:0 40px 0 0, $margin:0 0 31px 0);
+                
                 width: 90%;
             }
             .job-select{
@@ -436,17 +650,32 @@
                 display: flex;
                 justify-content: flex-start;
                 padding: 10px;
+                @media (max-width:768px) {
+                    padding: 0 !important;
+                }
+
                 .button-group{
+                    @media (max-width:768px) {
+                        width: 60% !important;
+
+                    }
                     border: 1px solid white;
                     border-radius: 4px;
                     width: 40%;
                     display: flex;
                     justify-content: space-evenly;
+
                     .backGroundColor{
                         background-color: $white;
                         color: $special-blue;
                         font-weight: 700;
+                        p{
+                            @media (max-width:768px) {
+                                font-size: 18px !important;
+                            }
+                        }
                     }
+
                     .left-button{
                         width: 50%;
                         // border: 2px solid red;
@@ -454,7 +683,13 @@
                         align-items: center;
                         justify-content: center; 
                         transition: 0.3s ease-in-out;
+                        @media (max-width:768px) {
+                            padding: 5px !important;
+                        }
                         p{
+                            @media (max-width:768px) {
+                                font-size: 14px !important;
+                            }
                             font-size: 18px;
                             margin:0;
                             padding: 0;
@@ -463,14 +698,20 @@
                             cursor: pointer;
                         }
                     }
+
                     .right-button{
                         width: 50%;
-                        // border: 2px solid orange;
                         display: flex;
                         align-items: center;
                         justify-content: center; 
                         transition: 0.3s ease-in-out;
+                        @media (max-width:768px) {
+                            padding: 5px !important;
+                        }
                         p{
+                            @media (max-width:768px) {
+                                font-size: 14px !important;
+                            }
                             font-size: 18px;
                             margin:0;
                             padding: 0;
@@ -480,15 +721,27 @@
                         }
                     }
                 }
+
             }
         }
         .job-area-right{
             // border: 2px solid orange;
             // display: flex;
+            @media (max-width:768px) {
+                margin-top: 20px;
+            }
             .input-and-button-area{
                 // border: 2px solid whitesmoke;
                 display: flex;
                 justify-content: space-evenly;
+                @media (max-width:768px) {
+                    flex-direction: column !important;
+
+                    .job-input{
+                        width: 100% !important;
+
+                    }
+                }
                 .job-input{
                     // border: 2px solid red;
                     display: flex;
@@ -514,6 +767,12 @@
                 }
                 .job-button{
                     @include flexible(center, flex-end, row);
+                    @media (max-width:768px) {
+                        @include margin(15px 0 0 0);
+                        button{
+                            width: 100% !important;
+                        }
+                    }
                     button{
                         font-weight: 700;
                         height: 3rem;
@@ -543,6 +802,13 @@
                 grid-column: 1 / auto;
                 margin-top: 8px;
                 font-style: italic;
+                @media (max-width:768px) {
+                    padding-left: 11px !important;
+                    
+                    p{
+                        width: 100% !important;
+                    }
+                }
                 p{
                     width: 62%;
                     opacity: 0.5;
