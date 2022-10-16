@@ -2525,10 +2525,32 @@ footer .footer-down-right a {
   opacity: 0.5;
 }
 
+@media (max-width: 768px) {
+  #schedule-options .row {
+    padding: 0px 24px !important;
+  }
+}
+
 #schedule-options .option-title-area {
   margin: 0px auto 64px;
   width: 70%;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  #schedule-options .option-title-area {
+    width: 100% !important;
+    margin: 0 0 !important;
+  }
+  #schedule-options .option-title-area .options-first-p {
+    font-size: 16px !important;
+  }
+  #schedule-options .option-title-area h3 {
+    font-size: 24px !important;
+  }
+  #schedule-options .option-title-area .option-second-p {
+    font-size: 16px !important;
+  }
 }
 
 #schedule-options .option-title-area .options-first-p {

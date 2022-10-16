@@ -821,8 +821,27 @@
 }
 #schedule-options{
     // border: 2px solid red;
+    .row{
+        @media (max-width:768px) {
+            @include padding(0px 24px !important);
+        }
+    }
+    
     .option-title-area{
         // border: 2px solid red;
+        @media (max-width:768px) {
+            width: 100% !important;
+            margin: 0 0 !important;
+            .options-first-p{
+                font-size: 16px !important;
+            }
+            h3{
+                font-size: 24px !important;
+            }
+            .option-second-p{
+                font-size: 16px !important;
+            }
+        }
         margin: 0px auto 64px;
         width: 70%;
         text-align: center;
