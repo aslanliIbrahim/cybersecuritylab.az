@@ -865,9 +865,23 @@
             .table-first{
                 // border: 2px solid red;
                 width: 25%;
+                @media (max-width:768px) {
+                    display: none !important;
+                }
             }
             .table-second{
                 // border: 2px solid black;
+                @media (max-width:768px) {
+                    width: 50% !important;
+                    flex-direction: column !important;
+                    align-items: unset !important;
+                    .table-img{
+                        padding-bottom: 12px !important;
+                        img{
+                            width: 28px !important;
+                        }
+                    }
+                }
                 background-color: $table-left-white;
                 width: 37%;
                 display: flex;
@@ -895,6 +909,14 @@
                     }
                 }
                 .table-write-area{
+                    @media (max-width:768px) {
+                        h4{
+                            font-size: 21px !important;
+                        }
+                        p{
+                            font-size: 16px !important;
+                        }
+                    }
                     h4{
                         @include TextFont($f_size:28px, $line_height:1, $margin:(0 0 8px 0), $text_weight:700);
                     }
@@ -916,9 +938,15 @@
             .table-common-first{
                 // border: 2px solid red;
                 width: 25%;
+                @media (max-width:768px) {
+                    display: none;
+                }
             }
             .table-common-second{
                 // border: 2px solid red;
+                @media (max-width:768px) {
+                    width: 50% !important;
+                }
                 position: relative;
                 width: 37%;
                 margin: 0px 4px;
@@ -927,6 +955,9 @@
                 p{
                     margin: 0;
                     font-weight: 700;
+                    @media (max-width:768px) {
+                        font-family: unset;
+                    }
                 }
                 &::after{
                     position: absolute;
@@ -950,6 +981,9 @@
             .table-down-textArea{
                 // border: 2px solid red;
                 width: 50%;
+                @media (max-width:768px) {
+                    width: 100% !important;
+                }
                 p{
                     font-size: 12px;
                     font-style: italic;

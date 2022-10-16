@@ -2589,6 +2589,12 @@ footer .footer-down-right a {
   width: 25%;
 }
 
+@media (max-width: 768px) {
+  #schedule-options .option-table-area .table-one .table-first {
+    display: none !important;
+  }
+}
+
 #schedule-options .option-table-area .table-one .table-second {
   background-color: #F2F2F2;
   width: 37%;
@@ -2604,6 +2610,25 @@ footer .footer-down-right a {
   padding: 20px 16px;
   margin: 0px 4px;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  #schedule-options .option-table-area .table-one .table-second {
+    width: 50% !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: unset !important;
+        -ms-flex-align: unset !important;
+            align-items: unset !important;
+  }
+  #schedule-options .option-table-area .table-one .table-second .table-img {
+    padding-bottom: 12px !important;
+  }
+  #schedule-options .option-table-area .table-one .table-second .table-img img {
+    width: 28px !important;
+  }
 }
 
 #schedule-options .option-table-area .table-one .table-second::after {
@@ -2623,6 +2648,15 @@ footer .footer-down-right a {
 
 #schedule-options .option-table-area .table-one .table-second .table-img img {
   width: 38px;
+}
+
+@media (max-width: 768px) {
+  #schedule-options .option-table-area .table-one .table-second .table-write-area h4 {
+    font-size: 21px !important;
+  }
+  #schedule-options .option-table-area .table-one .table-second .table-write-area p {
+    font-size: 16px !important;
+  }
 }
 
 #schedule-options .option-table-area .table-one .table-second .table-write-area h4 {
@@ -2654,6 +2688,12 @@ footer .footer-down-right a {
   width: 25%;
 }
 
+@media (max-width: 768px) {
+  #schedule-options .option-table-area .table-common .table-common-first {
+    display: none;
+  }
+}
+
 #schedule-options .option-table-area .table-common .table-common-second {
   position: relative;
   width: 37%;
@@ -2662,9 +2702,21 @@ footer .footer-down-right a {
   background-color: #F2F2F2;
 }
 
+@media (max-width: 768px) {
+  #schedule-options .option-table-area .table-common .table-common-second {
+    width: 50% !important;
+  }
+}
+
 #schedule-options .option-table-area .table-common .table-common-second p {
   margin: 0;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  #schedule-options .option-table-area .table-common .table-common-second p {
+    font-family: unset;
+  }
 }
 
 #schedule-options .option-table-area .table-common .table-common-second::after {
@@ -2691,6 +2743,12 @@ footer .footer-down-right a {
 
 #schedule-options .option-table-area .table-down .table-down-textArea {
   width: 50%;
+}
+
+@media (max-width: 768px) {
+  #schedule-options .option-table-area .table-down .table-down-textArea {
+    width: 100% !important;
+  }
 }
 
 #schedule-options .option-table-area .table-down .table-down-textArea p {
