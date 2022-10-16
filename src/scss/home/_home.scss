@@ -14,7 +14,14 @@ nav{
             @include flexible($jus:space-between);
             .logo-area{
                 @include flexible($items:center);
-                @include padding(26px 24px);
+                @include padding(10px 20px);
+
+                a{
+                    img{
+                        width: 130px;
+                        object-fit: contain;
+                    }
+                }
             }
             .nav-side{
                 @include flexible($jus:space-between,$items:center, $direction:row);
@@ -93,7 +100,7 @@ nav{
                     .sign-in{
                         a{
                             text-decoration: none;
-                            color: $special-blue;
+                            color: $special-green;
                             font-size: $p-size;
                         }
                     }
@@ -102,13 +109,13 @@ nav{
                             font-weight: 700;
                             text-decoration: none;
                             color: $white;
-                            background-color: $special-blue;
-                            @include border(1px solid $special-blue, $border-radius);
+                            background-color: $special-green;
+                            @include border(1px solid $special-green, $border-radius);
                             @include padding(10px 32px);
                             transition: 0.3s ease-in-out;
                             &:hover{
                                 background-color: $white;
-                                color: $special-blue;
+                                color: $special-green;
                             }
                         }
                     }
@@ -142,7 +149,7 @@ nav{
             }
 
             ul{
-                border: 2px solid red;
+                // border: 2px solid red;
                 @include ul($pad:0, $mar:0, $list-style:none);
                 li{
                     height: 50px;
@@ -153,9 +160,10 @@ nav{
                     a{
                         color: $black;
                         text-decoration: none;
+                        @include padding(19px 24px);
                     }
                     .salam-mob{
-                        border: 2px solid red;
+                        // border: 2px solid red;
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
@@ -275,14 +283,14 @@ main{
                         @include flexible(flex-end, flex-end, row);
                         width: 80%;
                         button{
-                            @include border(1px solid $special-blue, $border-radius);
+                            @include border(1px solid $special-green, $border-radius);
                             @include padding(10px 32px);
-                            background-color: $special-blue;
+                            background-color: $special-green;
                             color: $white;
                             transition: 0.3s;
                             &:hover{
                                 background-color: $white;
-                                color: $special-blue;
+                                color: $special-green;
                             }
                         }
                     }

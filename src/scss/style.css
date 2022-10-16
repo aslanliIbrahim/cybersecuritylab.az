@@ -31,7 +31,13 @@ nav .navigation .logo-area {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 26px 24px;
+  padding: 10px 20px;
+}
+
+nav .navigation .logo-area a img {
+  width: 130px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 nav .navigation .nav-side {
@@ -175,7 +181,7 @@ nav .navigation .nav-side .button-area {
 
 nav .navigation .nav-side .button-area .sign-in a {
   text-decoration: none;
-  color: #2A32C5;
+  color: #CEFA05;
   font-size: 16px;
 }
 
@@ -183,8 +189,8 @@ nav .navigation .nav-side .button-area .have-question a {
   font-weight: 700;
   text-decoration: none;
   color: white;
-  background-color: #2A32C5;
-  border: 1px solid #2A32C5;
+  background-color: #CEFA05;
+  border: 1px solid #CEFA05;
   border-radius: 24px;
   padding: 10px 32px;
   -webkit-transition: 0.3s ease-in-out;
@@ -193,7 +199,7 @@ nav .navigation .nav-side .button-area .have-question a {
 
 nav .navigation .nav-side .button-area .have-question a:hover {
   background-color: white;
-  color: #2A32C5;
+  color: #CEFA05;
 }
 
 @media (min-width: 992px) {
@@ -236,7 +242,6 @@ nav .navigation .nav-side .button-area .have-question a:hover {
 }
 
 nav .nav-phone-area ul {
-  border: 2px solid red;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -257,10 +262,10 @@ nav .nav-phone-area ul li {
 nav .nav-phone-area ul li a {
   color: black;
   text-decoration: none;
+  padding: 19px 24px;
 }
 
 nav .nav-phone-area ul li .salam-mob {
-  border: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -433,10 +438,10 @@ main #one .first-left-side .first-side-down .send-area .button-side {
 }
 
 main #one .first-left-side .first-side-down .send-area .button-side button {
-  border: 1px solid #2A32C5;
+  border: 1px solid #CEFA05;
   border-radius: 24px;
   padding: 10px 32px;
-  background-color: #2A32C5;
+  background-color: #CEFA05;
   color: white;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -444,7 +449,7 @@ main #one .first-left-side .first-side-down .send-area .button-side button {
 
 main #one .first-left-side .first-side-down .send-area .button-side button:hover {
   background-color: white;
-  color: #2A32C5;
+  color: #CEFA05;
 }
 
 main #one .first-right-side {
