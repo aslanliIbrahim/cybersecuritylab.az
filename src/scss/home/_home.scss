@@ -14,11 +14,11 @@ nav{
             @include flexible($jus:space-between);
             .logo-area{
                 @include flexible($items:center);
-                @include padding(10px 20px);
+                @include padding(10px 40px);
 
                 a{
                     img{
-                        width: 130px;
+                        width: 100px;
                         object-fit: contain;
                     }
                 }
@@ -51,8 +51,8 @@ nav{
                         .sub-menu-active{
                             display: block !important;
                             position: absolute;
-                            top: 51px;
-                            left:0;
+                            top: 75px;
+                            left:-111px;
                             border: 2px solid $black;
                             background-color: $white;
                             width: 360px;
@@ -302,8 +302,8 @@ main{
                 display: none;
             }
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: flex-end;
+            align-items: flex-end;
             img{
                 width: 77%;
                 height: 700px;
@@ -313,6 +313,9 @@ main{
     }
     #two{
         // border: 2px solid red;
+        .row{
+            @include padding(0px 80px);
+        }
         .two-side-left{
             // border: 2px solid blue;
             // height: 100%;
@@ -603,9 +606,10 @@ main{
                         @include flexible(center,center,row);
                         padding: 0px 1% 25px;
                         img{
-                            width: 50%;
+                            width: 100%;
                             max-width: 100%;
                             min-height: 30px;
+                            height: 30px;
                         }
                     }
                 }
