@@ -2843,6 +2843,7 @@ footer .footer-down-right a {
 }
 
 #payment-options .payment-button-area {
+  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2926,7 +2927,6 @@ footer .footer-down-right a {
 }
 
 #payment-options .payment-information-common .payment-information {
-  border: 2px solid black;
   padding: 16px 30px;
   margin: 0 0 20px 0;
   background-color: white;
@@ -2943,7 +2943,6 @@ footer .footer-down-right a {
 }
 
 #payment-options .payment-information-common .payment-information .payment-up-inf .common-left {
-  border: 2px solid red;
   width: 93%;
 }
 
@@ -2990,7 +2989,6 @@ footer .footer-down-right a {
 }
 
 #payment-options .payment-information-common .payment-information .payment-up-inf .common-right {
-  border: 2px solid black;
   width: 7%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3003,6 +3001,27 @@ footer .footer-down-right a {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 17px 0 0 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#payment-options .payment-information-common .payment-information .payment-up-inf .common-right:hover {
+  cursor: pointer;
+}
+
+#payment-options .payment-information-common .payment-information .payment-up-inf .common-right img {
+  width: 14px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: 0.3s linear 0s;
+  transition: 0.3s linear 0s;
+}
+
+#payment-options .payment-information-common .payment-information .payment-up-inf .common-right-active img {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.3s linear 0s;
+  transition: 0.3s linear 0s;
 }
 
 #payment-options .payment-information-common .payment-information .common-down {

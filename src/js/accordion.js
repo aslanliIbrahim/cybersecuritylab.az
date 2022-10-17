@@ -22,3 +22,19 @@ for (let i = 0; i < accordion.length; i++) {
     })
     
 }  
+
+
+const commonRight = document.querySelectorAll(".common-right");
+
+// for (let i = 0; i < array.length; i++) {
+    
+    
+// }
+
+commonRight.forEach(e => {
+
+    e.addEventListener("click", function() {
+        e.classList.toggle("common-right-active")
+        
+    })
+});

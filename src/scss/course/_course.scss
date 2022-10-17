@@ -1010,6 +1010,7 @@
     }
     .payment-button-area{
         // border: 2px solid black;
+        margin-bottom: 40px;
         display: flex;
         justify-content: center;
         .payment-button-left{
@@ -1058,7 +1059,7 @@
     .payment-information-common{
         // border: 2px solid red;
         .payment-information{
-            border: 2px solid black;
+            // border: 2px solid black;
             @include padding(16px 30px);
             @include margin(0 0 20px 0);
             background-color: $white;
@@ -1071,7 +1072,7 @@
                 justify-content: space-between;
                 // border: 2px solid red;
                 .common-left{
-                    border: 2px solid red;
+                    // border: 2px solid red;
                     // flex: 1 1 auto;
                     width: 93%;
 
@@ -1104,13 +1105,27 @@
                     }
                 }
                 .common-right{
-                    border: 2px solid black;
+                    // border: 2px solid black;
                     width: 7%;
                     display: flex;
                     align-items: flex-end;
                     flex-direction: column;
                     @include padding(17px 0 0 0);
-    
+                    transition: .3s ease-in-out;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    img{
+                        width: 14px;
+                        transform: rotate(180deg);
+                        transition: 0.3s linear 0s;
+                    }
+                }
+                .common-right-active{
+                    img{
+                        transform: rotate(0deg);
+                        transition: 0.3s linear 0s;
+                    }
                 }
             }
 
