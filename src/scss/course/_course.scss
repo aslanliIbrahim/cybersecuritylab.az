@@ -994,7 +994,7 @@
     }
 }
 #payment-options{
-    border: 2px solid red;
+    // border: 2px solid red;
     background-color: $special-background;
     .payment-text-area{
         p{
@@ -1129,12 +1129,16 @@
                 }
             }
 
-            
             .common-down{
                 display: none;
                 height: 0;
                 width: 100%;
-                // border: 2px solid purple;
+            }
+            
+            .common-down-active{
+                margin-top: 15px;
+                display: block;
+                height: auto;
             }
         }
     }

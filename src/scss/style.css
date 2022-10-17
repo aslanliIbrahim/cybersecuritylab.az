@@ -2828,7 +2828,6 @@ footer .footer-down-right a {
 }
 
 #payment-options {
-  border: 2px solid red;
   background-color: #E8E6EF;
 }
 
@@ -3028,6 +3027,12 @@ footer .footer-down-right a {
   display: none;
   height: 0;
   width: 100%;
+}
+
+#payment-options .payment-information-common .payment-information .common-down-active {
+  margin-top: 15px;
+  display: block;
+  height: auto;
 }
 
 * {

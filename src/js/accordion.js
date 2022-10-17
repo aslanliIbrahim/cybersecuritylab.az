@@ -24,17 +24,73 @@ for (let i = 0; i < accordion.length; i++) {
 }  
 
 
-const commonRight = document.querySelectorAll(".common-right");
+// const common = document.getElementsByClassName("payment-information");
+// const paymentDown = document.getElementsByClassName("common-down");
 
-// for (let i = 0; i < array.length; i++) {
+// for (let i = 0; i < common.length; i++) {
+    
+//     const commonRight = document.querySelector(".common-right")
+
+//     common[i].addEventListener("click", function() {
+        
+//         commonRight.classList.toggle("common-right-active");
+
+//         for (let j = 0; j < paymentDown.length; j++) {
+            
+//             paymentDown[i].classList.toggle("common-down-active");
+            
+//         }
+//     })
+
     
     
 // }
 
-commonRight.forEach(e => {
+// commonRight.forEach(e => {
 
-    e.addEventListener("click", function() {
-        e.classList.toggle("common-right-active")
+//     const commonDown = document.querySelector(".common-down");
+//     const cmnRight = document.querySelector(".common-right")
+
+//     // console.log(commonDown);
+//     // console.log(cmnRight);
+
+//     cmnRight.addEventListener("click", function() {
+
+//         // e.classList.toggle("common-right-active");
+//         // commonDown.classList.toggle("common-down-active");
+
+//         // if (cmnRight.classList.contains("common-right-active")) {
+
+//         //     cmnRight.classList.remove("common-right-active");
+//         //     commonDown.classList.remove("common-down-active");
+//         //     console.log("if area");
+
+//         // } else {
+//         //     cmnRight.classList.add("common-right-active");
+//         //     commonDown.classList.add("common-down-active");
+//         //     console.log("else area");
+
+//         // }
+
+//         // cmnRight.classList.toggle("common-right-active");
+
         
-    })
-});
+//     })
+
+// });
+
+// for (let i = 0; i < commonRight.length; i++) {
+
+//     const commonDown = document.querySelector(".common-down");
+//     const cmnRight = document.querySelector(".common-right")
+
+//     console.log(commonDown);
+//     console.log(cmnRight);
+
+//     cmnRight.addEventListener("click", function(){
+
+//         // this.classList.toggle("common-right-active")
+//         // console.log("hello");
+
+//     })
+// }
