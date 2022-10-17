@@ -2829,10 +2829,20 @@ footer .footer-down-right a {
 
 #payment-options {
   border: 2px solid red;
+  background-color: #E8E6EF;
+}
+
+#payment-options .payment-text-area p {
+  font-size: 18px;
+}
+
+#payment-options .payment-second-text-area h2 {
+  font-size: 44px;
+  font-weight: 700;
+  margin: 8px auto 30px;
 }
 
 #payment-options .payment-button-area {
-  border: 2px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2842,7 +2852,12 @@ footer .footer-down-right a {
 }
 
 #payment-options .payment-button-area .payment-button-left {
-  border: 2px solid red;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: none;
+  border-radius: 4px;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2871,7 +2886,12 @@ footer .footer-down-right a {
 }
 
 #payment-options .payment-button-area .payment-button-right {
-  border: 2px solid purple;
+  border-right: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: none;
+  background-color: white;
+  border-radius: 4px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2897,6 +2917,98 @@ footer .footer-down-right a {
 #payment-options .payment-button-area .payment-button-right p {
   padding: 0;
   margin: 0;
+}
+
+#payment-options .payment-button-area .payment-backGround {
+  background-color: #2A32C5;
+  color: white;
+  font-weight: 700;
+}
+
+#payment-options .payment-information-common .payment-information {
+  border: 2px solid black;
+  padding: 16px 30px;
+  margin: 0 0 20px 0;
+  background-color: white;
+  width: 80%;
+}
+
+#payment-options .payment-information-common .payment-information .payment-up-inf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#payment-options .payment-information-common .payment-information .payment-up-inf .common-left {
+  border: 2px solid red;
+  width: 93%;
+}
+
+#payment-options .payment-information-common .payment-information .payment-up-inf .common-left .common-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 0px;
+}
+
+#payment-options .payment-information-common .payment-information .payment-up-inf .common-left .common-up p {
+  margin: 0;
+  font-weight: 700;
+}
+
+#payment-options .payment-information-common .payment-information .payment-up-inf .common-left .common-up h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+#payment-options .payment-information-common .payment-information .payment-up-inf .common-left .common-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 0px;
+}
+
+#payment-options .payment-information-common .payment-information .payment-up-inf .common-left .common-down p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#payment-options .payment-information-common .payment-information .payment-up-inf .common-right {
+  border: 2px solid black;
+  width: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 17px 0 0 0;
+}
+
+#payment-options .payment-information-common .payment-information .common-down {
+  display: none;
+  height: 0;
+  width: 100%;
 }
 
 * {

@@ -993,15 +993,32 @@
 
     }
 }
-
 #payment-options{
     border: 2px solid red;
+    background-color: $special-background;
+    .payment-text-area{
+        p{
+            font-size: 18px;
+        }
+    }
+    .payment-second-text-area{
+        h2{
+            font-size: 44px;
+            font-weight: 700;
+            margin: 8px auto 30px;
+        }
+    }
     .payment-button-area{
-        border: 2px solid black;
+        // border: 2px solid black;
         display: flex;
         justify-content: center;
         .payment-button-left{
-            border: 2px solid red;
+            border-left: 2px solid $white;
+            border-top: 2px solid $white;
+            border-bottom: 2px solid $white;
+            border-left: none;
+            border-radius: 4px;
+            background-color: $white;
             @include flexible(center, center, row);
             @include padding(8px 20px);
             transition: 0.3s all ease-in-out;
@@ -1014,7 +1031,12 @@
             }
         }
         .payment-button-right{
-            border: 2px solid purple;
+            border-right: 2px solid $white;
+            border-top: 2px solid $white;
+            border-bottom: 2px solid $white;
+            border-left: none;
+            background-color: $white;
+            border-radius: 4px;
             @include flexible(center, center, row);
             @include padding(8px 20px);
             transition: 0.3s all ease-in-out;
@@ -1024,6 +1046,80 @@
             p{
                 padding: 0;
                 margin: 0;
+            }
+        }
+        .payment-backGround{
+            background-color: $special-blue;
+            color: $white;
+            font-weight: 700;
+        }
+    }
+
+    .payment-information-common{
+        // border: 2px solid red;
+        .payment-information{
+            border: 2px solid black;
+            @include padding(16px 30px);
+            @include margin(0 0 20px 0);
+            background-color: $white;
+            width: 80%;
+            // align-items: center;
+
+
+            .payment-up-inf{
+                display: flex;
+                justify-content: space-between;
+                // border: 2px solid red;
+                .common-left{
+                    border: 2px solid red;
+                    // flex: 1 1 auto;
+                    width: 93%;
+
+                    .common-up{
+                        // border: 2px solid purple;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        @include padding(12px 0px);
+                        p{
+                            margin: 0;
+                            font-weight: 700;
+                        }
+                        h6{
+                            margin: 0;
+                            padding: 0;
+                            font-weight: 700;
+                        }
+                    }
+                    .common-down{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        // border: 2px solid red;
+                        @include padding(12px 0px);
+                        p{
+                            margin: 0;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .common-right{
+                    border: 2px solid black;
+                    width: 7%;
+                    display: flex;
+                    align-items: flex-end;
+                    flex-direction: column;
+                    @include padding(17px 0 0 0);
+    
+                }
+            }
+
+            
+            .common-down{
+                display: none;
+                height: 0;
+                width: 100%;
+                // border: 2px solid purple;
             }
         }
     }

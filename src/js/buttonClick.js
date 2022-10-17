@@ -21,3 +21,26 @@ rightButton.addEventListener("click", function(){
         this.classList.add("backGroundColor");
     }
 })
+
+const paymentBtnLeft = document.querySelector(".payment-button-left");
+const paymnetBtnRight = document.querySelector(".payment-button-right");
+
+paymentBtnLeft.addEventListener("click", function() {
+    if (paymnetBtnRight.classList.contains("payment-backGround") || rightButton.classList.contains("payment-backGround")) {
+        this.classList.remove("payment-backGround")
+        paymnetBtnRight.classList.remove("payment-backGround")
+        this.classList.add("payment-backGround");
+    }else{
+        this.classList.add("payment-backGround");
+    }
+})
+
+paymnetBtnRight.addEventListener("click", function() {
+    if (paymentBtnLeft.classList.contains("payment-backGround") || rightButton.classList.contains("payment-backGround")) {
+        this.classList.remove("payment-backGround")
+        paymentBtnLeft.classList.remove("payment-backGround")
+        this.classList.add("payment-backGround");
+    }else{
+        this.classList.add("payment-backGround");
+    }
+})
