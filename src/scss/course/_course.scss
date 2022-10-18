@@ -39,7 +39,7 @@
                     margin: 0 0 16px 0 !important;
                 }
                 a{
-                    @include TextFont($padding:0 119px !important);
+                    @include TextFont($padding:0 118px !important);
                 }
             }
             //mediaScreen
@@ -1142,4 +1142,37 @@
             }
         }
     }
+}
+#schedule-call{
+    background-image: url("https://images.ctfassets.net/344fh7n2hs9h/4FS27OgUzXcBPpFWWeJTSa/d8f1af66bc5a0e8fe6e0413d6f85867b/blue_pattern.svg");
+    
+    .schedule-text-area{
+        @include flexible(center,center,row);
+        @include padding(119px 0 0 0);
+        h2{
+            @media (max-width:768px) {
+                @include TextFont($f_size:28px);
+                width: 90%;
+            }
+            @include TextFont($f_size:36px, $f_color:$white, $line_height:36px, $margin:0 0 43px 0, $text_align:center, $text_weight:700);
+            width: 48%;
+        }
+    }
+    .schedule-button-area{
+        @include padding(0 0 119px 0);
+        @include flexible(center,center,row);
+        a{
+            @include _button($height:48px,$padding:0px 36px, $border:1px solid $white, $border_radius:24px,$bg_color:$white, $color:$special-blue);
+            @include flexible(center,center,row);
+            @include TextFont($text_weight:700,$text_decaration:none);
+            transition: 0.2s ease-in-out;
+            &:hover{
+                @include _button($bg_color:$special-blue, $color:$white);
+            }
+        }
+    }
+}
+
+#five{
+    background-color: $white !important;
 }

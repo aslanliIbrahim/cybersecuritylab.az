@@ -1542,7 +1542,7 @@ footer .footer-down-right a {
     margin: 0 0 16px 0 !important;
   }
   #course-one .course-one-left .course-one-middle-up a {
-    padding: 0 119px !important;
+    padding: 0 118px !important;
   }
 }
 
@@ -3033,6 +3033,97 @@ footer .footer-down-right a {
   margin-top: 15px;
   display: block;
   height: auto;
+}
+
+#schedule-call {
+  background-image: url("https://images.ctfassets.net/344fh7n2hs9h/4FS27OgUzXcBPpFWWeJTSa/d8f1af66bc5a0e8fe6e0413d6f85867b/blue_pattern.svg");
+}
+
+#schedule-call .schedule-text-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 119px 0 0 0;
+}
+
+#schedule-call .schedule-text-area h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  color: white;
+  margin: 0 0 43px 0;
+  text-align: center;
+  width: 48%;
+}
+
+@media (max-width: 768px) {
+  #schedule-call .schedule-text-area h2 {
+    font-size: 28px;
+    width: 90%;
+  }
+}
+
+#schedule-call .schedule-button-area {
+  padding: 0 0 119px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#schedule-call .schedule-button-area a {
+  padding: 0px 36px;
+  border-radius: 24px;
+  color: #2A32C5;
+  background-color: white;
+  border: 1px solid white;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-weight: 700;
+  text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+#schedule-call .schedule-button-area a:hover {
+  color: white;
+  background-color: #2A32C5;
+}
+
+#five {
+  background-color: white !important;
 }
 
 * {

@@ -90,7 +90,9 @@
   $color: null,
   $bg_color: null,
   $border: null,
-  $text_align: null
+  $text_align: null,
+  $height:null,
+  
 ) {
   width: $width;
   margin: $margin;
@@ -100,4 +102,5 @@
   background-color: $bg_color;
   border: $border;
   text-align: $text_align;
+  height: $height;
 }
