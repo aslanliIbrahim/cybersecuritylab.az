@@ -100,22 +100,24 @@ nav{
                     .sign-in{
                         a{
                             text-decoration: none;
-                            color: $special-green;
+                            color: #005249;
                             font-size: $p-size;
+                            font-weight: 700;
                         }
                     }
                     .have-question{
                         a{
                             font-weight: 700;
                             text-decoration: none;
-                            color: $white;
+                            color: #005249;
                             background-color: $special-green;
                             @include border(1px solid $special-green, $border-radius);
                             @include padding(10px 32px);
                             transition: 0.3s ease-in-out;
                             &:hover{
-                                background-color: $white;
+                                background-color:  #005249;
                                 color: $special-green;
+                                @include border(1px solid #005249, $border-radius);
                             }
                         }
                     }
@@ -250,6 +252,12 @@ main{
                     // border: 2px solid black;
                     @include ul($pad:0,$mar:0,$list-style:none,$height:100%);
                     @include flexible(space-evenly, flex-start, column);
+                    li{
+                        img{
+                            width: 22px;
+                            margin-right: 10px;
+                        }
+                    }
                 }
             }
             .first-side-down{
@@ -286,11 +294,14 @@ main{
                             @include border(1px solid $special-green, $border-radius);
                             @include padding(10px 32px);
                             background-color: $special-green;
-                            color: $white;
+                            color: $special-green-hover;
                             transition: 0.3s;
+                            font-weight: 700;
                             &:hover{
-                                background-color: $white;
+                                background-color: $special-green-hover;
                                 color: $special-green;
+                                @include border(1px solid $special-green-hover, $border-radius);
+
                             }
                         }
                     }
@@ -341,17 +352,18 @@ main{
             .outline-a{
                 // text-align: center;
                 @include flexible(center, center,row);
-                @include border(1px solid $special-blue, 1.5rem);
+                @include border(1px solid transparent, 1.5rem);
                 @include padding(0px 2.25rem);
-                background-color: $special-blue;
-                color: $white;
-
+                background-color: $special-green;
+                color: $special-green-hover;
+                font-weight: 700;
                 font-size: 1rem;
                 text-decoration: none;
                 transition: 0.3s ease-in-out;
                 height: 48px;
                 &:hover{
-                    background-color: $purple-color;
+                    background-color: $special-green-hover;
+                    color: $special-green;
                 }
             }
         }
@@ -389,7 +401,7 @@ main{
                         }
                     }
                     .card-content{
-                        background-color: $cards-white;
+                        background-color: $special-seven-white;
                         // border: 2px solid red;
                         padding-left: 25px;
                         display: flex;
@@ -619,7 +631,7 @@ main{
 
     }
     #seven{
-        background-color: $background-color-white;
+        background-color: $special-seven-white;
         .seven-side-left{
             @media (max-width:768px) {
                 padding: 48px 24px;
@@ -810,15 +822,15 @@ main{
                 }
                     width: 37%;
                     text-decoration: none;
-                    color: $special-blue;
-                    background-color: transparent;
+                    color: $special-green-hover;
+                    background-color: $special-green;
                     @include padding(13px 36px);
-                    @include border(1px solid $special-blue, 24px);    
+                    @include border(1px solid transparent, 24px);    
                     transition: 0.2s ease-in-out;
                     font-weight: 700;
                     &:hover{
-                        background-color: $special-blue;
-                        color: $white;
+                        background-color: $special-green-hover;
+                        color: $special-green;
                     }
             }
             
@@ -839,7 +851,7 @@ main{
         }
     }
     #eight{
-        background-color: $special-blue;
+        background-color: $special-milk-white;
         .eight-h3-side{
             // border: 2px solid red;
             @include flexible(center,center, row);
@@ -850,7 +862,7 @@ main{
                     width: 96%;
                     line-height: 1.16;
                 }
-                color: $white;
+                color: $footer-black;
                 text-align: center;
                 // border: 2px solid red;
                 font-size: 30px;
@@ -861,7 +873,7 @@ main{
         }
         .eight-p{
             // border: 2px solid red;
-            color: $white;
+            color: $footer-black;
             text-align: center;
             font-size: 18px;
         }
@@ -872,7 +884,7 @@ main{
            
                 // border: 2px solid black;
                 p{
-                    color: $white;
+                    color: $footer-black;
                     padding: 0;
                     margin: 0;
                 }
@@ -882,7 +894,7 @@ main{
                         @include padding(0 10px 0 10px);
                         input{
                             width: 100%;
-                            color: $white;
+                            color: $footer-black;
                         }
                         button{
                             @include margin(10px 0 0 0);
@@ -894,7 +906,7 @@ main{
                 input{
                    
                     background: transparent;
-                    border: 1px solid $white;
+                    border: 1px solid $footer-black;
                     height: 46px;
                     padding-left: 16px;
                     padding-right: 16px;
@@ -904,17 +916,17 @@ main{
                 button{
 
                     height: 48px;
-                    background-color: $white;
-                    color: $special-blue;
-                    border: 1px solid $white;
+                    background-color: $special-green-hover;
+                    color: $special-green;
+                    border: 1px solid $special-green-hover;
                     border-radius: 24px;
                     padding: 0px 36px;
                     font-weight: 600;
                     transition: 0.2s ease-in-out;
                     &:hover{
-                        border-color: $purple-color;
-                        background-color: $purple-color;
-                        color: $white;
+                        border-color: $special-green;
+                        background-color: $special-green;
+                        color: $special-green-hover;
                     }
                 }
             
