@@ -635,6 +635,10 @@ main #three .cards-area .card-area a .card-content .fourth span {
   color: black;
 }
 
+main #three .cards-area .card-area a .card-content .card-button-area p {
+  color: #005249;
+}
+
 main #four {
   background-color: #03523C;
   padding: 3rem 0 3rem 0;
