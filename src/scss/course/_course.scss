@@ -1194,8 +1194,28 @@
                 height: 54px;
                 width: 25%;
             }
+            .table-span{
+                padding: 0;
+                margin: 0;
+                font-weight: 700;
+                font-size: 18px;
+            }
+            img{
+                width: 18px;
+                object-fit: contain;
+            }
+            .first-area{
+                @include flexible(center,center,row);
+            }
             .second-area{
                 background-color: $table-left-white;
+                @include flexible(center,center,row);
+            }
+            .third-area{
+                @include flexible(center,center,row);
+            }
+            .fourty-area{
+                @include flexible(center,center,row);
             }
         }
     }
