@@ -3255,6 +3255,112 @@ footer .footer-down-right a {
   background-color: white !important;
 }
 
+@media (max-width: 768px) {
+  #circle-area .row {
+    padding: 0 24px;
+  }
+  #circle-area .for-order {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: 15px;
+  }
+}
+
+#circle-area .circle-img-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 85%;
+}
+
+#circle-area .circle-img-area img {
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  #circle-area .circle-img-area {
+    height: 100%;
+  }
+}
+
+#circle-area .circle-content-area h3 {
+  font-size: 20px;
+  margin: 0 0 8px 0;
+}
+
+#circle-area .circle-content-area h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.07;
+  padding: 8px 4px 32px 0;
+}
+
+#circle-area .circle-content-area .ul-side h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0 0 32px 0;
+  padding: 0;
+}
+
+#circle-area .circle-content-area .ul-side .circle-ul {
+  padding: 0;
+  margin: 0 0 32px 0;
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  row-gap: 24px;
+  -webkit-column-gap: 3%;
+          column-gap: 3%;
+  justify-items: left;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+#circle-area .circle-content-area .ul-side .circle-ul li {
+  width: 100%;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 3%;
+          column-gap: 3%;
+}
+
+@media (max-width: 768px) {
+  #circle-area .circle-content-area h3 {
+    font-size: 16px;
+    margin: 0 0 8px 0;
+  }
+  #circle-area .circle-content-area h2 {
+    font-size: 30px;
+    line-height: 1.07;
+    padding: 8px 4px 24px 0;
+  }
+  #circle-area .circle-content-area .ul-side h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 24px 0;
+    padding: 0;
+  }
+  #circle-area .circle-content-area .ul-side li {
+    font-size: 16px !important;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
