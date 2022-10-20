@@ -3719,6 +3719,14 @@ footer .footer-down-right a {
   margin-left: 11%;
 }
 
+@media (max-width: 768px) {
+  #lastSlider .caruesel-title h1 {
+    margin-left: 0;
+    font-size: 33px;
+    text-align: center;
+  }
+}
+
 #lastSlider .caruesel-img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3785,6 +3793,12 @@ footer .footer-down-right a {
   font-size: 18px;
   line-height: 28px;
   margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  #lastSlider .caruesel-content {
+    margin-top: 25px;
+  }
 }
 
 #lastAccordion h2 {

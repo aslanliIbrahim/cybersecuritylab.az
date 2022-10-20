@@ -1546,6 +1546,11 @@
             font-weight: 700;
             font-size: 44px;
             margin-left: 11%;
+            @media (max-width:768px) {
+                margin-left: 0;
+                font-size: 33px;
+                text-align: center;
+            }
         }
     }
     .caruesel-img{
@@ -1598,6 +1603,9 @@
                 margin: 20px 0;
             }
             
+        }
+        @media (max-width:768px) {
+            margin-top: 25px;
         }
     }
 }
