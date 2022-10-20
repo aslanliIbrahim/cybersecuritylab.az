@@ -3361,6 +3361,191 @@ footer .footer-down-right a {
   }
 }
 
+#admissions-process {
+  background-color: #2A32C5;
+  color: white;
+}
+
+#admissions-process .first-row {
+  background-color: #3A4BDD;
+}
+
+#admissions-process .admissions-text-area h3 {
+  font-size: 20px;
+  margin: 0 0 8px 0;
+}
+
+#admissions-process .admissions-text-area h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.07;
+  margin: 16px 0 24px 0;
+  max-width: 400px;
+}
+
+#admissions-process .admissions-text-area p {
+  font-size: 18px;
+  line-height: 1.4;
+  width: 74%;
+}
+
+#admissions-process .admissions-inputs-area .payment-button-area {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#admissions-process .admissions-inputs-area .payment-button-area .payment-button-left {
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: none;
+  border-radius: 4px;
+  background-color: #2A32C5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 8px 20px;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+#admissions-process .admissions-inputs-area .payment-button-area .payment-button-left:hover {
+  cursor: pointer;
+}
+
+#admissions-process .admissions-inputs-area .payment-button-area .payment-button-left p {
+  padding: 0;
+  margin: 0;
+}
+
+#admissions-process .admissions-inputs-area .payment-button-area .payment-button-right {
+  border-right: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: none;
+  background-color: #2A32C5;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 8px 20px;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+#admissions-process .admissions-inputs-area .payment-button-area .payment-button-right:hover {
+  cursor: pointer;
+}
+
+#admissions-process .admissions-inputs-area .payment-button-area .payment-button-right p {
+  padding: 0;
+  margin: 0;
+}
+
+#admissions-process .admissions-inputs-area .payment-button-area .payment-backGround {
+  background-color: white;
+  color: #2A32C5;
+  font-weight: 700;
+}
+
+#admissions-process .admissions-inputs .inpust-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#admissions-process .admissions-inputs .inpust-side label {
+  font-size: 16px;
+}
+
+#admissions-process .admissions-inputs .inpust-side input {
+  width: 100%;
+  padding: 0 16px;
+  height: 46px;
+  border-radius: 4px;
+  border-color: white;
+  background: transparent;
+}
+
+#admissions-process .admissions-inputs .button-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#admissions-process .admissions-inputs .button-side button {
+  border: none;
+  width: 70%;
+  color: #2A32C5;
+  background-color: white;
+  font-weight: 700;
+  height: 48px;
+  padding: 0px 36px;
+  font-size: 16px;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 24px;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+#admissions-process .admissions-inputs .button-side button:hover {
+  color: white;
+  background-color: #2A32C5;
+}
+
+#admissions-process .admissions-inputs .admissions-inputs-down p {
+  text-align: left;
+  font-size: 12px;
+  font-style: italic;
+  padding-right: 17px;
+  line-height: 1.4;
+  margin: 8px 0 0 0;
+  width: 56%;
+}
+
 * {
   margin: 0;
   padding: 0;

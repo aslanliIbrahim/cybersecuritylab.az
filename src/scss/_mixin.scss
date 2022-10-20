@@ -74,13 +74,15 @@
   $padding: null,
   $margin: null,
   $border_radius: null,
-  $color: null
+  $color: null,
+  $height:null
 ) {
   width: $width;
   margin: $margin;
   padding: $padding;
   border-radius: $border_radius;
   color: $color;
+  height: $height;
 }
 @mixin _button(
   $width: null,
