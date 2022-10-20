@@ -1311,6 +1311,18 @@
             @include TextFont($f_size:18px, $line_height:1.4);
             width: 74%;
         }
+        @media (max-width:768px) {
+            h3{
+                @include TextFont($f_size:16px);
+            }
+            h2{
+                @include TextFont($f_size:30px);
+            }
+            p{
+                @include TextFont($f_size:16px);
+                width: 100%;
+            }
+        }
     }
     .admissions-inputs-area{
         // border: 2px solid red;
@@ -1405,6 +1417,15 @@
                     color: $white;
                     background-color: $special-blue;
                 }
+
+                
+            }
+            @media (max-width:768px) {
+                margin-top: 20px;
+                button{
+                    width: 100%;
+                }
+                
             }
         }
         .admissions-inputs-down{
@@ -1416,6 +1437,15 @@
                 line-height: 1.4;
                 margin: 8px 0 0 0;
                 width: 56%;
+                opacity: 0.5;
+            }
+            @media (max-width:768px) {
+                margin-top: 10px;
+                p{
+                    font-size: 11px !important;
+                    width: 100%;
+                    padding-right: 16px;
+                }
             }
         }
     }
