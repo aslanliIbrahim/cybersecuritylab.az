@@ -3510,6 +3510,7 @@ footer .footer-down-right a {
   border-radius: 4px;
   border-color: white;
   background: transparent;
+  color: white;
 }
 
 #admissions-process .admissions-inputs .button-side {
@@ -3578,6 +3579,84 @@ footer .footer-down-right a {
     width: 100%;
     padding-right: 16px;
   }
+}
+
+#lastSlider {
+  background-color: #F7F7F1;
+}
+
+#lastSlider .caruesel-title h1 {
+  font-weight: 700;
+  font-size: 44px;
+  margin-left: 11%;
+}
+
+#lastSlider .caruesel-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#lastSlider .caruesel-img img {
+  max-width: 452px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#lastSlider .caruesel-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#lastSlider .caruesel-content .caruesel-content-up .content-first-p {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+#lastSlider .caruesel-content .caruesel-content-up p {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 0 4px 0;
+}
+
+#lastSlider .caruesel-content .caruesel-img-unit img {
+  width: 28px;
+  height: 27px;
+}
+
+#lastSlider .caruesel-content .caruesel-img-unit-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#lastSlider .caruesel-content .caruesel-img-unit-two img {
+  width: 28px;
+  height: 27px;
+}
+
+#lastSlider .caruesel-content .caruesel-text p {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 20px 0;
 }
 
 * {
