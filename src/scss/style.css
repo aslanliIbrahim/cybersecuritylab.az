@@ -3040,13 +3040,13 @@ footer .footer-down-right a {
   transition: 0.3s linear 0s;
 }
 
-#payment-options .payment-information-common .payment-information .common-down {
+#payment-options .payment-information-common .payment-information .common-downs {
   display: none;
   height: 0;
   width: 100%;
 }
 
-#payment-options .payment-information-common .payment-information .common-down-active {
+#payment-options .payment-information-common .payment-information .common-downs-active {
   margin-top: 15px;
   display: block;
   height: auto;
@@ -3659,8 +3659,9 @@ footer .footer-down-right a {
   margin: 20px 0;
 }
 
-#lastAccordion {
-  border: 2px solid red;
+#lastAccordion h2 {
+  font-weight: 700;
+  font-size: 44px;
 }
 
 #lastAccordion .accordion-top .accordion-items {
@@ -3684,12 +3685,18 @@ footer .footer-down-right a {
   padding: 20px 0;
 }
 
-#lastAccordion .accordion-top .accordion-items button[aria-expanded='true'] {
-  color: black;
+#lastAccordion .accordion-top .accordion-items button img {
+  width: 14px;
 }
 
-#lastAccordion .accordion-top .accordion-items button[aria-expanded='true'] .icon::after {
-  width: 0;
+@media (max-width: 768px) {
+  #lastAccordion .accordion-top .accordion-items button span {
+    text-align: left;
+  }
+}
+
+#lastAccordion .accordion-top .accordion-items button[aria-expanded='true'] {
+  color: black;
 }
 
 #lastAccordion .accordion-top .accordion-items button[aria-expanded='true'] + .accordion-content {
@@ -3713,6 +3720,11 @@ footer .footer-down-right a {
   font-size: 1rem;
   font-weight: 300;
   margin: 2em 0;
+}
+
+#lastAccordion .accordion-top .accordion-items .accordion-content p a {
+  color: #2A32C5;
+  text-decoration: none;
 }
 
 * {

@@ -102,3 +102,28 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
 
 //     })
 // }
+
+const paymentInformation = document.querySelectorAll(".payment-information");
+
+console.log(paymentInformation);
+
+paymentInformation.forEach(element => {
+    const imgclick = element.querySelector(".common-right")
+    const commonDowns = element.querySelector(".common-downs");
+    
+   imgclick.addEventListener("click", function() {
+
+    this.classList.toggle("common-right-active");
+    commonDowns.classList.toggle("common-downs-active");
+
+   })
+    
+});
+
+
+function paymnetToglle() {
+    
+
+}
+
+

@@ -1129,13 +1129,13 @@
                 }
             }
 
-            .common-down{
+            .common-downs{
                 display: none;
                 height: 0;
                 width: 100%;
             }
             
-            .common-down-active{
+            .common-downs-active{
                 margin-top: 15px;
                 display: block;
                 height: auto;
@@ -1515,8 +1515,11 @@
     }
 }
 #lastAccordion{
-    border: 2px solid red;
-
+    // border: 2px solid red;
+    h2{
+        font-weight: 700;
+        font-size: 44px;
+    }
     .accordion-top{
 
         .accordion-items{
@@ -1532,14 +1535,18 @@
                 display: flex;
                 justify-content: space-between;
                 padding: 20px 0;
+                img{
+                    width: 14px;
+                }
+                @media (max-width:768px) {
+                    span{
+                        text-align: left;
+                    }
+                }
             }
             button[aria-expanded='true'] {
                 color: $black;
-                .icon {
-                  &::after {
-                    width: 0;
-                  }
-                }
+                
                 + .accordion-content {
                   opacity: 1;
                   max-height: 9em;
@@ -1557,6 +1564,10 @@
                   font-size: 1rem;
                   font-weight: 300;
                   margin: 2em 0;
+                  a{
+                    color: $special-blue;
+                    text-decoration: none;
+                  }
                 }
               }
         }
