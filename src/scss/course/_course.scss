@@ -1514,3 +1514,52 @@
         }
     }
 }
+#lastAccordion{
+    border: 2px solid red;
+
+    .accordion-top{
+
+        .accordion-items{
+            border-bottom: 1px solid $black;
+
+            button[aria-expanded='true'] {
+                border-bottom: 1px solid $black;
+            }
+            button{
+                width: 100%;
+                background: transparent;
+                border: none;
+                display: flex;
+                justify-content: space-between;
+                padding: 20px 0;
+            }
+            button[aria-expanded='true'] {
+                color: $black;
+                .icon {
+                  &::after {
+                    width: 0;
+                  }
+                }
+                + .accordion-content {
+                  opacity: 1;
+                  max-height: 9em;
+                  transition: all 200ms linear;
+                  will-change: opacity, max-height;
+                }
+            }
+            .accordion-content {
+                opacity: 0;
+                max-height: 0;
+                overflow: hidden;
+                transition: opacity 200ms linear, max-height 200ms linear;
+                will-change: opacity, max-height;
+                p {
+                  font-size: 1rem;
+                  font-weight: 300;
+                  margin: 2em 0;
+                }
+              }
+        }
+    }
+
+}

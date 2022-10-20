@@ -3659,6 +3659,62 @@ footer .footer-down-right a {
   margin: 20px 0;
 }
 
+#lastAccordion {
+  border: 2px solid red;
+}
+
+#lastAccordion .accordion-top .accordion-items {
+  border-bottom: 1px solid black;
+}
+
+#lastAccordion .accordion-top .accordion-items button[aria-expanded='true'] {
+  border-bottom: 1px solid black;
+}
+
+#lastAccordion .accordion-top .accordion-items button {
+  width: 100%;
+  background: transparent;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0;
+}
+
+#lastAccordion .accordion-top .accordion-items button[aria-expanded='true'] {
+  color: black;
+}
+
+#lastAccordion .accordion-top .accordion-items button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+
+#lastAccordion .accordion-top .accordion-items button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+
+#lastAccordion .accordion-top .accordion-items .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: opacity 200ms linear, max-height 200ms linear;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+
+#lastAccordion .accordion-top .accordion-items .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
 * {
   margin: 0;
   padding: 0;
