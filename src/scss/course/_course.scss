@@ -1187,6 +1187,12 @@
 }
 #bootcamp-table{
     // border: 2px solid red;
+    .row{
+        padding: 0 80px;
+        @media (max-width:768px) {
+            padding: 0;
+        }
+    }
 
     .bootcamp-table-up{
         @include flexible(center,center,row);
@@ -1229,6 +1235,44 @@
             }
             .fourty-area{
                 @include flexible(center,center,row);
+            }
+        }
+        @media (max-width:768px) {
+            display: none;
+        }
+        
+    }
+
+    .for-mobile-bootcamp-table{
+        @media (min-width:768px) {
+            display: none;
+        }
+        @media (max-width:768px) {
+            display: block;
+            border-bottom: 1px solid $social-media;
+            .mobile-table-side{
+                // border: 2px solid red;
+
+                h3{
+                    font-size: 18px;
+                    font-weight: 600;
+                    padding: 20px 0;
+                }
+                ul{
+                    @include ul($pad:0, $mar:0, $list-style:none);
+                    li{
+                        // border: 2px solid red;
+                        display: flex;
+                        justify-content: space-between;
+                        min-height: 28px;
+                        margin-bottom: 10px;
+                        img{
+                            width: 28px;
+                            height: 18px;
+                            object-fit: contain;
+                        }
+                    }
+                }
             }
         }
     }
