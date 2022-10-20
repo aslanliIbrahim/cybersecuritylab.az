@@ -106,22 +106,35 @@
 }
 #course-two{
     // border: 2px solid red;
-    .option-side{
-        text-align: center;
+    .option-area{
         // border: 2px solid red;
-        @include padding(20px 0px);
-        a{
-            // border-bottom: 2px solid red;
-            text-decoration:none;
-            color: $black;
-            font-size: 16px;
+        display: flex;
+
+        .option-side{
+            width: calc(100% / 8);
+            text-align: center;
+            // border: 2px solid red;
+            @include padding(20px 0px);
+            a{
+                // border-bottom: 2px solid red;
+                text-decoration:none;
+                color: $black;
+                font-size: 16px;
+            }
+            
         }
-        
-    }
-    .active{
-        border-bottom: 3px solid black;
-        a{
-            font-weight: 600;
+        .active{
+            border-bottom: 3px solid $special-blue;
+            a{
+                font-weight: 600;
+            }
+        }
+        @media (max-width:768px) {
+            overflow-x: scroll;
+            .option-side{
+                width: 100%;
+                margin: 0px 20px;
+            }
         }
     }
 }

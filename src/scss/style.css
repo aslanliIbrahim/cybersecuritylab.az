@@ -1660,23 +1660,40 @@ footer .footer-down-right a {
      object-fit: contain;
 }
 
-#course-two .option-side {
+#course-two .option-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#course-two .option-area .option-side {
+  width: calc(100% / 8);
   text-align: center;
   padding: 20px 0px;
 }
 
-#course-two .option-side a {
+#course-two .option-area .option-side a {
   text-decoration: none;
   color: black;
   font-size: 16px;
 }
 
-#course-two .active {
-  border-bottom: 3px solid black;
+#course-two .option-area .active {
+  border-bottom: 3px solid #2A32C5;
 }
 
-#course-two .active a {
+#course-two .option-area .active a {
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  #course-two .option-area {
+    overflow-x: scroll;
+  }
+  #course-two .option-area .option-side {
+    width: 100%;
+    margin: 0px 20px;
+  }
 }
 
 #strat-learning {
