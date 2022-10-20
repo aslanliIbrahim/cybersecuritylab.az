@@ -3021,6 +3021,12 @@ footer .footer-down-right a {
   font-size: 14px;
 }
 
+@media (max-width: 768px) {
+  #payment-options .payment-information-common .payment-information .payment-up-inf .common-left .common-down .common-down-first {
+    display: none;
+  }
+}
+
 #payment-options .payment-information-common .payment-information .payment-up-inf .common-right {
   width: 7%;
   display: -webkit-box;
@@ -3050,6 +3056,12 @@ footer .footer-down-right a {
   transition: 0.3s linear 0s;
 }
 
+@media (max-width: 768px) {
+  #payment-options .payment-information-common .payment-information .payment-up-inf .common-right {
+    width: 20%;
+  }
+}
+
 #payment-options .payment-information-common .payment-information .payment-up-inf .common-right-active img {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
@@ -3063,10 +3075,54 @@ footer .footer-down-right a {
   width: 100%;
 }
 
+#payment-options .payment-information-common .payment-information .common-down-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #payment-options .payment-information-common .payment-information .common-down-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 #payment-options .payment-information-common .payment-information .common-downs-active {
   margin-top: 15px;
   display: block;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#payment-options .payment-information-common .payment-information .common-downs-active .for-mobile-p {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #payment-options .payment-information-common .payment-information .common-downs-active .for-mobile-p {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  #payment-options .payment-information-common .payment-information .common-downs-active {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 #schedule-call {
