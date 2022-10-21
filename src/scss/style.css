@@ -828,11 +828,11 @@ main #six .six-row-side {
 
 @media (max-width: 768px) {
   main #six .six-row-side {
-    padding: 0;
+    padding: 0 24px !important;
   }
   main #six .six-row-side h4 {
     width: 100% !important;
-    font-size: 22px !important;
+    font-size: 19px !important;
   }
 }
 

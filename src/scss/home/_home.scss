@@ -584,10 +584,10 @@ main{
             padding-left: 80px;
             padding-right: 80px;
             @media (max-width:768px) {
-                padding: 0;
+                padding: 0 24px !important;
                h4{
                 width: 100% !important;
-                font-size: 22px !important;
+                font-size: 19px !important;
                }
                 
             }
