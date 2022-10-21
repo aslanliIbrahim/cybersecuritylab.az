@@ -3886,6 +3886,61 @@ footer .footer-down-right a {
   text-decoration: none;
 }
 
+main #work-one {
+  background-color: #E6EEED;
+}
+
+main #work-one .work-one-left {
+  padding: 32px 0px;
+}
+
+@media (max-width: 768px) {
+  main #work-one .work-one-left {
+    padding: 16px 0px;
+  }
+}
+
+main #work-one .work-one-left .left-up {
+  padding: 0px 40px;
+  margin: 32px 0px;
+}
+
+main #work-one .work-one-left .left-up h1 {
+  font-size: 54px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  main #work-one .work-one-left .left-up {
+    margin: 16px 0px;
+    padding: 0px 16px;
+  }
+  main #work-one .work-one-left .left-up h1 {
+    font-size: 32px;
+  }
+}
+
+main #work-one .work-one-left .left-down {
+  padding: 0px 40px;
+  margin: 32px 0px;
+}
+
+main #work-one .work-one-left .left-down p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0 0 16px 0;
+}
+
+@media (max-width: 768px) {
+  main #work-one .work-one-left .left-down {
+    margin: 16px 0px;
+    padding: 0px 16px;
+  }
+  main #work-one .work-one-left .left-down p {
+    font-size: 16px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

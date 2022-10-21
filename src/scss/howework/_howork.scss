@@ -1,0 +1,42 @@
+main{
+    #work-one{
+        background-color: $background-color-white;
+        .work-one-left{
+            
+            padding: 32px 0px;
+
+            @media (max-width:768px) {
+                padding: 16px 0px;
+            }
+
+            .left-up{
+                padding: 0px 40px;
+                margin: 32px 0px;
+                h1{
+                    @include TextFont($f_size:54px, $text_weight:700);
+                }
+                @media (max-width:768px) {
+                    margin: 16px 0px;
+                    padding: 0px 16px;
+                    h1{
+                        @include TextFont($f_size:32px);
+                    }
+                }
+            }
+            .left-down{
+                padding: 0px 40px;
+                margin: 32px 0px;
+                p{
+                    @include TextFont($f_size:18px, $margin:0 0 16px 0, $line_height:1.4);
+                }
+                @media (max-width:768px) {
+                    margin: 16px 0px;
+                    padding: 0px 16px;
+                    p{
+                        @include TextFont($f_size:16px);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -3,6 +3,7 @@ const optionSideArr = [...optionSide]
 
 
 optionSideArr.forEach(options => {
+    
     options.addEventListener("click", function(e) {
         // e.preventDefault();
         // e.stopImmediatePropagation();
