@@ -49,14 +49,14 @@
 
             }
             a{
-                @include TextFont($padding:0px 36px, $f_size:16px, $text_decaration:none, $f_color:$white, $background:$special-blue, $transition:0.2s);
+                @include TextFont($padding:0px 36px, $f_size:16px, $text_decaration:none, $f_color:$special-green-hover, $background:$special-green, $transition:0.2s, $text_weight:700);
                 @include border($border-radius:24px);
                 height:48px;
                 display: inline-flex;
                 justify-content: center;
                 align-items: center;
                 &:hover{
-                    @include TextFont($background:$purple-color);
+                    @include TextFont($background:$special-green-hover, $f_color:$special-green);
                 }
             }
         }
@@ -230,14 +230,17 @@
                 align-items: center;
                 font-size: 16px;
                 border-radius: 24px;
-                border: 1px solid $special-blue;
+                // border: 1px solid $special-blue;
+                border: none;
                 @include padding(0px 36px);
                 height: 48px;
                 transition: all 100ms ease-in 0;
-                color: $white;
-                background-color: $special-blue;
+                color: $special-green-hover;
+                background-color: $special-green;
+                font-weight: 700;
                 &:hover{
-                    background-color: $purple-color;
+                    background-color: $special-green-hover;
+                    color: $special-green;
                 }
                 }
             }
@@ -429,12 +432,13 @@
 }
 #flexible{
     .flexible-area{
-        background-color: $green-color;
+        background-color: $special-green-hover;
         color: $white;
         width: 90%;
         @include padding(30px);
         @include margin(40px 0);
         @include flexible($jus:space-between);
+
         @media (max-width:768px) {
             @include flexible($direction:column);
             @include margin(20px 0px);
@@ -474,22 +478,22 @@
             }
             a{
                 background-color: transparent;
-                border: 1px solid $white;
+                border: 1px solid $special-green;
                 height: 3rem;
                 font-size: 1rem;
                 border-radius: 1.5rem;
                 display: inline-flex;
                 font-weight: 600;
                 text-decoration: none;
-                color: $white;
+                color: $special-green;
                 padding: 0px 2.25rem;
                 transition: all 100ms ease-in;
                 white-space: nowrap;
                 align-items: center;
                 justify-content: center;
                 &:hover{
-                    background-color: $white;
-                    color: $green-color;
+                    background-color: $special-green;
+                    color: $special-green-hover;
                 }
             }
         }
@@ -637,7 +641,7 @@
     }
     .job-form-area{
         // border: 2px solid red;
-        background-color: $special-blue;
+        background-color: $special-green-hover;
         color: $white;
         @include padding(24px); 
         @include flexible($jus:space-between);
@@ -676,15 +680,15 @@
                         width: 60% !important;
 
                     }
-                    border: 1px solid white;
+                    border: 1px solid $special-green;
                     border-radius: 4px;
                     width: 40%;
                     display: flex;
                     justify-content: space-evenly;
 
                     .backGroundColor{
-                        background-color: $white;
-                        color: $special-blue;
+                        color: $special-green-hover !important;
+                        background-color: $special-green;
                         font-weight: 700;
                         p{
                             @media (max-width:768px) {
@@ -700,6 +704,9 @@
                         align-items: center;
                         justify-content: center; 
                         transition: 0.3s ease-in-out;
+                        color: $special-green;
+                        padding: 5px 0px;
+                        // background-color: $special-green;
                         @media (max-width:768px) {
                             padding: 5px !important;
                         }
@@ -722,6 +729,9 @@
                         align-items: center;
                         justify-content: center; 
                         transition: 0.3s ease-in-out;
+                        color: $special-green;
+                        padding: 5px 0px;
+                        // background-color: $special-green;
                         @media (max-width:768px) {
                             padding: 5px !important;
                         }
@@ -800,13 +810,14 @@
                         justify-content: center;
                         align-items: center;
                         cursor: pointer;
-                        color: $special-blue;
-                        background-color: $white;
+                        color: $special-green-hover;
+                        background-color: $special-green;
                         transition: all 100ms ease-in 0s;
                         border: none;
                         &:hover{
-                            background-color: $purple-color;
-                            color: $white;
+                            background-color: $special-green-hover;
+                            color: $special-green;
+                            border: 1px solid $special-green;
                         }
                     }
                 }
@@ -1012,7 +1023,7 @@
 }
 #payment-options{
     // border: 2px solid red;
-    background-color: $special-background;
+    background-color: $special-seven-white;
     .payment-text-area{
         p{
             font-size: 18px;
@@ -1031,12 +1042,13 @@
         display: flex;
         justify-content: center;
         .payment-button-left{
-            border-left: 2px solid $white;
-            border-top: 2px solid $white;
-            border-bottom: 2px solid $white;
+            border-left: 2px solid $special-green;
+            border-top: 2px solid $special-green;
+            border-bottom: 2px solid $special-green;
             border-left: none;
             border-radius: 4px;
             background-color: $white;
+            color: $special-green-hover;
             @include flexible(center, center, row);
             @include padding(8px 20px);
             transition: 0.3s all ease-in-out;
@@ -1049,12 +1061,13 @@
             }
         }
         .payment-button-right{
-            border-right: 2px solid $white;
-            border-top: 2px solid $white;
-            border-bottom: 2px solid $white;
+            border-right: 2px solid $special-green;
+            border-top: 2px solid $special-green;
+            border-bottom: 2px solid $special-green;
             border-left: none;
             background-color: $white;
             border-radius: 4px;
+            color: $special-green-hover;
             @include flexible(center, center, row);
             @include padding(8px 20px);
             transition: 0.3s all ease-in-out;
@@ -1067,8 +1080,8 @@
             }
         }
         .payment-backGround{
-            background-color: $special-blue;
-            color: $white;
+            background-color: $special-green;
+            color: $special-green-hover;
             font-weight: 700;
         }
     }
@@ -1191,7 +1204,7 @@
     }
 }
 #schedule-call{
-    background-image: url("https://images.ctfassets.net/344fh7n2hs9h/4FS27OgUzXcBPpFWWeJTSa/d8f1af66bc5a0e8fe6e0413d6f85867b/blue_pattern.svg");
+    // background-image: url("https://images.ctfassets.net/344fh7n2hs9h/4FS27OgUzXcBPpFWWeJTSa/d8f1af66bc5a0e8fe6e0413d6f85867b/blue_pattern.svg");
     
     .schedule-text-area{
         @include flexible(center,center,row);
@@ -1209,12 +1222,12 @@
         @include padding(0 0 119px 0);
         @include flexible(center,center,row);
         a{
-            @include _button($height:48px,$padding:0px 36px, $border:1px solid $white, $border_radius:24px,$bg_color:$white, $color:$special-blue);
+            @include _button($height:48px,$padding:0px 36px, $border:1px solid transparent, $border_radius:24px,$bg_color:$special-green-hover, $color:$special-green);
             @include flexible(center,center,row);
             @include TextFont($text_weight:700,$text_decaration:none);
             transition: 0.2s ease-in-out;
             &:hover{
-                @include _button($bg_color:$special-blue, $color:$white);
+                @include _button($bg_color:$special-green, $color:$special-green-hover);
             }
         }
     }
@@ -1384,10 +1397,10 @@
     }
 }
 #admissions-process{
-    background-color: $special-blue;
+    background-color: $special-green-hover;
     color: $white;
     .first-row{
-        background-color: $row-color;
+        background-color: #02685F; 
     }
     .admissions-text-area{
         // border: 2px solid red;
@@ -1423,12 +1436,13 @@
             display: flex;
             justify-content: flex-start;
             .payment-button-left{
-                border-left: 2px solid $white;
-                border-top: 2px solid $white;
-                border-bottom: 2px solid $white;
+                border-left: 2px solid $special-green !important;
+                border-top: 2px solid $special-green;
+                border-bottom: 2px solid $special-green;
                 border-left: none;
                 border-radius: 4px;
-                background-color: $special-blue;
+                background-color: #02685F;
+                color: $special-green-hover;
                 @include flexible(center, center, row);
                 @include padding(8px 20px);
                 transition: 0.3s all ease-in-out;
@@ -1441,11 +1455,12 @@
                 }
             }
             .payment-button-right{
-                border-right: 2px solid $white;
-                border-top: 2px solid $white;
-                border-bottom: 2px solid $white;
+                border-right: 2px solid $special-green;
+                border-top: 2px solid $special-green;
+                border-bottom: 2px solid $special-green;
                 border-left: none;
-                background-color: $special-blue;
+                background-color: $special-green;
+                color: $special-green-hover;
                 border-radius: 4px;
                 @include flexible(center, center, row);
                 @include padding(8px 20px);
@@ -1459,8 +1474,8 @@
                 }
             }
             .payment-backGround{
-                background-color: $white;
-                color: $special-blue;
+                background-color: $special-green-hover;
+                color: $special-green;
                 font-weight: 700;
             }
         }
@@ -1494,8 +1509,8 @@
             button{
                 border: none;
                 width: 70%;
-                color: $special-blue;
-                background-color: $white;
+                color: $special-green-hover;
+                background-color: $special-green;
                 font-weight: 700;
                 height: 48px;
                 padding: 0px 36px;
@@ -1506,8 +1521,8 @@
                 border-radius: 24px;
                 transition: .2s ease-in-out;
                 &:hover{
-                    color: $white;
-                    background-color: $special-blue;
+                    color: $special-green;
+                    background-color: $special-green-hover;
                 }
 
                 

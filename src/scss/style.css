@@ -1570,10 +1570,11 @@ footer .footer-down-right a {
 
 #course-one .course-one-left .course-one-middle-up a {
   font-size: 16px;
-  color: white;
+  font-weight: 700;
+  color: #005249;
   text-decoration: none;
   padding: 0px 36px;
-  background-color: #2A32C5;
+  background-color: #CEFA05;
   text-decoration: none;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -1591,7 +1592,8 @@ footer .footer-down-right a {
 }
 
 #course-one .course-one-left .course-one-middle-up a:hover {
-  background-color: #272C8C;
+  color: #CEFA05;
+  background-color: #005249;
 }
 
 #course-one .course-one-left .course-one-down {
@@ -1825,17 +1827,19 @@ footer .footer-down-right a {
           align-items: center;
   font-size: 16px;
   border-radius: 24px;
-  border: 1px solid #2A32C5;
+  border: none;
   padding: 0px 36px;
   height: 48px;
   -webkit-transition: all 100ms ease-in 0;
   transition: all 100ms ease-in 0;
-  color: white;
-  background-color: #2A32C5;
+  color: #005249;
+  background-color: #CEFA05;
+  font-weight: 700;
 }
 
 #strat-learning .learning-right .form-area .button-area button:hover {
-  background-color: #272C8C;
+  background-color: #005249;
+  color: #CEFA05;
 }
 
 #course-select-first .table-for-padding {
@@ -2063,7 +2067,7 @@ footer .footer-down-right a {
 }
 
 #flexible .flexible-area {
-  background-color: #03523C;
+  background-color: #005249;
   color: white;
   width: 90%;
   padding: 30px;
@@ -2122,7 +2126,7 @@ footer .footer-down-right a {
 
 #flexible .flexible-area .flexible-right a {
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid #CEFA05;
   height: 3rem;
   font-size: 1rem;
   border-radius: 1.5rem;
@@ -2131,7 +2135,7 @@ footer .footer-down-right a {
   display: inline-flex;
   font-weight: 600;
   text-decoration: none;
-  color: white;
+  color: #CEFA05;
   padding: 0px 2.25rem;
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
@@ -2145,8 +2149,8 @@ footer .footer-down-right a {
 }
 
 #flexible .flexible-area .flexible-right a:hover {
-  background-color: white;
-  color: #03523C;
+  background-color: #CEFA05;
+  color: #005249;
 }
 
 #job-skills {
@@ -2342,7 +2346,7 @@ footer .footer-down-right a {
 }
 
 #job-skills .job-form-area {
-  background-color: #2A32C5;
+  background-color: #005249;
   color: white;
   padding: 24px;
   display: -webkit-box;
@@ -2404,7 +2408,7 @@ footer .footer-down-right a {
 }
 
 #job-skills .job-form-area .job-area-left .job-select .button-group {
-  border: 1px solid white;
+  border: 1px solid #CEFA05;
   border-radius: 4px;
   width: 40%;
   display: -webkit-box;
@@ -2422,8 +2426,8 @@ footer .footer-down-right a {
 }
 
 #job-skills .job-form-area .job-area-left .job-select .button-group .backGroundColor {
-  background-color: white;
-  color: #2A32C5;
+  color: #005249 !important;
+  background-color: #CEFA05;
   font-weight: 700;
 }
 
@@ -2446,6 +2450,8 @@ footer .footer-down-right a {
           justify-content: center;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  color: #CEFA05;
+  padding: 5px 0px;
 }
 
 @media (max-width: 768px) {
@@ -2483,6 +2489,8 @@ footer .footer-down-right a {
           justify-content: center;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  color: #CEFA05;
+  padding: 5px 0px;
 }
 
 @media (max-width: 768px) {
@@ -2603,16 +2611,17 @@ footer .footer-down-right a {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-  color: #2A32C5;
-  background-color: white;
+  color: #005249;
+  background-color: #CEFA05;
   -webkit-transition: all 100ms ease-in 0s;
   transition: all 100ms ease-in 0s;
   border: none;
 }
 
 #job-skills .job-form-area .job-area-right .input-and-button-area .job-button button:hover {
-  background-color: #272C8C;
-  color: white;
+  background-color: #005249;
+  color: #CEFA05;
+  border: 1px solid #CEFA05;
 }
 
 #job-skills .job-form-area .job-area-right .input-down-write {
@@ -2870,7 +2879,7 @@ footer .footer-down-right a {
 }
 
 #payment-options {
-  background-color: #E8E6EF;
+  background-color: #F8F9F2;
 }
 
 #payment-options .payment-text-area p {
@@ -2894,12 +2903,13 @@ footer .footer-down-right a {
 }
 
 #payment-options .payment-button-area .payment-button-left {
-  border-left: 2px solid white;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-left: 2px solid #CEFA05;
+  border-top: 2px solid #CEFA05;
+  border-bottom: 2px solid #CEFA05;
   border-left: none;
   border-radius: 4px;
   background-color: white;
+  color: #005249;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2928,12 +2938,13 @@ footer .footer-down-right a {
 }
 
 #payment-options .payment-button-area .payment-button-right {
-  border-right: 2px solid white;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-right: 2px solid #CEFA05;
+  border-top: 2px solid #CEFA05;
+  border-bottom: 2px solid #CEFA05;
   border-left: none;
   background-color: white;
   border-radius: 4px;
+  color: #005249;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2962,8 +2973,8 @@ footer .footer-down-right a {
 }
 
 #payment-options .payment-button-area .payment-backGround {
-  background-color: #2A32C5;
-  color: white;
+  background-color: #CEFA05;
+  color: #005249;
   font-weight: 700;
 }
 
@@ -3133,10 +3144,6 @@ footer .footer-down-right a {
   }
 }
 
-#schedule-call {
-  background-image: url("https://images.ctfassets.net/344fh7n2hs9h/4FS27OgUzXcBPpFWWeJTSa/d8f1af66bc5a0e8fe6e0413d6f85867b/blue_pattern.svg");
-}
-
 #schedule-call .schedule-text-area {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3191,9 +3198,9 @@ footer .footer-down-right a {
 #schedule-call .schedule-button-area a {
   padding: 0px 36px;
   border-radius: 24px;
-  color: #2A32C5;
-  background-color: white;
-  border: 1px solid white;
+  color: #CEFA05;
+  background-color: #005249;
+  border: 1px solid transparent;
   height: 48px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3216,8 +3223,8 @@ footer .footer-down-right a {
 }
 
 #schedule-call .schedule-button-area a:hover {
-  color: white;
-  background-color: #2A32C5;
+  color: #005249;
+  background-color: #CEFA05;
 }
 
 #bootcamp-table .row {
@@ -3498,12 +3505,12 @@ footer .footer-down-right a {
 }
 
 #admissions-process {
-  background-color: #2A32C5;
+  background-color: #005249;
   color: white;
 }
 
 #admissions-process .first-row {
-  background-color: #3A4BDD;
+  background-color: #02685F;
 }
 
 #admissions-process .admissions-text-area h3 {
@@ -3549,12 +3556,13 @@ footer .footer-down-right a {
 }
 
 #admissions-process .admissions-inputs-area .payment-button-area .payment-button-left {
-  border-left: 2px solid white;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-left: 2px solid #CEFA05 !important;
+  border-top: 2px solid #CEFA05;
+  border-bottom: 2px solid #CEFA05;
   border-left: none;
   border-radius: 4px;
-  background-color: #2A32C5;
+  background-color: #02685F;
+  color: #005249;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3583,11 +3591,12 @@ footer .footer-down-right a {
 }
 
 #admissions-process .admissions-inputs-area .payment-button-area .payment-button-right {
-  border-right: 2px solid white;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-right: 2px solid #CEFA05;
+  border-top: 2px solid #CEFA05;
+  border-bottom: 2px solid #CEFA05;
   border-left: none;
-  background-color: #2A32C5;
+  background-color: #CEFA05;
+  color: #005249;
   border-radius: 4px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3617,8 +3626,8 @@ footer .footer-down-right a {
 }
 
 #admissions-process .admissions-inputs-area .payment-button-area .payment-backGround {
-  background-color: white;
-  color: #2A32C5;
+  background-color: #005249;
+  color: #CEFA05;
   font-weight: 700;
 }
 
@@ -3661,8 +3670,8 @@ footer .footer-down-right a {
 #admissions-process .admissions-inputs .button-side button {
   border: none;
   width: 70%;
-  color: #2A32C5;
-  background-color: white;
+  color: #005249;
+  background-color: #CEFA05;
   font-weight: 700;
   height: 48px;
   padding: 0px 36px;
@@ -3682,8 +3691,8 @@ footer .footer-down-right a {
 }
 
 #admissions-process .admissions-inputs .button-side button:hover {
-  color: white;
-  background-color: #2A32C5;
+  color: #CEFA05;
+  background-color: #005249;
 }
 
 @media (max-width: 768px) {
