@@ -39,4 +39,86 @@ main{
             }
         }
     }
+    #work-two{
+        .row{
+            padding: 0 80px;
+            @media (max-width:768px) {
+                padding: 0 24px;
+            }
+        }
+        .work-two-img{
+            @include flexible(center,center,row);
+            img{
+                width: max-content;
+                object-fit: contain;
+            }
+            @media (max-width:768px) {
+                order: 2;
+                img{
+                    max-width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+        .work-two-content{
+            @include flexible($jus:center, $direction:column);
+            h3{
+                @include TextFont($f_size:20px, $margin:0 0 8px 0);
+            }
+            h2{
+                @include TextFont($f_size:44px, $text_weight:700, $padding:8px 0 32px 0, $line_height:1.07);
+            }
+            p{
+                @include TextFont($f_size:18px, $line_height:1.4, $margin:0 0 16px 0);
+                width: 84%;
+            }
+            @media (max-width:768px) {
+                p{
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    #work-three{
+        .row{
+            padding: 0 80px;
+            @media (max-width:768px) {
+                padding: 0 24px;
+            }
+        }
+        .work-three-img{
+            @include flexible(center,center,row);
+            img{
+                width: max-content;
+                object-fit: contain;
+            }
+            @media (max-width:768px) {
+                order: 2;
+                img{
+                    max-width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+        .work-three-content{
+            @include flexible($jus:center, $direction:column);
+            h3{
+                @include TextFont($f_size:20px, $margin:0 0 8px 0);
+            }
+            h2{
+                @include TextFont($f_size:44px, $text_weight:700, $padding:8px 0 32px 0, $line_height:1.07);
+            }
+            p{
+                @include TextFont($f_size:18px, $line_height:1.4, $margin:0 0 16px 0);
+                width: 84%;
+            }
+            @media (max-width:768px) {
+                p{
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
 }
