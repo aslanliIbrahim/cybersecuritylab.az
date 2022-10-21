@@ -1660,6 +1660,14 @@ footer .footer-down-right a {
      object-fit: contain;
 }
 
+#course-two {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0;
+  background-color: white;
+  z-index: 10000;
+}
+
 #course-two .option-area {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1679,7 +1687,7 @@ footer .footer-down-right a {
 }
 
 #course-two .option-area .active {
-  border-bottom: 3px solid #2A32C5;
+  border-bottom: 3px solid #CEFA05;
 }
 
 #course-two .option-area .active a {
