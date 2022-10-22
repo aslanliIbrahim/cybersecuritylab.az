@@ -4684,6 +4684,79 @@ main #highlights ul li p {
   font-weight: 700;
 }
 
+main #roadSucces .road-left {
+  padding: 32px 0px;
+}
+
+@media (max-width: 768px) {
+  main #roadSucces .road-left {
+    padding: 0px 20px;
+    margin: 16px 0px;
+  }
+}
+
+main #roadSucces .road-left h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.07;
+  margin: 0px 0px 24px 0;
+}
+
+main #roadSucces .road-left p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0 0 16px 0;
+}
+
+main #roadSucces .road-right {
+  padding: 32px 0px;
+}
+
+main #roadSucces .road-right .road-button {
+  padding: 0px 40px;
+  margin: 32px 0px;
+}
+
+@media (max-width: 768px) {
+  main #roadSucces .road-right .road-button {
+    padding: 0px 16px;
+    margin: 16px 0px;
+  }
+}
+
+main #roadSucces .road-right .road-button a {
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 46px;
+  padding: 0px 36px;
+  font-size: 16px;
+  border-radius: 24px;
+  border: none;
+  background-color: #2A32C5;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  color: white;
+  font-weight: 700;
+}
+
+main #roadSucces .road-right .road-button a:hover {
+  background-color: #272C8C;
+}
+
+@media (max-width: 768px) {
+  main #roadSucces .road-right .road-button a {
+    width: 100%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -183,4 +183,55 @@ main{
             }
         }
     }
+
+    #roadSucces{
+
+        .road-left{
+            padding: 32px 0px;
+            @media (max-width:768px) {
+                padding: 0px 20px;
+                margin: 16px 0px;
+            }
+            h2{
+                @include TextFont($f_size:44px, $text_weight:700, $line_height:1.07, $margin: 0px 0px 24px 0);
+            }
+            p{
+                @include TextFont($f_size:18px, $line_height:1.4, $margin:0 0 16px 0);
+            }
+        }
+        .road-right{
+            padding: 32px 0px;
+           
+            .road-button{
+                padding: 0px 40px;
+                margin: 32px 0px;
+                @media (max-width:768px) {
+                    padding: 0px 16px;
+                    margin: 16px 0px;
+                }
+                a{
+                    // width: min-content;
+                    text-decoration: none;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 46px;
+                    padding: 0px 36px;
+                    font-size: 16px;
+                    border-radius: 24px;
+                    border: none;
+                    background-color: $special-blue;
+                    transition: 0.3s all ease-in-out;
+                    color: $white;
+                    font-weight: 700;
+                    &:hover{
+                        background-color: $purple-color;
+                    }
+                    @media (max-width:768px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }
