@@ -4418,6 +4418,195 @@ main #work-inputs .inputs-right .inputs-right-down p a {
   color: #A8A8A0;
 }
 
+#outcomes-one .one-left .one-left-up {
+  padding: 0 40px;
+  margin: 32px 0;
+}
+
+@media (max-width: 768px) {
+  #outcomes-one .one-left .one-left-up {
+    padding: 0px 20px;
+    margin: 16px 0px;
+  }
+}
+
+#outcomes-one .one-left .one-left-up h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+#outcomes-one .one-left .one-left-up h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+#outcomes-one .one-left .one-left-middle {
+  padding: 0 40px;
+  margin: 32px 0;
+}
+
+@media (max-width: 768px) {
+  #outcomes-one .one-left .one-left-middle {
+    padding: 0px 20px;
+    margin: 16px 0px;
+  }
+}
+
+#outcomes-one .one-left .one-left-middle p {
+  line-height: 1.4;
+  margin-bottom: 16px;
+  font-size: 19px;
+}
+
+#outcomes-one .one-left .one-left-down .inputs-left-up {
+  padding: 0px 40px;
+  margin: 32px 0px;
+}
+
+@media (max-width: 768px) {
+  #outcomes-one .one-left .one-left-down .inputs-left-up {
+    padding: 0px 20px;
+    margin: 16px 0px;
+  }
+}
+
+#outcomes-one .one-left .one-left-down .inputs-left-up .inputs-area {
+  max-width: 544px;
+}
+
+#outcomes-one .one-left .one-left-down .inputs-left-up .inputs-area .input-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 24px;
+}
+
+#outcomes-one .one-left .one-left-down .inputs-left-up .inputs-area .input-side label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+#outcomes-one .one-left .one-left-down .inputs-left-up .inputs-area .input-side input {
+  display: block;
+  padding: 0 16px;
+  height: 46px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid black;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+#outcomes-one .one-left .one-left-down .inputs-left-up .inputs-area .input-side input:hover {
+  border-color: #005249;
+}
+
+#outcomes-one .one-left .one-left-down .inputs-left-up .inputs-area .input-side p {
+  font-size: 12px;
+  padding-top: 10px;
+  color: #A8A8A0;
+}
+
+#outcomes-one .one-left .one-left-down .inputs-left-up .inputs-area .input-button-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#outcomes-one .one-left .one-left-down .inputs-left-up .inputs-area .input-button-side button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2A32C5;
+  color: white;
+  padding: 0px 36px;
+  font-size: 16px;
+  border-radius: 24px;
+  height: 46px;
+  border: none;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+#outcomes-one .one-left .one-left-down .inputs-left-up .inputs-area .input-button-side button:hover {
+  background-color: #272C8C;
+}
+
+@media (max-width: 768px) {
+  #outcomes-one .one-left .one-left-down .inputs-left-up .inputs-area .input-button-side button {
+    width: 100%;
+  }
+}
+
+#outcomes-one .one-left .one-left-down .inputs-right-down {
+  max-width: 623px;
+  padding: 0px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#outcomes-one .one-left .one-left-down .inputs-right-down p {
+  font-size: 12px;
+  color: #A8A8A0;
+  text-align: center;
+}
+
+#outcomes-one .one-left .one-left-down .inputs-right-down p a {
+  color: #A8A8A0;
+}
+
+@media (max-width: 768px) {
+  #outcomes-one .one-left .one-left-down .inputs-right-down {
+    padding: 0;
+  }
+}
+
+#outcomes-one .one-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#outcomes-one .one-right img {
+  width: 80%;
+  height: 752.4px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  #outcomes-one .one-right {
+    display: none;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
