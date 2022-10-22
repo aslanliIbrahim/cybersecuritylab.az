@@ -94,6 +94,7 @@
   $border: null,
   $text_align: null,
   $height:null,
+  $font_size:null
   
 ) {
   width: $width;
@@ -105,4 +106,5 @@
   border: $border;
   text-align: $text_align;
   height: $height;
+  font-size: $font_size;
 }

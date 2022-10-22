@@ -170,5 +170,84 @@ main{
             }
         }
 
+        .inputs-right{
+            // border: 2px solid red;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            @media (max-width:768px) {
+                padding: 0px 16px;
+            }
+            .inputs-right-up{
+                padding: 32px 0px;
+                
+                .inputs-area{
+                    margin-top: 17px;
+                    // border: 2px solid red;
+                    display: flex;
+                    flex-direction: column;
+                    .input-side{
+                        margin-bottom: 24px;
+                        display: flex;
+                        flex-direction: column;
+                        label{
+                            display: block;
+                            margin-bottom: 8px;
+                            font-size: 16px;
+                        }
+                        input{
+                            background: transparent;
+                            display: block;
+                            @include Inputs($width:100%,$padding:0px 16px, $height:46px);
+                            border: 1px solid $social-media;
+                            &:focus{
+                                border: 1px solid $special-blue;
+                            }
+                        }
+                        p{
+                            padding: 10px 0 0 0;
+                            font-size: 11px;
+                            color: $social-media;
+                            line-height: 1.4;
+                            margin: 0;
+                        }
+                    }
+                    .input-button-side{
+                        // border: 2px solid red;
+                        @include flexible($jus:flex-end);
+                        button{
+                            @include _button($padding:0px 36px, $font_size:16px,$border_radius:24px, $bg_color:$special-blue, $height:46px, $color:$white);
+                            display: inline-flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-color: transparent;
+                            transition: 0.3s all ease-in-out;
+                            &:hover{
+                                @include _button( $bg_color:$purple-color);
+                            }
+                            @media (max-width:768px) {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+
+                @media (max-width:768px) {
+                    padding: 16px 0px;
+                }
+            }
+            .inputs-right-down{
+                p{
+                    text-align: center;
+                    font-size: 12px;
+                    color: $social-media;
+                    margin: 16px 0 0 0;
+                    a{
+                        // text-decoration: none;
+                        color: $social-media;
+                    }
+                }
+            }
+        }
     }
 }
