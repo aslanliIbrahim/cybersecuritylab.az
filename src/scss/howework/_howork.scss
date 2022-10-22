@@ -121,6 +121,91 @@ main{
             }
         }
     }
+    #support-network{
+        // border: 2px solid red;
+
+        h2{
+            // border: 2px solid red;
+            @include TextFont($f_size:44px, $text_weight:700, $margin:0 0 40px 0, $line_height:1.07);
+        }
+
+        .buttons-area{
+            display: flex;
+            flex-direction: column;
+
+            button{
+                background-color: transparent;
+                border: 0px;
+                display: block;
+                font-size: 18px;
+                text-align: left;
+                padding: 8px 20px;
+                width: 186px;
+            }
+            .btnActive{
+                display: flex !important;
+                justify-content: space-between !important;
+                background-color: rgb(217, 230, 243) !important;
+                color: $special-blue !important;
+                font-size: 20px;
+            }
+            .hello{
+                display: none;
+            }
+            .cart{
+                display: block !important;
+            }
+        }
+
+        .right-one{
+            display: none;
+        }
+        .ok{
+            display: block !important;
+        }
+
+        .support-text{
+            padding-right: 25px;
+            margin-bottom: 54px;
+            h3{
+                @include TextFont($f_size:30px, $margin: 0 0 24px 0, $line_height:1.16, $text_weight:700);
+            }
+            p{
+                @include TextFont($f_size:19px, $line_height:1.4, $margin:0 0 16px 0);
+            }
+        }
+        .support-img{
+            margin-bottom: 54px;
+            img{
+                max-width: 499px;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+        .support-contents{
+            // border: 2px solid red;
+            padding: 0;
+            .support-content{
+                padding-right: 20px;
+                margin-bottom: 40px;
+
+                img{
+                    margin-bottom: 14px;
+                    width: 30px;
+                    height: 30px;
+                    object-fit: contain;
+                }
+                h6{
+                    @include TextFont($f_size:16px, $line_height:1, $text_weight:700, $margin:0 0 24px 0);
+                }
+                p{
+                    @include TextFont($f_size:14px, $margin:0 0 20px 0);
+                    width: 85%;
+                }
+            }
+        }
+
+    }
     #three{
         .for-how-work{
             @media (max-width:768px) {
@@ -130,7 +215,6 @@ main{
     }
     #work-inputs{
         background-color: $table-left-white;
-
         .inputs-left{
             padding: 32px 0px;
             @media (max-width:768px) {
@@ -169,7 +253,6 @@ main{
                 }
             }
         }
-
         .inputs-right{
             // border: 2px solid red;
             display: flex;
