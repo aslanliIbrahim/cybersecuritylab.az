@@ -126,4 +126,63 @@ main{
             }
         }
     }
+    #stories{
+        h2{
+            @include TextFont($f_size:36px, $margin:0 0 15px 0, $line_height:1.2);
+            @include TextFont($f_size:36px);
+        }
+        h3{
+            @include TextFont($f_size:18px, $margin:15px 0, $f_color:#9b9b9b);
+
+        }
+
+        .latest-cards{
+            // border: 2px solid red;
+            width: 288px;
+            img{
+                width: 280px;
+                height: 280px;
+                object-fit: cover;
+            }
+            p{
+                text-transform: uppercase;
+                font-size: 14px;
+                letter-spacing: 1.9px;
+                margin: 16px 0px;
+            }
+            a{
+                text-decoration: none;
+                color: $black;
+                h2{
+                    font-size: 22px;
+                    line-height: 30px;
+                    margin: 16px 0px;
+                    &:hover{
+                        text-decoration: solid !important;
+                    }
+                }
+                p{
+                    font-size: 16px;
+                    color: #666666;
+                }
+
+            }
+        }
+        .blog-nav-area{
+            display: flex;
+            justify-content: space-around;
+            // align-items: center;
+            .pagiantion{
+                color: #a8a8a8;
+                opacity: .65;
+                transition: .3s all ease-in-out;
+                text-decoration: none;
+                &:hover{
+                    color: #308ddf;
+                }
+                
+            }
+        }
+    }
+
 }
