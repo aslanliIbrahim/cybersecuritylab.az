@@ -4757,6 +4757,121 @@ main #roadSucces .road-right .road-button a:hover {
   }
 }
 
+main #chooseProgram {
+  background-color: #F2F2F2;
+}
+
+main #chooseProgram .program-left .content-area-last {
+  padding: 0px 40px;
+  margin: 32px 0px;
+}
+
+main #chooseProgram .program-left .content-area-last h1 {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+  main #chooseProgram .program-left .content-area-last {
+    padding: 16px 0px;
+    margin: 0  !important;
+  }
+  main #chooseProgram .program-left .content-area-last h1 {
+    font-size: 36px;
+  }
+}
+
+main #chooseProgram .form-area {
+  padding: 0px 40px;
+  margin: 32px 0px;
+}
+
+main #chooseProgram .form-area .select-box-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 24px;
+}
+
+main #chooseProgram .form-area .select-box-area label {
+  font-size: 16px;
+  margin: 0 0 8px 0;
+}
+
+main #chooseProgram .form-area .select-box-area select {
+  border: 1.5px solid #A8A8A0;
+  height: 46px;
+  width: 100%;
+  text-indent: 16px;
+  background-color: transparent;
+}
+
+main #chooseProgram .form-area .select-box-area select:hover {
+  border-color: #2A32C5;
+}
+
+main #chooseProgram .form-area .select-box-area input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  height: 46px;
+  padding: 0 16px;
+  border: 1.5px solid #A8A8A0;
+  background-color: transparent;
+}
+
+main #chooseProgram .form-area .select-box-area input:hover {
+  border-color: #2A32C5;
+}
+
+main #chooseProgram .form-area .button-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main #chooseProgram .form-area .button-area button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  height: 46px;
+  border-radius: 24px;
+  border: none;
+  color: white;
+  background-color: #2A32C5;
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+  padding: 0px 36px;
+}
+
+main #chooseProgram .form-area .button-area button:hover {
+  background-color: #272C8C;
+}
+
+@media (max-width: 768px) {
+  main #chooseProgram .form-area {
+    padding: 16px 0px;
+  }
+  main #chooseProgram .form-area .button-area button {
+    width: 100%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

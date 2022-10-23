@@ -234,4 +234,92 @@ main{
             }
         }
     }
+
+    #chooseProgram{
+        background-color: $table-left-white;
+        .program-left{
+            .content-area-last{
+                padding: 0px 40px;
+                margin: 32px 0px;
+                
+                h1{
+                    @include TextFont($f_size:54px,$line_height:1,$text_weight:700);
+                }
+                @media (max-width:768px) {
+                    padding: 16px 0px;
+                    margin: 0  !important;
+                    h1{
+                        font-size: 36px;
+                    }
+                }
+            }
+        }
+        
+        .form-area{
+            // border: 2px solid red;
+            padding: 0px 40px;
+            margin: 32px 0px;
+            
+            .select-box-area{
+                // border: 2px solid red;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 24px;
+                label{
+                    @include TextFont($f_size:16px, $margin:0 0 8px 0);
+                }
+                select{
+                    border: 1.5px solid $social-media;
+                    height: 46px;
+                    width: 100%;
+                    text-indent: 16px;
+                    background-color: transparent;
+                    &:hover{
+                        border-color:$special-blue;
+                    }
+                }
+                input{
+                    display: block;
+                    width: 100%;
+                    font-size: 16px;
+                    height: 46px;
+                    padding: 0 16px;
+                    border: 1.5px solid $social-media;
+                    background-color: transparent;
+                    &:hover{
+                        border-color: $special-blue;
+                    }
+
+                }
+            }
+            .button-area{
+                display: flex;
+                justify-content: flex-end;
+                button{
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 16px;
+                    height: 46px;
+                    border-radius: 24px;
+                    border: none;
+                    color: $white;
+                    background-color: $special-blue;
+                    transition: .3s all ease-in-out;
+                    padding: 0px 36px;
+                    &:hover{
+                        background-color: $purple-color;
+                    }
+                }
+            }
+            @media (max-width:768px) {
+                padding: 16px 0px;
+                .button-area{
+                    button{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }
