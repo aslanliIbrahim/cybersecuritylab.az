@@ -5687,6 +5687,92 @@ main #webinarsevent .addtion-button a:hover {
   }
 }
 
+.for-webinars-first {
+  background-color: white !important;
+}
+
+#webinars-beginner {
+  background-color: #F2F2F2;
+}
+
+#webinars-beginner .beginner-left {
+  padding: 0px 40px;
+  margin: 32px 0px;
+}
+
+#webinars-beginner .beginner-left h1 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+  #webinars-beginner .beginner-left {
+    padding: 0px 20px;
+    margin: 16px 0px;
+  }
+  #webinars-beginner .beginner-left h1 {
+    font-size: 36px;
+  }
+}
+
+#webinars-beginner .beginner-right {
+  padding: 0px 40px;
+  margin: 32px 0px;
+}
+
+#webinars-beginner .beginner-right p {
+  font-size: 18px;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  #webinars-beginner .beginner-right p {
+    font-size: 16px;
+  }
+}
+
+#webinars-beginner .beginner-right a {
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 46px;
+  border: none;
+  border-radius: 24px;
+  padding: 0 36px;
+  background-color: #2A32C5;
+  color: white;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  font-weight: 700;
+}
+
+#webinars-beginner .beginner-right a:hover {
+  background-color: #272C8C;
+}
+
+@media (max-width: 768px) {
+  #webinars-beginner .beginner-right a {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  #webinars-beginner .beginner-right {
+    padding: 0px 20px;
+    margin: 16px 0px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
