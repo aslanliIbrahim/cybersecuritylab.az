@@ -5170,6 +5170,65 @@ main #chooseProgram .form-area .button-area button:hover {
   }
 }
 
+#whycyber .row {
+  padding: 0px 80px;
+}
+
+@media (max-width: 768px) {
+  #whycyber .row {
+    padding: 0px 24px;
+  }
+}
+
+#whycyber .cybre-text-area {
+  padding: 0px 40px;
+  margin: 32px 0px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#whycyber .cybre-text-area h2 {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 1.07;
+  padding: 8px 0 32px 0;
+}
+
+#whycyber .cybre-text-area p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0 0 16px 0;
+}
+
+@media (max-width: 768px) {
+  #whycyber .cybre-text-area {
+    padding: 0;
+    margin: 0;
+  }
+  #whycyber .cybre-text-area h2 {
+    font-size: 1.875rem;
+  }
+  #whycyber .cybre-text-area p {
+    font-size: 16px;
+  }
+}
+
+#whycyber .cyber-img img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;

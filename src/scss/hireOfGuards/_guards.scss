@@ -36,3 +36,63 @@
         }
     }
 }
+
+#whycyber{
+    // border: 2px solid red;
+    .row{
+        padding: 0px 80px;
+        @media (max-width:768px) {
+            padding: 0px 24px;
+        }
+    }
+
+    .cybre-text-area{
+        padding: 0px 40px;
+        margin: 32px 0px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        h2{
+            @include TextFont(
+                $f_size:44px,
+                $text_weight:bold,
+                $padding:8px 0 32px 0,
+                $line_height:1.07
+
+            );
+        }
+        p{
+            @include TextFont(
+                $f_size:18px,
+                $line_height:1.4,
+                $margin: 0 0 16px 0,
+
+            );
+        }
+        @media (max-width:768px) {
+            padding: 0;
+            margin: 0;
+            h2{
+                @include TextFont(
+                    $f_size:1.875rem,
+                );
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+
+    .cyber-img{
+
+        img{
+            max-width:100%;
+            object-fit: cover;
+            width: 100%;
+            // height: auto;
+        }
+
+    }
+
+}
