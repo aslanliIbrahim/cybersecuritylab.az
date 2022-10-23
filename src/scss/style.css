@@ -4937,6 +4937,26 @@ main #chooseProgram .form-area .button-area button:hover {
   }
 }
 
+#work-one .work-one-right {
+  height: 350.6px !important;
+  display: block;
+  background-position: center top;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #work-one .work-one-right {
+    display: none;
+  }
+}
+
+#mentors .mentors-up-side p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+  max-width: 544px;
+}
+
 * {
   margin: 0;
   padding: 0;

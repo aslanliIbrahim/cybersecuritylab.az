@@ -1,0 +1,24 @@
+#work-one{
+
+    .work-one-right{
+        
+        height: 350.6px !important;
+        display: block;
+        background-position: center top;
+        background-size: cover;
+        @media (max-width:768px) {
+            display: none;
+        }
+    }
+}
+
+#mentors{
+    .mentors-up-side{
+        p{
+            font-size: 18px;
+            line-height: 1.4;
+            margin-bottom: 16px;
+            max-width: 544px;
+        }
+    }
+}
