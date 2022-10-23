@@ -5470,6 +5470,174 @@ main #stories .blog-nav-area .pagiantion:hover {
   color: #308ddf;
 }
 
+main #one #learning-center-for {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+main #one .for-learning h1 {
+  margin-bottom: 20px !important;
+}
+
+main #one .for-learning h3 {
+  font-size: 18px !important;
+  margin-bottom: 8px;
+}
+
+main #one .for-learning p {
+  font-size: 18px !important;
+  margin: 16px 0px;
+  line-height: 1.4;
+}
+
+main #one input {
+  background-color: transparent !important;
+  border: 1px solid #A8A8A0;
+}
+
+main #one select {
+  background-color: transparent !important;
+  border: 1px solid #A8A8A0;
+}
+
+main .for-background {
+  background-color: #CADEEA !important;
+}
+
+main #learning-two img {
+  max-width: 100%;
+}
+
+main #learning-two-rigth {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main #learning-two-rigth h2 {
+  text-align: center;
+}
+
+main #webinarsevent .for-first-row-learning {
+  padding: 0px 80px;
+}
+
+main #webinarsevent .webinars-card {
+  margin-bottom: 15px;
+}
+
+main #webinarsevent .webinars-card .card-left {
+  border: 1px solid black;
+  padding: 14.9px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+main #webinarsevent .webinars-card .card-left .first-span {
+  font-size: 16px;
+}
+
+main #webinarsevent .webinars-card .card-left .second-span {
+  font-size: 36px;
+  margin: 12px 0px;
+}
+
+main #webinarsevent .webinars-card .card-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+}
+
+main #webinarsevent .webinars-card .card-right .card-right-first {
+  width: 50%;
+  padding: 20px 16px;
+}
+
+main #webinarsevent .webinars-card .card-right .card-right-first h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.16;
+  font-weight: 700;
+}
+
+main #webinarsevent .webinars-card .card-right .card-right-second {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 16px;
+}
+
+main #webinarsevent .webinars-card .card-right .card-right-second p {
+  font-size: 18px;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+main #webinarsevent .webinars-card .card-right .card-right-second a {
+  text-transform: uppercase;
+  color: #A8A8A0;
+}
+
+main #webinarsevent .addtion-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+main #webinarsevent .addtion-button a {
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 46px;
+  border: none;
+  border-radius: 24px;
+  padding: 0 36px;
+  background-color: #2A32C5;
+  color: white;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  font-weight: 700;
+}
+
+main #webinarsevent .addtion-button a:hover {
+  background-color: #272C8C;
+}
+
 * {
   margin: 0;
   padding: 0;
