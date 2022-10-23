@@ -5325,6 +5325,79 @@ main #blog-one .blog-one-text .blog-link a span {
   }
 }
 
+main #blog-ul {
+  background-color: #F7F7F7;
+}
+
+main #blog-ul h3 {
+  font-size: 30px;
+  margin: 0 0 40px 0;
+  line-height: 1.25;
+  text-align: center;
+  color: #212121;
+}
+
+@media (max-width: 768px) {
+  main #blog-ul h3 {
+    font-size: 20px;
+  }
+}
+
+main #blog-ul .blog-ul-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #blog-ul .blog-ul-side ul {
+  margin: 0 auto;
+  max-width: 90%;
+  text-align: center;
+}
+
+main #blog-ul .blog-ul-side ul li {
+  margin: 0 15px 24px;
+  display: inline-block;
+  list-style: none;
+}
+
+main #blog-ul .blog-ul-side ul li a {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  padding: 8px 16px;
+  background-color: white;
+  text-decoration: none;
+  border: 1px solid #000;
+  display: block;
+  text-transform: uppercase;
+  color: black;
+  -webkit-transition: 0.3 ease-in-out;
+  transition: 0.3 ease-in-out;
+}
+
+main #blog-ul .blog-ul-side ul li a:hover {
+  -webkit-box-shadow: 3px 3px 0 black;
+          box-shadow: 3px 3px 0 black;
+  text-decoration: none;
+  -webkit-transform: translate(-3px, -3px);
+          transform: translate(-3px, -3px);
+}
+
+@media (max-width: 768px) {
+  main #blog-ul .blog-ul-side ul {
+    padding: 0;
+  }
+  main #blog-ul .blog-ul-side ul li {
+    margin: 0 8px 16px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
