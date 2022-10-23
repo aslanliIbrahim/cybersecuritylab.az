@@ -5110,6 +5110,66 @@ main #chooseProgram .form-area .button-area button:hover {
   }
 }
 
+.for-guards {
+  background-color: #F7F7F1 !important;
+}
+
+.for-guards .for-guards-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .for-guards .for-guards-left h1 {
+    margin-bottom: 60px;
+    padding-right: 30px;
+  }
+  .for-guards .for-guards-left p {
+    margin-bottom: 60px;
+  }
+}
+
+.for-guards .for-guards-left a {
+  text-decoration: none;
+  padding: 0px 36px;
+  height: 46px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #CEFA05;
+  color: #005249;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  border: none;
+  border-radius: 24px;
+  font-weight: bold;
+}
+
+.for-guards .for-guards-left a:hover {
+  background-color: #005249;
+  color: #CEFA05;
+}
+
+@media (max-width: 768px) {
+  .for-guards .for-guards-left a {
+    width: 100%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
