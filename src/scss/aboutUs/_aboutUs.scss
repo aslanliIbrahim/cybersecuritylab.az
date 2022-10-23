@@ -22,3 +22,115 @@
         }
     }
 }
+
+#aboutUs{
+  
+    .about-us-left{
+        padding: 0px 40px;
+        margin: 32px 0px;
+        h3{
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        h1{
+            font-size: 54px;
+            font-weight: 700;
+        }
+        @media (max-width:768px) {
+            padding: 0px 16px;
+            margin: 16px 0px;
+            h3{
+                font-size: 16px;
+            }
+            h1{
+                font-size: 36px;
+                line-height: 1;
+            }
+        }
+    }
+    .about-us-right-up{
+        padding: 0px 40px;
+        margin: 32px 0px;
+        p{
+            font-size: 18px;
+            line-height: 1.4;
+            margin-bottom: 16px;
+        }
+        @media (max-width:768px) {
+            padding: 0px 16px;
+            margin: 16px 0px;
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+    .about-us-down{
+        padding: 0 40px;
+        margin: 32px 0px;
+        a{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 46px;
+            padding: 0px 2.25rem;
+            transition: 100ms ease-in-out;
+            font-size: 16px;
+            border-radius: 24px;
+            border: none;
+            text-decoration: none;
+            background-color: $special-blue;
+            color: $white;
+            &:hover{
+                background-color: $purple-color;
+            }
+        }
+        @media (max-width:768px) {
+            padding: 0px 16px;
+            margin: 16px 0px;
+            a{
+                width: 100%;
+            }
+        }
+    }
+}
+
+#partners{
+    background-color: $table-left-white;
+    .row{
+        padding: 0px 80px;
+        @media (max-width:768px) {
+            padding: 0px 24px;
+        }
+    }
+    .partners-img{
+        img{
+            max-width: 100%;
+        }
+        @media (max-width:768PX) {
+            order: 2;
+        }
+    }
+    .partners-text{
+        display: flex;
+        align-items: flex-start;
+        justify-content:center;
+        flex-direction: column;
+        h2{
+            padding-top: 8px;
+            line-height: 1.07;
+            font-size: 2.75rem;
+            padding-bottom: 32px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 18px;
+            line-height: 1.4;
+            margin-bottom: 16px;
+        }
+        @media (max-width:768px) {
+            h2{
+                padding-bottom: 16px;
+            }
+        }
+    }
+}
