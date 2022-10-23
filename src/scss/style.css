@@ -5530,6 +5530,12 @@ main #webinarsevent .for-first-row-learning {
   padding: 0px 80px;
 }
 
+@media (max-width: 768px) {
+  main #webinarsevent .for-first-row-learning {
+    padding: 0px 24px;
+  }
+}
+
 main #webinarsevent .webinars-card {
   margin-bottom: 15px;
 }
@@ -5557,6 +5563,24 @@ main #webinarsevent .webinars-card .card-left .first-span {
 main #webinarsevent .webinars-card .card-left .second-span {
   font-size: 36px;
   margin: 12px 0px;
+}
+
+@media (max-width: 768px) {
+  main #webinarsevent .webinars-card .card-left {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  main #webinarsevent .webinars-card .card-left span {
+    font-size: 20px !important;
+  }
 }
 
 main #webinarsevent .webinars-card .card-right {
@@ -5602,6 +5626,24 @@ main #webinarsevent .webinars-card .card-right .card-right-second a {
   color: #A8A8A0;
 }
 
+@media (max-width: 768px) {
+  main #webinarsevent .webinars-card .card-right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main #webinarsevent .webinars-card .card-right h3 {
+    font-size: 24px;
+  }
+  main #webinarsevent .webinars-card .card-right .card-right-first {
+    width: 100%;
+  }
+  main #webinarsevent .webinars-card .card-right .card-right-second {
+    width: 100%;
+  }
+}
+
 main #webinarsevent .addtion-button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5636,6 +5678,13 @@ main #webinarsevent .addtion-button a {
 
 main #webinarsevent .addtion-button a:hover {
   background-color: #272C8C;
+}
+
+@media (max-width: 768px) {
+  main #webinarsevent .addtion-button a {
+    width: 100%;
+    font-size: 15px;
+  }
 }
 
 * {
