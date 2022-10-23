@@ -4757,6 +4757,71 @@ main #roadSucces .road-right .road-button a:hover {
   }
 }
 
+main #mentors {
+  background-color: #F2F2F2;
+}
+
+main #mentors .row {
+  padding: 0px 80px;
+}
+
+@media (max-width: 768px) {
+  main #mentors .row {
+    padding: 0px 24px;
+  }
+}
+
+main #mentors h2 {
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  line-height: 1.07;
+}
+
+@media (max-width: 768px) {
+  main #mentors h2 {
+    font-size: 30px;
+  }
+}
+
+main #mentors .mentors-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+main #mentors .mentors-card .mentors-img img {
+  width: 100%;
+  max-width: 166px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main #mentors .mentors-card .mentors-about {
+  padding: 8px 48px 8px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #mentors .mentors-card .mentors-about h6 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+main #mentors .mentors-card .mentors-about p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
 main #chooseProgram {
   background-color: #F2F2F2;
 }
