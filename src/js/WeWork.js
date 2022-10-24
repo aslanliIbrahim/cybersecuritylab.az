@@ -3,9 +3,6 @@ const forPanel = document.querySelectorAll(".right-one")
 const panelArr = [...forPanel]
 const btnArr = [...forJsBtn]
 
-
-
-
 btnArr.forEach(btn => {
     btn.addEventListener("click", function(){
         const currentBtnActive = document.querySelectorAll(".forjsbtn.btnActive");
@@ -13,11 +10,15 @@ btnArr.forEach(btn => {
         const currentHello = document.querySelectorAll(".hello.cart")
         const btnattr = btn.getAttribute("data-for-panel");
         const dataPanelClass = document.getElementsByClassName("right-one");
-        const dataPanelId = document.getAttribute("data-panel-id");
+        var ibo;
+        for (let g = 0; g < dataPanelClass.length; g++) {
+            if (dataPanelClass[g].getAttribute("data-panel-id") == btnattr) {
+                ibo = btnattr
+            } 
+        }
+        console.log(ibo);
         const currentActivePanel = document.querySelectorAll("right-one.ok");
 
-        console.log(dataPanelId);
-        console.log(btnattr);
         if (btn.classList.contains("btnActive")) {
             btn.classList.remove("btnActive");
             for (let x = 0; x < currentHello.length; x++) {
@@ -38,12 +39,34 @@ btnArr.forEach(btn => {
             for (let l = 0; l < currentActivePanel.length; l++) {
                 currentActivePanel[l].classList.remove("ok");
             }
-            if (btnattr === dataPanelId ) {
-                for (let t = 0; t < dataPanelClass.length; t++) {
-                    dataPanelClass[t].classList.add("ok")
-                    
-                } 
+
+            for (let e = 0; e < dataPanelClass.length; e++) {
+                
+                if (dataPanelClass[e].getAttribute("data-panel-id") == btnattr) {
+                    dataPanelClass[e].classList.add("ok")
+                } else{
+                    if ( dataPanelClass[e].classList.contains("ok")) {
+                        dataPanelClass[e].classList.remove("ok")
+                    }
+                }
+
+                
             }
+
+            // if (btnattr === dataPanelId ) {
+            //     for (let t = 0; t < dataPanelClass.length; t++) {
+            //         dataPanelClass[t].classList.add("ok")
+                    
+            //     } 
+            // }
+            // if (btnattr === "first") {
+            //     for (let t = 0; t < dataPanelClass.length; t++) {
+            //                 dataPanelClass[t].classList.add("ok")
+                            
+            //             } 
+            // }else{
+            //     console.log('not ok');
+            // }
         }
 
         
