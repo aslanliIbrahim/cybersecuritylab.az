@@ -109,7 +109,7 @@ nav .navigation .nav-side ul li .sub-menu {
 nav .navigation .nav-side ul li .sub-menu-active {
   display: block !important;
   position: absolute;
-  top: 75px;
+  top: 62px;
   left: -111px;
   border: 2px solid black;
   background-color: white;
@@ -236,11 +236,10 @@ nav .navigation .nav-side .button-area .have-question a:hover {
 
 @media (max-width: 768px) {
   nav .nav-phone-area {
-    display: block;
+    display: none;
     background-color: white;
     height: 100vh;
     width: 100%;
-    border: 2px solid red;
   }
 }
 
@@ -3198,8 +3197,8 @@ footer .footer-down-right a {
 #schedule-call .schedule-button-area a {
   padding: 0px 36px;
   border-radius: 24px;
-  color: #CEFA05;
-  background-color: #005249;
+  color: #005249;
+  background-color: #CEFA05;
   border: 1px solid transparent;
   height: 48px;
   display: -webkit-box;
@@ -3223,8 +3222,8 @@ footer .footer-down-right a {
 }
 
 #schedule-call .schedule-button-area a:hover {
-  color: #005249;
-  background-color: #CEFA05;
+  color: #CEFA05;
+  background-color: #005249;
 }
 
 #bootcamp-table .row {
@@ -4138,6 +4137,7 @@ main #support-network .buttons-area button {
   text-align: left;
   padding: 8px 20px;
   width: 186px;
+  color: #005249;
 }
 
 main #support-network .buttons-area .btnActive {
@@ -4147,8 +4147,8 @@ main #support-network .buttons-area .btnActive {
   -webkit-box-pack: justify !important;
       -ms-flex-pack: justify !important;
           justify-content: space-between !important;
-  background-color: #d9e6f3 !important;
-  color: #2A32C5 !important;
+  background-color: #E9FFE8 !important;
+  color: #005249 !important;
   font-size: 20px;
 }
 
@@ -4373,8 +4373,8 @@ main #work-inputs .inputs-right .inputs-right-up .inputs-area .input-button-side
 main #work-inputs .inputs-right .inputs-right-up .inputs-area .input-button-side button {
   padding: 0px 36px;
   border-radius: 24px;
-  color: white;
-  background-color: #2A32C5;
+  color: #CEFA05;
+  background-color: #005249;
   height: 46px;
   font-size: 16px;
   display: -webkit-inline-box;
@@ -4392,7 +4392,8 @@ main #work-inputs .inputs-right .inputs-right-up .inputs-area .input-button-side
 }
 
 main #work-inputs .inputs-right .inputs-right-up .inputs-area .input-button-side button:hover {
-  background-color: #272C8C;
+  color: #005249;
+  background-color: #CEFA05;
 }
 
 @media (max-width: 768px) {
@@ -4740,15 +4741,16 @@ main #roadSucces .road-right .road-button a {
   font-size: 16px;
   border-radius: 24px;
   border: none;
-  background-color: #2A32C5;
+  background-color: #005249;
   -webkit-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
-  color: white;
+  color: #CEFA05;
   font-weight: 700;
 }
 
 main #roadSucces .road-right .road-button a:hover {
-  background-color: #272C8C;
+  background-color: #CEFA05;
+  color: #005249;
 }
 
 @media (max-width: 768px) {
@@ -4917,15 +4919,17 @@ main #chooseProgram .form-area .button-area button {
   height: 46px;
   border-radius: 24px;
   border: none;
-  color: white;
-  background-color: #2A32C5;
+  font-weight: 700;
+  color: #CEFA05;
+  background-color: #005249;
   -webkit-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;
   padding: 0px 36px;
 }
 
 main #chooseProgram .form-area .button-area button:hover {
-  background-color: #272C8C;
+  background-color: #CEFA05;
+  color: #005249;
 }
 
 @media (max-width: 768px) {
@@ -5030,12 +5034,14 @@ main #chooseProgram .form-area .button-area button:hover {
   border-radius: 24px;
   border: none;
   text-decoration: none;
-  background-color: #2A32C5;
-  color: white;
+  font-weight: 700;
+  background-color: #005249;
+  color: #CEFA05;
 }
 
 #aboutUs .about-us-down a:hover {
-  background-color: #272C8C;
+  background-color: #CEFA05;
+  color: #005249;
 }
 
 @media (max-width: 768px) {
@@ -5669,15 +5675,16 @@ main #webinarsevent .addtion-button a {
   border: none;
   border-radius: 24px;
   padding: 0 36px;
-  background-color: #2A32C5;
-  color: white;
+  background-color: #CEFA05;
+  color: #005249;
   -webkit-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
   font-weight: 700;
 }
 
 main #webinarsevent .addtion-button a:hover {
-  background-color: #272C8C;
+  background-color: #005249;
+  color: #CEFA05;
 }
 
 @media (max-width: 768px) {

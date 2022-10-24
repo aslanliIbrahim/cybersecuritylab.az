@@ -1222,12 +1222,12 @@
         @include padding(0 0 119px 0);
         @include flexible(center,center,row);
         a{
-            @include _button($height:48px,$padding:0px 36px, $border:1px solid transparent, $border_radius:24px,$bg_color:$special-green-hover, $color:$special-green);
+            @include _button($height:48px,$padding:0px 36px, $border:1px solid transparent, $border_radius:24px,$bg_color:$special-green, $color:$special-green-hover);
             @include flexible(center,center,row);
             @include TextFont($text_weight:700,$text_decaration:none);
             transition: 0.2s ease-in-out;
             &:hover{
-                @include _button($bg_color:$special-green, $color:$special-green-hover);
+                @include _button($bg_color:$special-green-hover, $color:$special-green);
             }
         }
     }

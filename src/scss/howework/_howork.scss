@@ -141,12 +141,13 @@ main{
                 text-align: left;
                 padding: 8px 20px;
                 width: 186px;
+                color: $special-green-hover;
             }
             .btnActive{
                 display: flex !important;
                 justify-content: space-between !important;
-                background-color: rgb(217, 230, 243) !important;
-                color: $special-blue !important;
+                background-color: #E9FFE8 !important;
+                color: $special-green-hover !important;
                 font-size: 20px;
             }
             .hello{
@@ -299,14 +300,14 @@ main{
                         // border: 2px solid red;
                         @include flexible($jus:flex-end);
                         button{
-                            @include _button($padding:0px 36px, $font_size:16px,$border_radius:24px, $bg_color:$special-blue, $height:46px, $color:$white);
+                            @include _button($padding:0px 36px, $font_size:16px,$border_radius:24px, $bg_color:$special-green-hover, $height:46px, $color:$special-green);
                             display: inline-flex;
                             justify-content: center;
                             align-items: center;
                             border-color: transparent;
                             transition: 0.3s all ease-in-out;
                             &:hover{
-                                @include _button( $bg_color:$purple-color);
+                                @include _button( $bg_color:$special-green, $color:$special-green-hover);
                             }
                             @media (max-width:768px) {
                                 width: 100%;

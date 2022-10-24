@@ -78,10 +78,12 @@
             border-radius: 24px;
             border: none;
             text-decoration: none;
-            background-color: $special-blue;
-            color: $white;
+            font-weight: 700;
+            background-color: $special-green-hover;
+            color: $special-green;
             &:hover{
-                background-color: $purple-color;
+                background-color: $special-green;
+                color: $special-green-hover;
             }
         }
         @media (max-width:768px) {

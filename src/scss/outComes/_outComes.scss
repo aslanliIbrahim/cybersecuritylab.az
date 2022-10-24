@@ -220,12 +220,13 @@ main{
                     font-size: 16px;
                     border-radius: 24px;
                     border: none;
-                    background-color: $special-blue;
+                    background-color: $special-green-hover;
                     transition: 0.3s all ease-in-out;
-                    color: $white;
+                    color: $special-green;
                     font-weight: 700;
                     &:hover{
-                        background-color: $purple-color;
+                        background-color: $special-green;
+                        color: $special-green-hover;
                     }
                     @media (max-width:768px) {
                         width: 100%;
@@ -352,12 +353,14 @@ main{
                     height: 46px;
                     border-radius: 24px;
                     border: none;
-                    color: $white;
-                    background-color: $special-blue;
+                    font-weight: 700;
+                    color: $special-green;
+                    background-color: $special-green-hover;
                     transition: .3s all ease-in-out;
                     padding: 0px 36px;
                     &:hover{
-                        background-color: $purple-color;
+                        background-color: $special-green;
+                        color: $special-green-hover;
                     }
                 }
             }

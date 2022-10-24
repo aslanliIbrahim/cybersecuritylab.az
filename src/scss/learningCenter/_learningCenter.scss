@@ -137,12 +137,13 @@ main{
                 border: none;
                 border-radius: 24px;
                 padding: 0 36px;
-                background-color: $special-blue;
-                color: $white;
+                background-color: $special-green;
+                color: $special-green-hover;
                 transition: 0.3s all ease-in-out;
                 font-weight: 700;
                 &:hover{
-                    background-color: $purple-color;
+                    background-color: $special-green-hover;
+                    color: $special-green;
                 }
                 @media (max-width:768px) {
                     width: 100%;
