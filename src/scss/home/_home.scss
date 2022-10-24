@@ -326,6 +326,9 @@ main{
         // border: 2px solid red;
         .row{
             @include padding(0px 80px);
+            @media (max-width:768px) {
+                padding: 0px 24px;
+            }
         }
         .two-side-left{
             // border: 2px solid blue;
@@ -337,6 +340,9 @@ main{
                 text-align: inherit;
                 font-weight: 700;
                 margin-bottom: 40px;
+                @media (max-width:768px) {
+                    margin-bottom: 20px;
+                }
             }
             p{
                 // border: 2px solid red;
@@ -369,6 +375,9 @@ main{
         }
         .two-right-side{
             // border: 2px solid red;
+            @media (max-width:768px) {
+                margin-top: 20px;
+            }
             img{
                 width: 100%;
                 object-fit: contain;

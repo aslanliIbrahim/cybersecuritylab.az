@@ -491,6 +491,12 @@ main #two .row {
   padding: 0px 80px;
 }
 
+@media (max-width: 768px) {
+  main #two .row {
+    padding: 0px 24px;
+  }
+}
+
 main #two .two-side-left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -513,6 +519,12 @@ main #two .two-side-left h2 {
   text-align: inherit;
   font-weight: 700;
   margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  main #two .two-side-left h2 {
+    margin-bottom: 20px;
+  }
 }
 
 main #two .two-side-left p {
@@ -557,6 +569,12 @@ main #two .two-side-left .outline-a {
 main #two .two-side-left .outline-a:hover {
   background-color: #005249;
   color: #CEFA05;
+}
+
+@media (max-width: 768px) {
+  main #two .two-right-side {
+    margin-top: 20px;
+  }
 }
 
 main #two .two-right-side img {
