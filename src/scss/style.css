@@ -528,7 +528,7 @@ main #two .two-side-left h2 {
   }
 }
 
-@media (width: 1366px) {
+@media (max-width: 1366px) {
   main #two .two-side-left h2 {
     max-width: 75%;
   }
