@@ -1,4 +1,12 @@
 main{
+    #outcomes-one{
+        .row{
+            padding: 0px 32px;
+            @media (max-width:768px) {
+                padding: 0;
+            }
+        }
+    }
     #work-one{
         background-color: $background-color-white;
         .work-one-left{

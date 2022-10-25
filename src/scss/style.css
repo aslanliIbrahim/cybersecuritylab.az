@@ -4099,6 +4099,16 @@ footer .footer-down-right a {
   text-decoration: none;
 }
 
+main #outcomes-one .row {
+  padding: 0px 32px;
+}
+
+@media (max-width: 768px) {
+  main #outcomes-one .row {
+    padding: 0;
+  }
+}
+
 main #work-one {
   background-color: #E6EEED;
 }
@@ -4746,8 +4756,8 @@ main #outcomes-one .one-left .one-left-down .inputs-left-up .inputs-area .input-
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #2A32C5;
-  color: white;
+  background-color: #CEFA05;
+  color: #005249;
   padding: 0px 36px;
   font-size: 16px;
   border-radius: 24px;
@@ -4755,10 +4765,12 @@ main #outcomes-one .one-left .one-left-down .inputs-left-up .inputs-area .input-
   border: none;
   -webkit-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
+  font-weight: 700;
 }
 
 main #outcomes-one .one-left .one-left-down .inputs-left-up .inputs-area .input-button-side button:hover {
-  background-color: #272C8C;
+  background-color: #005249;
+  color: #CEFA05;
 }
 
 @media (max-width: 768px) {
@@ -4970,6 +4982,12 @@ main #roadSucces .road-right .road-button a:hover {
 @media (max-width: 768px) {
   main #roadSucces .road-right .road-button a {
     width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  main #roadSucces .road-right .road-button {
+    padding: 0px 70px;
   }
 }
 
@@ -5831,6 +5849,12 @@ main #webinarsevent .webinars-card .card-left .second-span {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1300px) {
+  main #webinarsevent .webinars-card .card-left {
+    height: 100%;
+  }
+}
+
 main #webinarsevent .webinars-card .card-right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5914,10 +5938,10 @@ main #webinarsevent .addtion-button a {
       -ms-flex-align: center;
           align-items: center;
   height: 46px;
-  border: none;
+  border: 2px solid #005249;
   border-radius: 24px;
   padding: 0 36px;
-  background-color: #CEFA05;
+  background-color: transparent;
   color: #005249;
   -webkit-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
@@ -5997,15 +6021,16 @@ main #webinarsevent .addtion-button a:hover {
   border: none;
   border-radius: 24px;
   padding: 0 36px;
-  background-color: #2A32C5;
-  color: white;
+  background-color: #CEFA05;
+  color: #005249;
   -webkit-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
   font-weight: 700;
 }
 
 #webinars-beginner .beginner-right a:hover {
-  background-color: #272C8C;
+  background-color: #005249;
+  color: #CEFA05;
 }
 
 @media (max-width: 768px) {

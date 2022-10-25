@@ -75,6 +75,9 @@ main{
                         font-size: 20px !important;
                     }
                 }
+                @media (min-width:768px) and (max-width:1300px) {
+                    height: 100%;
+                }
             }
             .card-right{
                 display: flex;
@@ -134,10 +137,10 @@ main{
                 justify-content: center;
                 align-items: center;
                 height: 46px;
-                border: none;
+                border: 2px solid $special-green-hover;
                 border-radius: 24px;
                 padding: 0 36px;
-                background-color: $special-green;
+                background-color: transparent;
                 color: $special-green-hover;
                 transition: 0.3s all ease-in-out;
                 font-weight: 700;
