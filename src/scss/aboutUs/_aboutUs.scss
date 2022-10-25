@@ -9,6 +9,10 @@
         @media (max-width:768px) {
             display: none;
         }
+        @media (min-width:768px) and (max-width:1300px) {
+            background-size: contain;
+            background-repeat-x: no-repeat;
+        }
     }
 }
 
@@ -19,6 +23,14 @@
             line-height: 1.4;
             margin-bottom: 16px;
             max-width: 544px;
+        }
+    }
+}
+
+#eight{
+    @media (min-width:768px) and (max-width:1300px) {
+        .eight-p{
+            width: 50%;
         }
     }
 }
@@ -45,6 +57,11 @@
             h1{
                 font-size: 36px;
                 line-height: 1;
+            }
+        }
+        @media (min-width:768px) and (max-width:1300px) {
+            h1{
+                font-size: 49px;
             }
         }
     }
@@ -110,6 +127,13 @@
         }
         @media (max-width:768PX) {
             order: 2;
+        }
+        @media (min-width:768px) and (max-width:1300px) {
+            img{
+                width: 420px;
+                height: 420px;
+                object-fit: contain;
+            }
         }
     }
     .partners-text{

@@ -26,7 +26,10 @@
             h1{
                 @include TextFont($f_size:51px,$line_height:1, $f_color:$black, $text_weight:700);
             }
+
+            
         }
+
         .course-one-middle-up{
             @include padding(0px 40px);
             @include margin(32px 0px);
@@ -45,7 +48,7 @@
             //mediaScreen
 
             p{
-                @include TextFont($f_size:18px, $margin:16px);
+                @include TextFont($f_size:18px);
 
             }
             a{
@@ -87,6 +90,16 @@
                         @include Img($img_width:auto, $img_height:auto, $object_fit:contain);
                     }
                    
+                }
+            }
+        }
+
+        @media (min-width:768px) and (max-width:1300px) {
+            margin: 40px 0px;
+            
+            .course-one-middle-up{
+                a{
+                    margin-left: -8px;
                 }
             }
         }
@@ -315,6 +328,11 @@
                     font-size: 54px;
                     font-weight: bold;
                 }
+                @media (min-width:768px) and (max-width:1300px) {
+                    .first-h5{
+                        margin-top: 30px;
+                    }
+                }
             }
            
             .table-right{
@@ -372,6 +390,28 @@
                             }
                         }
                     }
+                }
+
+                @media (min-width:768px) and (max-width:1300px) {
+                   justify-content: space-around;
+                   
+                   .leftSide{
+                        .leftSide-up{
+                            h5{
+                                font-size: 19px;
+                            }
+                        }
+
+                        ul{
+                            li{
+                                img{
+                                    margin-right: 10px;
+                                }
+                                display: flex;
+                                font-size: 16px;
+                            }
+                        }
+                   }
                 }
             }
         }
@@ -494,6 +534,14 @@
                 &:hover{
                     background-color: $special-green;
                     color: $special-green-hover;
+                }
+            }
+        }
+
+        @media (min-width:768px) and (max-width:1300px) {
+            .flexible-right{
+                p{
+                    font-size: 17px;
                 }
             }
         }
@@ -750,6 +798,17 @@
                 }
 
             }
+
+            @media (min-width:768px) and (max-width:1300px) {
+                h5{
+                    padding-left: 10px;
+                }
+                .job-select{
+                    .button-group{
+                        width: 50%;
+                    }
+                }
+            }
         }
         .job-area-right{
             // border: 2px solid orange;
@@ -841,7 +900,12 @@
                     width: 62%;
                     opacity: 0.5;
                 }
-
+                @media (min-width:768px) and (max-width:1300px) {
+                    padding-left: 12px;
+                    p{
+                        width: 100%;
+                    }
+                }
             }
         }
         
@@ -937,19 +1001,26 @@
                     }
                 }
                 .table-write-area{
-                    @media (max-width:768px) {
-                        h4{
-                            font-size: 21px !important;
-                        }
-                        p{
-                            font-size: 16px !important;
-                        }
-                    }
+                    
                     h4{
                         @include TextFont($f_size:28px, $line_height:1, $margin:(0 0 8px 0), $text_weight:700);
                     }
                     p{
                         @include TextFont($margin:0, $padding:0, $line_height:1.4, $f_size:15px);
+                    }
+                    @media (max-width:768px) {
+                        h4{
+                            font-size: 21px;
+                        }
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                    @media (min-width:768px) and (max-width:1300px) {
+                        p{
+                            font-size: 14px;
+                            
+                        }
                     }
                 }
                
@@ -1216,6 +1287,11 @@
             }
             @include TextFont($f_size:36px, $f_color:$white, $line_height:36px, $margin:0 0 43px 0, $text_align:center, $text_weight:700);
             width: 48%;
+        }
+        @media (min-width:768px) and (max-width:1300px) {
+            h2{
+                width: 60%;
+            }
         }
     }
     .schedule-button-area{

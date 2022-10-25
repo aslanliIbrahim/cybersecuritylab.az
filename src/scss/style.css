@@ -1543,6 +1543,12 @@ footer .footer-middle .footer-input .footer-button-side button:hover {
   color: white;
 }
 
+@media (min-width: 768px) and (max-width: 1300px) {
+  footer .footer-middle .footer-input {
+    width: 95%;
+  }
+}
+
 footer .footer-middle ul {
   padding: 0;
   margin: 0;
@@ -1558,6 +1564,20 @@ footer .footer-middle ul .footer-social-media a i {
   margin-right: 12px;
 }
 
+@media (min-width: 768px) and (max-width: 1300px) {
+  footer .footer-middle ul .footer-social-media a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
 footer .footer-middle ul li {
   list-style: none;
   margin-bottom: 20px;
@@ -1569,6 +1589,12 @@ footer .footer-middle ul li a {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  footer .footer-middle ul li a {
+    font-size: 15px;
+  }
 }
 
 footer .footer-down-left {
@@ -1683,7 +1709,6 @@ footer .footer-down-right a {
 
 #course-one .course-one-left .course-one-middle-up p {
   font-size: 18px;
-  margin: 16px;
 }
 
 #course-one .course-one-left .course-one-middle-up a {
@@ -1757,6 +1782,15 @@ footer .footer-down-right a {
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  #course-one .course-one-left {
+    margin: 40px 0px;
+  }
+  #course-one .course-one-left .course-one-middle-up a {
+    margin-left: -8px;
+  }
 }
 
 #course-one .course-one-right {
@@ -2047,6 +2081,12 @@ footer .footer-down-right a {
   font-weight: bold;
 }
 
+@media (min-width: 768px) and (max-width: 1300px) {
+  #course-select-first .table-for-padding .table-area .table-left .first-h5 {
+    margin-top: 30px;
+  }
+}
+
 #course-select-first .table-for-padding .table-area .table-right {
   width: 100%;
   display: -webkit-box;
@@ -2119,6 +2159,25 @@ footer .footer-down-right a {
   height: 18px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  #course-select-first .table-for-padding .table-area .table-right {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #course-select-first .table-for-padding .table-area .table-right .leftSide .leftSide-up h5 {
+    font-size: 19px;
+  }
+  #course-select-first .table-for-padding .table-area .table-right .leftSide ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 16px;
+  }
+  #course-select-first .table-for-padding .table-area .table-right .leftSide ul li img {
+    margin-right: 10px;
+  }
 }
 
 #accordion-side .accordion .contentbx {
@@ -2269,6 +2328,12 @@ footer .footer-down-right a {
 #flexible .flexible-area .flexible-right a:hover {
   background-color: #CEFA05;
   color: #005249;
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  #flexible .flexible-area .flexible-right p {
+    font-size: 17px;
+  }
 }
 
 #job-skills {
@@ -2633,6 +2698,15 @@ footer .footer-down-right a {
   cursor: pointer;
 }
 
+@media (min-width: 768px) and (max-width: 1300px) {
+  #job-skills .job-form-area .job-area-left h5 {
+    padding-left: 10px;
+  }
+  #job-skills .job-form-area .job-area-left .job-select .button-group {
+    width: 50%;
+  }
+}
+
 @media (max-width: 768px) {
   #job-skills .job-form-area .job-area-right {
     margin-top: 20px;
@@ -2765,6 +2839,15 @@ footer .footer-down-right a {
   opacity: 0.5;
 }
 
+@media (min-width: 768px) and (max-width: 1300px) {
+  #job-skills .job-form-area .job-area-right .input-down-write {
+    padding-left: 12px;
+  }
+  #job-skills .job-form-area .job-area-right .input-down-write p {
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   #schedule-options .row {
     padding: 0px 24px !important;
@@ -2890,15 +2973,6 @@ footer .footer-down-right a {
   width: 38px;
 }
 
-@media (max-width: 768px) {
-  #schedule-options .option-table-area .table-one .table-second .table-write-area h4 {
-    font-size: 21px !important;
-  }
-  #schedule-options .option-table-area .table-one .table-second .table-write-area p {
-    font-size: 16px !important;
-  }
-}
-
 #schedule-options .option-table-area .table-one .table-second .table-write-area h4 {
   font-size: 28px;
   font-weight: 700;
@@ -2911,6 +2985,21 @@ footer .footer-down-right a {
   line-height: 1.4;
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 768px) {
+  #schedule-options .option-table-area .table-one .table-second .table-write-area h4 {
+    font-size: 21px;
+  }
+  #schedule-options .option-table-area .table-one .table-second .table-write-area p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  #schedule-options .option-table-area .table-one .table-second .table-write-area p {
+    font-size: 14px;
+  }
 }
 
 #schedule-options .option-table-area .table-common {
@@ -3293,6 +3382,12 @@ footer .footer-down-right a {
   #schedule-call .schedule-text-area h2 {
     font-size: 28px;
     width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  #schedule-call .schedule-text-area h2 {
+    width: 60%;
   }
 }
 
@@ -5073,11 +5168,24 @@ main #chooseProgram .form-area .button-area button:hover {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1300px) {
+  #work-one .work-one-right {
+    background-size: contain;
+    background-repeat-x: no-repeat;
+  }
+}
+
 #mentors .mentors-up-side p {
   font-size: 18px;
   line-height: 1.4;
   margin-bottom: 16px;
   max-width: 544px;
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  #eight .eight-p {
+    width: 50%;
+  }
 }
 
 #aboutUs .about-us-left {
@@ -5106,6 +5214,12 @@ main #chooseProgram .form-area .button-area button:hover {
   #aboutUs .about-us-left h1 {
     font-size: 36px;
     line-height: 1;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  #aboutUs .about-us-left h1 {
+    font-size: 49px;
   }
 }
 
@@ -5196,6 +5310,15 @@ main #chooseProgram .form-area .button-area button:hover {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  #partners .partners-img img {
+    width: 420px;
+    height: 420px;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 
