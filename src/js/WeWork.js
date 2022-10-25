@@ -10,13 +10,13 @@ btnArr.forEach(btn => {
         const currentHello = document.querySelectorAll(".hello.cart")
         const btnattr = btn.getAttribute("data-for-panel");
         const dataPanelClass = document.getElementsByClassName("right-one");
-        var ibo;
-        for (let g = 0; g < dataPanelClass.length; g++) {
-            if (dataPanelClass[g].getAttribute("data-panel-id") == btnattr) {
-                ibo = btnattr
-            } 
-        }
-        console.log(ibo);
+        // var ibo;
+        // for (let g = 0; g < dataPanelClass.length; g++) {
+        //     if (dataPanelClass[g].getAttribute("data-panel-id") == btnattr) {
+        //         ibo = btnattr
+        //     } 
+        // }
+        // console.log(ibo);
         const currentActivePanel = document.querySelectorAll("right-one.ok");
 
         if (btn.classList.contains("btnActive")) {

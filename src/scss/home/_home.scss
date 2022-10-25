@@ -76,6 +76,7 @@ nav{
                             .arrow-nav{
                                 // border: 2px solid red;
                                 padding-left: 10px;
+                                padding-bottom: 3px;
                                 img{
                                     width: 14px;
                                     transform: rotate(180deg);
@@ -342,6 +343,9 @@ main{
                 margin-bottom: 40px;
                 @media (max-width:768px) {
                     margin-bottom: 20px;
+                }
+                @media (width:1366px) {
+                    max-width: 75%;
                 }
             }
             p{

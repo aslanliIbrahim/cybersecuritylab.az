@@ -149,6 +149,7 @@ nav .navigation .nav-side ul li a {
 
 nav .navigation .nav-side ul li a .arrow-nav {
   padding-left: 10px;
+  padding-bottom: 3px;
 }
 
 nav .navigation .nav-side ul li a .arrow-nav img {
@@ -524,6 +525,12 @@ main #two .two-side-left h2 {
 @media (max-width: 768px) {
   main #two .two-side-left h2 {
     margin-bottom: 20px;
+  }
+}
+
+@media (width: 1366px) {
+  main #two .two-side-left h2 {
+    max-width: 75%;
   }
 }
 
