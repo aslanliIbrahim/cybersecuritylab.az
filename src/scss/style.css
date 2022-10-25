@@ -206,6 +206,18 @@ nav .navigation .nav-side .button-area .have-question a:hover {
   border-radius: 24px;
 }
 
+@media (max-width: 1300px) {
+  nav .navigation .nav-side {
+    width: 85%;
+  }
+  nav .navigation .nav-side ul {
+    width: 60%;
+  }
+  nav .navigation .nav-side .button-area {
+    width: 30%;
+  }
+}
+
 @media (min-width: 992px) {
   nav .nav-phone {
     display: none;
@@ -498,6 +510,12 @@ main #two .row {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1300px) {
+  main #two .row {
+    padding: 0px 50px;
+  }
+}
+
 main #two .two-side-left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -576,6 +594,16 @@ main #two .two-side-left .outline-a {
 main #two .two-side-left .outline-a:hover {
   background-color: #005249;
   color: #CEFA05;
+}
+
+@media (max-width: 1300px) {
+  main #two .two-side-left h2 {
+    font-size: 40px;
+    width: 96%;
+  }
+  main #two .two-side-left p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -663,6 +691,22 @@ main #three .cards-area .card-area a .card-content .card-button-area p {
   color: #005249;
 }
 
+@media (max-width: 1300px) {
+  main #three .cards-area .card-area a .card-content {
+    padding-right: 25px;
+  }
+  main #three .cards-area .card-area a .card-content .second {
+    margin-top: 15px;
+    font-size: 17px;
+  }
+  main #three .cards-area .card-area a .card-content .third {
+    font-size: 17px;
+  }
+  main #three .cards-area .card-area a .card-content .fourth {
+    font-size: 17px;
+  }
+}
+
 main #four {
   background-color: #03523C;
   padding: 3rem 0 3rem 0;
@@ -690,6 +734,29 @@ main #four ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+main #four ul li {
+  list-style: none;
+}
+
+main #four ul li h1 {
+  color: #C7E3E2;
+  text-align: center;
+  width: 90%;
+}
+
+main #four ul li h4 {
+  color: white;
+  font-size: 22px;
+}
+
+main #four ul li .firsth4 {
+  width: 90%;
+}
+
+main #four ul li .secondh4 {
+  width: 88%;
 }
 
 @media (max-width: 768px) {
@@ -733,27 +800,30 @@ main #four ul {
   }
 }
 
-main #four ul li {
-  list-style: none;
-}
-
-main #four ul li h1 {
-  color: #C7E3E2;
-  text-align: center;
-  width: 90%;
-}
-
-main #four ul li h4 {
-  color: white;
-  font-size: 22px;
-}
-
-main #four ul li .firsth4 {
-  width: 90%;
-}
-
-main #four ul li .secondh4 {
-  width: 88%;
+@media (min-width: 768px) and (max-width: 1300px) {
+  main #four ul li {
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main #four ul li h1 {
+    font-size: 46px;
+    font-weight: 700;
+  }
+  main #four ul li .firsth4 {
+    width: auto;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
 }
 
 main #five {
@@ -823,6 +893,16 @@ main #five .five-side-left .five-side-down .p-title .title-first {
 main #five .five-side-left .five-side-down .p-title p {
   margin: 0;
   padding: 0;
+}
+
+@media (min-width768px) and (max-width: 1300px) {
+  main #five .five-side-left .five-side-down img {
+    margin-bottom: 50px;
+  }
+  main #five .five-side-left .five-side-down .p-title .for-1300 {
+    font-size: 16px;
+    width: 392px;
+  }
 }
 
 main #five .five-right-side {
@@ -951,12 +1031,6 @@ main #seven .seven-side-left {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding: 94px 0px;
-}
-
-@media (max-width: 768px) {
-  main #seven .seven-side-left {
-    padding: 48px 24px;
-  }
 }
 
 main #seven .seven-side-left h3 {
@@ -1189,9 +1263,8 @@ main #seven .seven-side-left a {
   width: 37%;
   text-decoration: none;
   color: #005249;
-  background-color: #CEFA05;
   padding: 13px 36px;
-  border: 1px solid transparent;
+  border: 2px solid #005249;
   border-radius: 24px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
@@ -1209,6 +1282,26 @@ main #seven .seven-side-left a {
 main #seven .seven-side-left a:hover {
   background-color: #005249;
   color: #CEFA05;
+}
+
+@media (max-width: 768px) {
+  main #seven .seven-side-left {
+    padding: 48px 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  main #seven .seven-side-left h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  main #seven .seven-side-left .seven-right-middleside {
+    margin-bottom: 14px;
+  }
+  main #seven .seven-side-left a {
+    width: 41%;
+    margin: 30px 0 0 0;
+  }
 }
 
 main #seven .seven-side-img {
@@ -1285,23 +1378,10 @@ main #eight .eight-input-side p {
   margin: 0;
 }
 
-@media (max-width: 768px) {
-  main #eight .eight-input-side form {
-    padding: 0 10px 0 10px;
-  }
-  main #eight .eight-input-side form input {
-    width: 100%;
-    color: #201E1E;
-  }
-  main #eight .eight-input-side form button {
-    margin: 10px 0 0 0;
-    width: 100%;
-  }
-}
-
 main #eight .eight-input-side input {
   background: transparent;
   border: 1px solid #201E1E;
+  border-radius: 3px;
   height: 46px;
   padding-left: 16px;
   padding-right: 16px;
@@ -1325,6 +1405,20 @@ main #eight .eight-input-side button:hover {
   border-color: #CEFA05;
   background-color: #CEFA05;
   color: #005249;
+}
+
+@media (max-width: 768px) {
+  main #eight .eight-input-side form {
+    padding: 0 10px 0 10px;
+  }
+  main #eight .eight-input-side form input {
+    width: 100%;
+    color: #201E1E;
+  }
+  main #eight .eight-input-side form button {
+    margin: 10px 0 0 0;
+    width: 100%;
+  }
 }
 
 footer {

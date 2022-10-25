@@ -123,6 +123,15 @@ nav{
                         }
                     }
                 }
+                @media (max-width:1300px) {
+                    width: 85%;
+                    ul{
+                        width: 60%;
+                    }
+                    .button-area{
+                        width: 30%;
+                    }
+                }
             }
         }
 
@@ -330,6 +339,9 @@ main{
             @media (max-width:768px) {
                 padding: 0px 24px;
             }
+            @media (min-width:768px) and (max-width:1300px) {
+                padding: 0px 50px;
+            }
         }
         .two-side-left{
             // border: 2px solid blue;
@@ -374,6 +386,15 @@ main{
                 &:hover{
                     background-color: $special-green-hover;
                     color: $special-green;
+                }
+            }
+            @media (max-width:1300px) {
+                h2{
+                    font-size: 40px;
+                    width: 96%;
+                }
+                p{
+                    font-size: 16px;
                 }
             }
         }
@@ -455,6 +476,19 @@ main{
                                 color: $special-green-hover;
                             }
                         }
+                        @media (max-width:1300px) {
+                            padding-right: 25px;
+                            .second{
+                                margin-top: 15px;
+                                font-size: 17px;
+                            }
+                            .third{
+                                font-size: 17px;
+                            }
+                            .fourth{
+                                font-size: 17px;
+                            }
+                        }
                     }
                 }
 
@@ -472,6 +506,26 @@ main{
             padding: 0;
             margin: 0;
             @include flexible(space-between, center, row);
+            li{
+                list-style: none;
+                h1{
+                    color: $light-white;
+                    text-align: center;
+                    width: 90%;
+                }
+                h4{
+                    color: $white;
+                    font-size: 22px;
+                }
+                .firsth4{
+                    // border: 1px solid red;
+                    width: 90%;
+                }
+                .secondh4{
+                    // border: 1px solid red;
+                    width: 88%;
+                }
+            }
             @media (max-width:768px) {
                 @include padding(32px 24px !important);
                 @include flexible(space-between, center, column);
@@ -500,24 +554,20 @@ main{
                     }
                 }
             }
-            li{
-                list-style: none;
-                h1{
-                    color: $light-white;
-                    text-align: center;
-                    width: 90%;
-                }
-                h4{
-                    color: $white;
-                    font-size: 22px;
-                }
-                .firsth4{
-                    // border: 1px solid red;
-                    width: 90%;
-                }
-                .secondh4{
-                    // border: 1px solid red;
-                    width: 88%;
+            @media (min-width:768px) and (max-width:1300px) {
+                li{
+                    width: 30%;
+                    @include flexible($items:center, $direction:column);
+                    h1{
+                        font-size: 46px;
+                        font-weight: 700;
+                    }
+                    .firsth4{
+                        width: auto;
+                        font-size: 24px;
+                        font-weight: 700;
+                        text-align: center;
+                    }
                 }
             }
         }
@@ -580,6 +630,20 @@ main{
                     p{
                         margin: 0;
                         padding: 0;
+                    }
+                }
+            }
+            @media (min-width768px) and (max-width:1300px) {
+                .five-side-down{
+                    img{
+                        margin-bottom: 50px
+                    }
+                    .p-title{
+
+                        .for-1300{
+                            font-size: 16px;
+                            width: 392px
+                        }
                     }
                 }
             }
@@ -651,9 +715,7 @@ main{
     #seven{
         background-color: $special-seven-white;
         .seven-side-left{
-            @media (max-width:768px) {
-                padding: 48px 24px;
-            }
+            
             // border: 2px solid red;
             display: flex;
             flex-direction: column;
@@ -841,15 +903,30 @@ main{
                     width: 37%;
                     text-decoration: none;
                     color: $special-green-hover;
-                    background-color: $special-green;
                     @include padding(13px 36px);
-                    @include border(1px solid transparent, 24px);    
+                    @include border(2px solid $special-green-hover, 24px);    
                     transition: 0.2s ease-in-out;
                     font-weight: 700;
                     &:hover{
                         background-color: $special-green-hover;
                         color: $special-green;
                     }
+            }
+            @media (max-width:768px) {
+                padding: 48px 24px;
+            }
+            @media (min-width:768px) and (max-width:1300px) {
+                h3{
+                    margin-bottom: 10px;
+                    font-size: 20px;
+                }
+                .seven-right-middleside{
+                    margin-bottom: 14px;
+                }
+                a{
+                    width: 41%;
+                    margin: 30px 0 0 0;
+                }
             }
             
         }
@@ -907,24 +984,13 @@ main{
                     margin: 0;
                 }
 
-                @media (max-width:768px) {
-                    form{
-                        @include padding(0 10px 0 10px);
-                        input{
-                            width: 100%;
-                            color: $footer-black;
-                        }
-                        button{
-                            @include margin(10px 0 0 0);
-                            width: 100%;
-                        }
-                    }       
-                }
+                
 
                 input{
                    
                     background: transparent;
                     border: 1px solid $footer-black;
+                    border-radius: 3px;
                     height: 46px;
                     padding-left: 16px;
                     padding-right: 16px;
@@ -946,6 +1012,20 @@ main{
                         background-color: $special-green;
                         color: $special-green-hover;
                     }
+                }
+
+                @media (max-width:768px) {
+                    form{
+                        @include padding(0 10px 0 10px);
+                        input{
+                            width: 100%;
+                            color: $footer-black;
+                        }
+                        button{
+                            @include margin(10px 0 0 0);
+                            width: 100%;
+                        }
+                    }       
                 }
             
 
