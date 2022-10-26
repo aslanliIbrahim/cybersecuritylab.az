@@ -49,10 +49,10 @@ nav{
                             padding: 20px;
                         }
                         .sub-menu-active{
-                            display: block !important;
+                            display: flex !important;
                             position: absolute;
                             top: 62px;
-                            left:-111px;
+                            left:-18px;
                             border: 2px solid $black;
                             background-color: $white;
                             width: 360px;
@@ -61,6 +61,9 @@ nav{
                             justify-content: space-between;
                             align-items: flex-start;
                             padding: 20px;
+                            li{
+                                margin: 10px 0px;
+                            }
                         }
 
                         a{
@@ -523,7 +526,7 @@ main{
                 }
                 .secondh4{
                     // border: 1px solid red;
-                    width: 88%;
+                    width: 100%;
                 }
             }
             @media (max-width:768px) {
@@ -550,7 +553,7 @@ main{
                     }
                     .secondh4{
                         // border: 1px solid red;
-                        width: 100%;
+                        width: 100% !important;
                     }
                 }
             }
@@ -567,6 +570,9 @@ main{
                         font-size: 24px;
                         font-weight: 700;
                         text-align: center;
+                    }
+                    .secondh4{
+                        width: 100% !important;
                     }
                 }
             }
