@@ -902,9 +902,9 @@ main #five .five-side-left .five-side-down .p-title p {
   padding: 0;
 }
 
-@media (min-width768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1300px) {
   main #five .five-side-left .five-side-down img {
-    margin-bottom: 50px;
+    margin-bottom: 65px !important;
   }
   main #five .five-side-left .five-side-down .p-title .for-1300 {
     font-size: 16px;

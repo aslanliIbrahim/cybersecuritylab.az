@@ -639,10 +639,10 @@ main{
                     }
                 }
             }
-            @media (min-width768px) and (max-width:1300px) {
+            @media (min-width:768px) and (max-width:1300px) {
                 .five-side-down{
                     img{
-                        margin-bottom: 50px
+                        margin-bottom: 65px !important;
                     }
                     .p-title{
 
