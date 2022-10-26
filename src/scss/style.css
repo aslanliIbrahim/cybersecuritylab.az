@@ -3117,9 +3117,10 @@ footer .footer-down-right a {
 }
 
 #payment-options .payment-button-area .payment-button-left {
-  border-left: 2px solid #CEFA05;
+  border-left: 2px solid #CEFA05 !important;
   border-top: 2px solid #CEFA05;
   border-bottom: 2px solid #CEFA05;
+  border-right: none;
   border-left: none;
   border-radius: 4px;
   background-color: white;
