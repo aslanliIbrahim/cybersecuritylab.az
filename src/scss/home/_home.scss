@@ -31,7 +31,7 @@ nav{
                 }
                 ul{
                     @include flexible($jus:space-between, $items:center);
-                    @include ul($pad:0, $mar:0, $list-style:none, $width:45%);
+                    @include ul($pad:0, $mar:0, $list-style:none, $width:50%);
                     li{
                         position: relative;
                         
@@ -82,13 +82,13 @@ nav{
                                 padding-bottom: 3px;
                                 img{
                                     width: 14px;
-                                    transform: rotate(180deg);
+                                    transform: rotate(0deg);
                                     transition: 0.3s linear 0s;
                                 }
                             }
                             .arrow-nav-rotate{
                                img{
-                                transform: rotate(0deg);
+                                transform: rotate(180deg);
                                 transition: 0.3s linear 0s;
                                }
                             }
@@ -99,8 +99,8 @@ nav{
                     }
                 }
                 .button-area{
-                    width: 25%;
-                    @include flexible($jus:space-around);
+                    width: 39%;
+                    @include flexible($jus:space-evenly);
                     .sign-in{
                         a{
                             text-decoration: none;
@@ -127,12 +127,13 @@ nav{
                     }
                 }
                 @media (max-width:1300px) {
-                    width: 85%;
+                    width: 86%;
                     ul{
                         width: 60%;
                     }
                     .button-area{
-                        width: 30%;
+                        width: 40%;
+                        justify-content: space-evenly !important;
                     }
                 }
             }

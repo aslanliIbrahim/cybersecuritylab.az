@@ -76,7 +76,7 @@ nav .navigation .nav-side ul {
   padding: 0;
   margin: 0;
   list-style: none;
-  width: 45%;
+  width: 50%;
 }
 
 nav .navigation .nav-side ul li {
@@ -158,15 +158,15 @@ nav .navigation .nav-side ul li a .arrow-nav {
 
 nav .navigation .nav-side ul li a .arrow-nav img {
   width: 14px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   -webkit-transition: 0.3s linear 0s;
   transition: 0.3s linear 0s;
 }
 
 nav .navigation .nav-side ul li a .arrow-nav-rotate img {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
   -webkit-transition: 0.3s linear 0s;
   transition: 0.3s linear 0s;
 }
@@ -176,12 +176,13 @@ nav .navigation .nav-side ul li a:hover {
 }
 
 nav .navigation .nav-side .button-area {
-  width: 25%;
+  width: 39%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 nav .navigation .nav-side .button-area .sign-in a {
@@ -212,13 +213,16 @@ nav .navigation .nav-side .button-area .have-question a:hover {
 
 @media (max-width: 1300px) {
   nav .navigation .nav-side {
-    width: 85%;
+    width: 86%;
   }
   nav .navigation .nav-side ul {
     width: 60%;
   }
   nav .navigation .nav-side .button-area {
-    width: 30%;
+    width: 40%;
+    -webkit-box-pack: space-evenly !important;
+        -ms-flex-pack: space-evenly !important;
+            justify-content: space-evenly !important;
   }
 }
 
@@ -1663,7 +1667,7 @@ footer .footer-down-right a {
 }
 
 #course-one {
-  background-color: #CADEEA;
+  background-color: #F8F9F2;
 }
 
 #course-one .course-one-left .course-one-up {
