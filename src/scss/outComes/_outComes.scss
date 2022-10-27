@@ -1,5 +1,4 @@
 main{
-
     #outcomes-one{
         // border: 2px solid red;
         .one-left{
@@ -137,7 +136,6 @@ main{
             }
         }
     }
-
     #bootcamp-table{
         .bootcamp-table-text{
 
@@ -154,7 +152,6 @@ main{
             }
         }
     }
-
     #highlights{
         // border: 2px solid red;
         background-color: #E7D59B;
@@ -185,7 +182,6 @@ main{
             }
         }
     }
-
     #roadSucces{
 
         .road-left{
@@ -241,6 +237,13 @@ main{
         }
     }
 
+    .for-outcomes{
+        background-color: $special-seven-white !important;
+        .for-outcomes-content{
+            background-color: white !important;
+        }
+    }
+    
     #mentors{
         // border: 2px solid red;
         background-color: $table-left-white;
@@ -289,7 +292,6 @@ main{
             }
         }
     }
-
     #chooseProgram{
         background-color: $table-left-white;
         .program-left{

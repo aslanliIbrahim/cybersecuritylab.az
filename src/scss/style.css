@@ -5031,6 +5031,14 @@ main #roadSucces .road-right .road-button a:hover {
   }
 }
 
+main .for-outcomes {
+  background-color: #F8F9F2 !important;
+}
+
+main .for-outcomes .for-outcomes-content {
+  background-color: white !important;
+}
+
 main #mentors {
   background-color: #F2F2F2;
 }
