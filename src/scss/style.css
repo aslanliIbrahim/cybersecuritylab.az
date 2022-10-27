@@ -1556,7 +1556,8 @@ footer .footer-middle .footer-input .footer-button-side button {
   width: 50px;
   border: 1px solid white;
   border-radius: 50%;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 700;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3899,7 +3900,7 @@ footer .footer-down-right a {
   padding: 0 16px;
   height: 46px;
   border-radius: 4px;
-  border-color: white;
+  border: 1px solid white;
   background: transparent;
   color: white;
 }
@@ -3947,6 +3948,12 @@ footer .footer-down-right a {
   }
   #admissions-process .admissions-inputs .button-side button {
     width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  #admissions-process .admissions-inputs .button-side button {
+    width: 80%;
   }
 }
 
