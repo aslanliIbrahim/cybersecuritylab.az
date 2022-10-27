@@ -236,6 +236,7 @@ main{
                         .first-select{
                             select{
                                 width: 100% !important;
+                                
                             }
                         }
                         .email-side{
@@ -285,12 +286,27 @@ main{
                     .first-select{
                         margin-bottom: 20px;
                         // border: 2px solid purple;
+                        position: relative;
                         @include flexible(space-between, flex-start, column);
                         select{
                             width: 80%;
                             height: 46px;
+                            appearance: none;
+                            position: relative !important;
+                        }
+                        .for-select-img{
+                            position: absolute;
+                            top: 63%;
+                            left: 73%;
+                            transform: translateY(-50%);
+                            pointer-events: none;
+                            z-index: 3;
+                            @media (max-width:768px) {
+                                left: 90%;
+                            }
                         }
                     }
+                    
                     .email-side{
                         // border: 2px solid red;
                         @include flexible(space-between, flex-start, column);

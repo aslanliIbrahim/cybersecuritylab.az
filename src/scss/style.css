@@ -406,6 +406,7 @@ main #one .first-left-side .first-side-down .send-area {
 
 main #one .first-left-side .first-side-down .send-area .first-select {
   margin-bottom: 20px;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -424,6 +425,26 @@ main #one .first-left-side .first-side-down .send-area .first-select {
 main #one .first-left-side .first-side-down .send-area .first-select select {
   width: 80%;
   height: 46px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative !important;
+}
+
+main #one .first-left-side .first-side-down .send-area .first-select .for-select-img {
+  position: absolute;
+  top: 63%;
+  left: 73%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 3;
+}
+
+@media (max-width: 768px) {
+  main #one .first-left-side .first-side-down .send-area .first-select .for-select-img {
+    left: 90%;
+  }
 }
 
 main #one .first-left-side .first-side-down .send-area .email-side {
