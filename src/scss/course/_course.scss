@@ -94,7 +94,7 @@
             }
         }
 
-        @media (min-width:768px) and (max-width:1300px) {
+        @media (min-width:768px) and (max-width:1400px) {
             margin: 40px 0px;
             
             .course-one-middle-up{
@@ -222,19 +222,16 @@
                     }
                     
                 }
+                @media (min-width:768px) and (max-width:1400px) {
+                    input{
+                        width: 100%;
+                    }
+                }
             }
             .button-area{
                 @include padding(0px 40px);
                 @include margin(32px 0px);
                 // border: 2px solid red;
-                @media (max-width:768px) {
-                    @include padding(0 0);
-                    @include margin(16px 0);
-                    button{
-                        width: 100% !important;
-                    }
-                   
-                }
                 button{
                     width: max-content;
                 box-sizing: border-box;
@@ -255,6 +252,18 @@
                     background-color: $special-green-hover;
                     color: $special-green;
                 }
+                }
+                @media (max-width:768px) {
+                    @include padding(0 0);
+                    @include margin(16px 0);
+                    button{
+                        width: 100% !important;
+                    }
+                   
+                }
+                @media (min-width:768px) and (max-width:1400px) {
+                    display: flex;
+                    justify-content: flex-end;
                 }
             }
 
@@ -328,7 +337,7 @@
                     font-size: 54px;
                     font-weight: bold;
                 }
-                @media (min-width:768px) and (max-width:1300px) {
+                @media (min-width:768px) and (max-width:1400px) {
                     .first-h5{
                         margin-top: 30px;
                     }
@@ -392,7 +401,7 @@
                     }
                 }
 
-                @media (min-width:768px) and (max-width:1300px) {
+                @media (min-width:768px) and (max-width:1400px) {
                    justify-content: space-around;
                    
                    .leftSide{
@@ -538,7 +547,7 @@
             }
         }
 
-        @media (min-width:768px) and (max-width:1300px) {
+        @media (min-width:768px) and (max-width:1400px) {
             .flexible-right{
                 p{
                     font-size: 17px;
@@ -799,7 +808,7 @@
 
             }
 
-            @media (min-width:768px) and (max-width:1300px) {
+            @media (min-width:768px) and (max-width:1400px) {
                 h5{
                     padding-left: 10px;
                 }
@@ -900,7 +909,7 @@
                     width: 62%;
                     opacity: 0.5;
                 }
-                @media (min-width:768px) and (max-width:1300px) {
+                @media (min-width:768px) and (max-width:1400px) {
                     padding-left: 12px;
                     p{
                         width: 100%;
@@ -1016,7 +1025,7 @@
                             font-size: 16px;
                         }
                     }
-                    @media (min-width:768px) and (max-width:1300px) {
+                    @media (min-width:768px) and (max-width:1400px) {
                         p{
                             font-size: 14px;
                             
@@ -1287,7 +1296,7 @@
             @include TextFont($f_size:36px, $f_color:$white, $line_height:36px, $margin:0 0 43px 0, $text_align:center, $text_weight:700);
             width: 48%;
         }
-        @media (min-width:768px) and (max-width:1300px) {
+        @media (min-width:768px) and (max-width:1400px) {
             h2{
                 width: 60%;
             }
@@ -1609,7 +1618,7 @@
                 }
                 
             }
-            @media (min-width:768px) and (max-width:1300px) {
+            @media (min-width:768px) and (max-width:1400px) {
                 button{
                     width: 80%;
                 }

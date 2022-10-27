@@ -211,7 +211,7 @@ nav .navigation .nav-side .button-area .have-question a:hover {
   border-radius: 24px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   nav .navigation .nav-side {
     width: 86%;
   }
@@ -391,6 +391,13 @@ main #one .first-left-side .first-side-middle ul li img {
   margin-right: 10px;
 }
 
+@media (min-width: 768px) and (max-width: 1400px) {
+  main #one .first-left-side .first-side-middle ul li img {
+    width: 28px;
+    margin-right: 15px;
+  }
+}
+
 main #one .first-left-side .first-side-down .send-area {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -447,6 +454,15 @@ main #one .first-left-side .first-side-down .send-area .first-select .for-select
   }
 }
 
+@media (min-width: 768px) and (max-width: 1400px) {
+  main #one .first-left-side .first-side-down .send-area .first-select select {
+    width: 100%;
+  }
+  main #one .first-left-side .first-side-down .send-area .first-select .for-select-img {
+    left: 90%;
+  }
+}
+
 main #one .first-left-side .first-side-down .send-area .email-side {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -467,6 +483,12 @@ main #one .first-left-side .first-side-down .send-area .email-side {
 main #one .first-left-side .first-side-down .send-area .email-side input {
   width: 80%;
   height: 46px;
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  main #one .first-left-side .first-side-down .send-area .email-side input {
+    width: 100%;
+  }
 }
 
 main #one .first-left-side .first-side-down .send-area .button-side {
@@ -504,6 +526,12 @@ main #one .first-left-side .first-side-down .send-area .button-side button:hover
   border-radius: 24px;
 }
 
+@media (min-width: 768px) and (max-width: 1400px) {
+  main #one .first-left-side .first-side-down .send-area .button-side {
+    width: 100%;
+  }
+}
+
 main #one .first-right-side {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -539,7 +567,7 @@ main #two .row {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   main #two .row {
     padding: 0px 50px;
   }
@@ -625,7 +653,7 @@ main #two .two-side-left .outline-a:hover {
   color: #CEFA05;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   main #two .two-side-left h2 {
     font-size: 40px;
     width: 96%;
@@ -720,7 +748,7 @@ main #three .cards-area .card-area a .card-content .card-button-area p {
   color: #005249;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   main #three .cards-area .card-area a .card-content {
     padding-right: 25px;
   }
@@ -829,7 +857,7 @@ main #four ul li .secondh4 {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   main #four ul li {
     width: 30%;
     display: -webkit-box;
@@ -927,11 +955,11 @@ main #five .five-side-left .five-side-down .p-title p {
   padding: 0;
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   main #five .five-side-left .five-side-down img {
     margin-bottom: 65px !important;
   }
-  main #five .five-side-left .five-side-down .p-title .for-1300 {
+  main #five .five-side-left .five-side-down .p-title .for-1400 {
     font-size: 16px;
     width: 392px;
   }
@@ -978,32 +1006,6 @@ main #six .six-row-side h4 {
   margin-bottom: 40px;
 }
 
-@media (max-width: 768px) {
-  main #six .six-row-side .six-donw-side ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap !important;
-        flex-wrap: wrap !important;
-  }
-  main #six .six-row-side .six-donw-side ul li {
-    width: 33% !important;
-  }
-  main #six .six-row-side .six-donw-side ul li img {
-    width: 85% !important;
-  }
-}
-
 main #six .six-row-side .six-donw-side ul {
   margin-bottom: 40px;
   padding: 0;
@@ -1045,6 +1047,38 @@ main #six .six-row-side .six-donw-side ul li img {
   max-width: 100%;
   min-height: 30px;
   height: 30px;
+}
+
+@media (max-width: 768px) {
+  main #six .six-row-side .six-donw-side ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  main #six .six-row-side .six-donw-side ul li {
+    width: 33% !important;
+  }
+  main #six .six-row-side .six-donw-side ul li img {
+    width: 85% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  main #six .six-row-side .six-donw-side ul {
+    margin: 0;
+  }
 }
 
 main #seven {
@@ -1322,7 +1356,7 @@ main #seven .seven-side-left a:hover {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   main #seven .seven-side-left h3 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -1331,7 +1365,8 @@ main #seven .seven-side-left a:hover {
     margin-bottom: 14px;
   }
   main #seven .seven-side-left a {
-    width: 41%;
+    width: 48%;
+    text-align: center;
     margin: 30px 0 0 0;
   }
 }
@@ -1386,6 +1421,12 @@ main #eight .eight-h3-side h3 {
     font-size: 1.5rem;
     width: 96%;
     line-height: 1.16;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  main #eight .eight-h3-side h3 {
+    width: 51%;
   }
 }
 
@@ -1576,7 +1617,7 @@ footer .footer-middle .footer-input .footer-button-side button:hover {
   color: white;
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   footer .footer-middle .footer-input {
     width: 95%;
   }
@@ -1597,7 +1638,7 @@ footer .footer-middle ul .footer-social-media a i {
   margin-right: 12px;
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   footer .footer-middle ul .footer-social-media a {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1624,7 +1665,7 @@ footer .footer-middle ul li a {
           justify-content: space-evenly;
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   footer .footer-middle ul li a {
     font-size: 15px;
   }
@@ -1817,7 +1858,7 @@ footer .footer-down-right a {
      object-fit: contain;
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   #course-one .course-one-left {
     margin: 40px 0px;
   }
@@ -1980,19 +2021,15 @@ footer .footer-down-right a {
   border-color: #2A32C5;
 }
 
+@media (min-width: 768px) and (max-width: 1400px) {
+  #strat-learning .learning-right .form-area .input-area input {
+    width: 100%;
+  }
+}
+
 #strat-learning .learning-right .form-area .button-area {
   padding: 0px 40px;
   margin: 32px 0px;
-}
-
-@media (max-width: 768px) {
-  #strat-learning .learning-right .form-area .button-area {
-    padding: 0 0;
-    margin: 16px 0;
-  }
-  #strat-learning .learning-right .form-area .button-area button {
-    width: 100% !important;
-  }
 }
 
 #strat-learning .learning-right .form-area .button-area button {
@@ -2025,6 +2062,27 @@ footer .footer-down-right a {
 #strat-learning .learning-right .form-area .button-area button:hover {
   background-color: #005249;
   color: #CEFA05;
+}
+
+@media (max-width: 768px) {
+  #strat-learning .learning-right .form-area .button-area {
+    padding: 0 0;
+    margin: 16px 0;
+  }
+  #strat-learning .learning-right .form-area .button-area button {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  #strat-learning .learning-right .form-area .button-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
 }
 
 #course-select-first .table-for-padding {
@@ -2114,7 +2172,7 @@ footer .footer-down-right a {
   font-weight: bold;
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   #course-select-first .table-for-padding .table-area .table-left .first-h5 {
     margin-top: 30px;
   }
@@ -2194,7 +2252,7 @@ footer .footer-down-right a {
      object-fit: contain;
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   #course-select-first .table-for-padding .table-area .table-right {
     -ms-flex-pack: distribute;
         justify-content: space-around;
@@ -2363,7 +2421,7 @@ footer .footer-down-right a {
   color: #005249;
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   #flexible .flexible-area .flexible-right p {
     font-size: 17px;
   }
@@ -2731,7 +2789,7 @@ footer .footer-down-right a {
   cursor: pointer;
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   #job-skills .job-form-area .job-area-left h5 {
     padding-left: 10px;
   }
@@ -2872,7 +2930,7 @@ footer .footer-down-right a {
   opacity: 0.5;
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   #job-skills .job-form-area .job-area-right .input-down-write {
     padding-left: 12px;
   }
@@ -3029,7 +3087,7 @@ footer .footer-down-right a {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   #schedule-options .option-table-area .table-one .table-second .table-write-area p {
     font-size: 14px;
   }
@@ -3419,7 +3477,7 @@ footer .footer-down-right a {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   #schedule-call .schedule-text-area h2 {
     width: 60%;
   }
@@ -3951,7 +4009,7 @@ footer .footer-down-right a {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   #admissions-process .admissions-inputs .button-side button {
     width: 80%;
   }
