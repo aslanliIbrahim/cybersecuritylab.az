@@ -391,7 +391,7 @@ main{
             // height: 100%;
             @include flexible(center, flex-start, column);
             h2{
-                width: 65%;
+                width: 85%;
                 line-height: 1.07;
                 text-align: inherit;
                 font-weight: 700;
@@ -408,7 +408,7 @@ main{
                 width: 88%;
                 font-size: 1.125rem;
                 line-height: 1.4;
-                margin-bottom: 1rem;
+                margin-bottom: 23px;
                 a{
                     color: $special-blue;
                     text-decoration: none;
@@ -458,6 +458,7 @@ main{
                 text-align: center;
                 font-weight: 700;
                 margin-bottom: 15px;
+                font-size: 44px;
             }
         }
         .cards-area{
@@ -566,7 +567,7 @@ main{
                 }
                 .secondh4{
                     // border: 1px solid red;
-                    width: 100%;
+                    width: 105%;
                 }
             }
             @media (max-width:768px) {
@@ -593,7 +594,7 @@ main{
                     }
                     .secondh4{
                         // border: 1px solid red;
-                        width: 100% !important;
+                        width: 105% !important;
                     }
                 }
             }
@@ -612,7 +613,7 @@ main{
                         text-align: center;
                     }
                     .secondh4{
-                        width: 100% !important;
+                        width: 105% !important;
                     }
                 }
             }
@@ -704,8 +705,8 @@ main{
     }
     #six{
         .six-row-side{
-            padding-left: 80px;
-            padding-right: 80px;
+            padding-left: 19px;
+            padding-right: 19px;
             @media (max-width:768px) {
                 padding: 0 24px !important;
                h4{

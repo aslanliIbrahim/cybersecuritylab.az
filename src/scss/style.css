@@ -590,7 +590,7 @@ main #two .two-side-left {
 }
 
 main #two .two-side-left h2 {
-  width: 65%;
+  width: 85%;
   line-height: 1.07;
   text-align: inherit;
   font-weight: 700;
@@ -613,7 +613,7 @@ main #two .two-side-left p {
   width: 88%;
   font-size: 1.125rem;
   line-height: 1.4;
-  margin-bottom: 1rem;
+  margin-bottom: 23px;
 }
 
 main #two .two-side-left p a {
@@ -679,6 +679,7 @@ main #three .programs-title h2 {
   text-align: center;
   font-weight: 700;
   margin-bottom: 15px;
+  font-size: 44px;
 }
 
 main #three .cards-area {
@@ -813,7 +814,7 @@ main #four ul li .firsth4 {
 }
 
 main #four ul li .secondh4 {
-  width: 100%;
+  width: 105%;
 }
 
 @media (max-width: 768px) {
@@ -853,7 +854,7 @@ main #four ul li .secondh4 {
     width: 100%;
   }
   main #four ul li .secondh4 {
-    width: 100% !important;
+    width: 105% !important;
   }
 }
 
@@ -882,7 +883,7 @@ main #four ul li .secondh4 {
     text-align: center;
   }
   main #four ul li .secondh4 {
-    width: 100% !important;
+    width: 105% !important;
   }
 }
 
@@ -986,8 +987,8 @@ main #five .five-right-side video {
 }
 
 main #six .six-row-side {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 19px;
+  padding-right: 19px;
 }
 
 @media (max-width: 768px) {
@@ -2095,16 +2096,6 @@ footer .footer-down-right a {
   }
 }
 
-@media (max-width: 768px) {
-  #course-select-first .table-for-padding .table-area-up h3 {
-    font-size: 16px !important;
-  }
-  #course-select-first .table-for-padding .table-area-up h2 {
-    font-size: 30px !important;
-    margin-bottom: 24px !important;
-  }
-}
-
 #course-select-first .table-for-padding .table-area-up h3 {
   font-size: 18px;
   margin-bottom: 8px;
@@ -2116,6 +2107,22 @@ footer .footer-down-right a {
   margin: 0 0 40px 0;
   line-height: 1.07;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  #course-select-first .table-for-padding .table-area-up h3 {
+    font-size: 16px !important;
+  }
+  #course-select-first .table-for-padding .table-area-up h2 {
+    font-size: 30px !important;
+    margin-bottom: 24px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  #course-select-first .table-for-padding .table-area-up h2 {
+    font-size: 39px;
+  }
 }
 
 #course-select-first .table-for-padding .table-area {
@@ -2278,7 +2285,7 @@ footer .footer-down-right a {
 
 #accordion-side .accordion .contentbx .label {
   position: relative;
-  padding: 10px;
+  padding: 20px 20px 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2337,7 +2344,7 @@ footer .footer-down-right a {
 #flexible .flexible-area {
   background-color: #005249;
   color: white;
-  width: 90%;
+  width: 100%;
   padding: 30px;
   margin: 40px 0;
   display: -webkit-box;
@@ -3440,6 +3447,12 @@ footer .footer-down-right a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  #payment-options .payment-information-common .payment-information {
+    width: 90%;
   }
 }
 
@@ -4746,13 +4759,6 @@ main #outcomes-one .one-left .one-left-up {
   margin: 32px 0;
 }
 
-@media (max-width: 768px) {
-  main #outcomes-one .one-left .one-left-up {
-    padding: 0px 20px;
-    margin: 16px 0px;
-  }
-}
-
 main #outcomes-one .one-left .one-left-up h3 {
   font-size: 20px;
   margin-bottom: 8px;
@@ -4762,6 +4768,19 @@ main #outcomes-one .one-left .one-left-up h1 {
   font-size: 50px;
   font-weight: 700;
   line-height: 1;
+}
+
+@media (max-width: 768px) {
+  main #outcomes-one .one-left .one-left-up {
+    padding: 0px 20px;
+    margin: 16px 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  main #outcomes-one .one-left .one-left-up h1 {
+    font-size: 45px;
+  }
 }
 
 main #outcomes-one .one-left .one-left-middle {
