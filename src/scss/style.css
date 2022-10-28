@@ -450,7 +450,7 @@ main #one .first-left-side .first-side-down .send-area .first-select .for-select
 
 @media (max-width: 768px) {
   main #one .first-left-side .first-side-down .send-area .first-select .for-select-img {
-    left: 90%;
+    left: 85%;
   }
 }
 
@@ -563,7 +563,7 @@ main #two .row {
 
 @media (max-width: 768px) {
   main #two .row {
-    padding: 0px 24px;
+    padding: 0px 7px;
   }
 }
 
@@ -819,7 +819,7 @@ main #four ul li .secondh4 {
 
 @media (max-width: 768px) {
   main #four ul {
-    padding: 32px 24px !important;
+    padding: 32px 24px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -838,17 +838,17 @@ main #four ul li .secondh4 {
     width: 100%;
   }
   main #four ul li h1 {
-    text-align: inherit !important;
-    font-size: 36px !important;
-    line-height: 50px !important;
-    font-weight: 700 !important;
+    text-align: inherit;
+    font-size: 34px;
+    line-height: 50px;
+    font-weight: 700;
   }
   main #four ul li h4 {
     margin-bottom: 10px;
-    width: 100% !important;
-    font-size: 18px !important;
-    line-height: 26px !important;
-    font-weight: 700 !important;
+    width: 100%;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
   }
   main #four ul li .firsth4 {
     width: 100%;
@@ -931,6 +931,14 @@ main #five .five-side-left .five-side-middle ul li img {
   margin-right: 10px;
 }
 
+@media (max-width: 768px) {
+  main #five .five-side-left .five-side-middle ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 main #five .five-side-left .five-side-down {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -989,16 +997,6 @@ main #five .five-right-side video {
 main #six .six-row-side {
   padding-left: 19px;
   padding-right: 19px;
-}
-
-@media (max-width: 768px) {
-  main #six .six-row-side {
-    padding: 0 24px !important;
-  }
-  main #six .six-row-side h4 {
-    width: 100% !important;
-    font-size: 19px !important;
-  }
 }
 
 main #six .six-row-side h4 {
@@ -1079,6 +1077,17 @@ main #six .six-row-side .six-donw-side ul li img {
 @media (min-width: 768px) and (max-width: 1400px) {
   main #six .six-row-side .six-donw-side ul {
     margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  main #six .six-row-side {
+    padding: 0 24px !important;
+  }
+  main #six .six-row-side h4 {
+    width: 100% !important;
+    font-size: 19px !important;
+    text-align: center;
   }
 }
 
@@ -5151,14 +5160,13 @@ main #mentors .mentors-card {
 }
 
 main #mentors .mentors-card .mentors-img img {
-  width: 100%;
   max-width: 166px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
 main #mentors .mentors-card .mentors-about {
-  padding: 8px 48px 8px 24px;
+  padding: 8px 0px 8px 19px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5177,7 +5185,7 @@ main #mentors .mentors-card .mentors-about h6 {
 
 main #mentors .mentors-card .mentors-about p {
   font-size: 14px;
-  margin-bottom: 8px;
+  margin-bottom: 18px;
   line-height: 1.4;
 }
 
