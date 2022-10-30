@@ -2,6 +2,10 @@ const navPhone = document.querySelector(".nav-phone");
 const biList = document.querySelector(".bi-list");
 const navPhoneArea = document.querySelector(".nav-phone-area");
 
+//for mobile
+
+const HelloMob = document.querySelectorAll(".for-click-mob");
+
 
 navPhone.addEventListener("click", function() {
     // navPhoneArea.classList.toggle("click");
@@ -24,6 +28,34 @@ navPhone.addEventListener("click", function() {
         biList.classList.add("bi-x-lg")
         biList.classList.remove("bi-list")
     }
+    
+})
+
+HelloMob.forEach(forMob=>{
+    
+    console.log(forMob, "formob");
+    const mobSubMenu = document.querySelector(".mob-sub-menu")
+    const mobSubMenuActive = forMob.querySelectorAll(".mob-sub-menu.mob-sub-block")
+
+    forMob.addEventListener("click", function() {
+        
+        // mobSubMenu.classList.toggle("mob-sub-block")
+
+        if (mobSubMenu.classList.contains("mob-sub-block")) {
+            mobSubMenu.classList.remove("mob-sub-block")
+           
+
+        } else {
+
+            for (let a = 0; a < mobSubMenuActive.length; a++) {
+                mobSubMenuActive[a].classList.remove("mob-sub-block")
+            }
+
+            mobSubMenu.classList.add("mob-sub-block");
+
+        }
+    })
+
     
 })
 

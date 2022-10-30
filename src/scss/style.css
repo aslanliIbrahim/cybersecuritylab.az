@@ -289,6 +289,7 @@ nav .nav-phone-area ul li a {
 }
 
 nav .nav-phone-area ul li .salam-mob {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -299,6 +300,23 @@ nav .nav-phone-area ul li .salam-mob {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+}
+
+nav .nav-phone-area ul li .mob-sub-menu {
+  position: absolute;
+  height: 0;
+  opacity: 0;
+}
+
+nav .nav-phone-area ul li .mob-sub-block {
+  position: absolute;
+  width: 100% !important;
+  height: auto !important;
+  opacity: 1;
+  top: 19%;
+  left: 0;
+  z-index: 1;
+  background-color: white !important;
 }
 
 @media (max-width: 768px) {

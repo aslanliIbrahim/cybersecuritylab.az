@@ -180,10 +180,27 @@ nav{
                     }
                     .salam-mob{
                         // border: 2px solid red;
+                        position: relative;
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
                         width: 100%;
+                    }
+                    .mob-sub-menu{
+                        // display: none;
+                        position: absolute;
+                        height: 0;
+                        opacity: 0;
+                    }
+                    .mob-sub-block{
+                        position: absolute;
+                        width: 100% !important;
+                        height: auto !important;
+                        opacity: 1;
+                        top: 19%;
+                        left: 0;
+                        z-index: 1;
+                        background-color: $white !important;
                     }
                 }
             }
