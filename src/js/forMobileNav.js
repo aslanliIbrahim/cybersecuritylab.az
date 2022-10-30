@@ -35,12 +35,13 @@ HelloMob.forEach(forMob=>{
     
     console.log(forMob, "formob");
     const mobSubMenu = document.querySelector(".mob-sub-menu")
-    const mobSubMenuActive = forMob.querySelectorAll(".mob-sub-menu.mob-sub-block")
+    
 
     forMob.addEventListener("click", function() {
         
         // mobSubMenu.classList.toggle("mob-sub-block")
-
+        const mobSubMenuActive = document.querySelectorAll(".mob-sub-menu.mob-sub-block")
+        
         if (mobSubMenu.classList.contains("mob-sub-block")) {
             mobSubMenu.classList.remove("mob-sub-block")
            
