@@ -134,7 +134,15 @@ main{
 
         h2{
             // border: 2px solid red;
-            @include TextFont($f_size:44px, $text_weight:700, $margin:0 0 40px 0, $line_height:1.07);
+            @include TextFont($f_size:44px, $text_weight:700, $margin:0 0 40px 0, $line_height:1.07, $padding:0 0 0 71px);
+
+            @media (max-width:768px) {
+                padding: 0;
+                font-size: 24px;
+            }
+            @media (min-width:768px) and (max-width:1400px) {
+                padding: 66px;
+            }
         }
 
         .buttons-area{
