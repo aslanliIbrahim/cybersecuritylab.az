@@ -61,6 +61,55 @@ HelloMob.forEach(forMob=>{
 })
 
 
+const summaryTag = document.querySelector('details');
+
+console.log(summaryTag);
+
+summaryTag.addEventListener("click", function() {
+
+    document.querySelectorAll("details").forEach(summary => {
+
+        // if (summary.hasAttribute("open")) {
+        //     summary.removeAttribute("open")
+
+
+        // } else {
+        //     console.log("doesn't working");
+        // }
+        console.log(summary.hasAttribute('open'))
+
+    })
+
+})
+
+
+
+
+// summaryTag.forEach(summary => {
+
+//     summary.addEventListener("click", function() {
+
+//         const summaryActiveTag = summary.hasAttribute("open")
+
+//        if (summaryActiveTag.hasAttribute("open")) {
+
+//             summary.removeAttribute("open")
+
+//        } else {
+//             for (let index = 0; index < summaryActiveTag.length; index++) {
+                
+//                 summaryActiveTag[index].removeAttribute("open");
+
+//                 summary.setAttribute("open")
+                
+//             }
+//        }
+
+//     })
+
+
+// })
+
 
 
 
