@@ -22,6 +22,10 @@ nav{
                         object-fit: contain;
                     }
                 }
+
+                @media (max-width:768px) {
+                    @include padding(10px 10px);
+                }
             }
             .nav-side{
                 @include flexible($jus:space-between,$items:center, $direction:row);
@@ -150,6 +154,7 @@ nav{
                 justify-content: center;
                 font-size: 29px;
                 font-weight: 700;
+                @include margin(10px 10px);
             }
         }
         .nav-phone-area{
