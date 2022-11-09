@@ -696,7 +696,8 @@ main{
         }
     }
     #five{
-        background-color: $background-color-white;
+        // background-color: $background-color-white;
+        background-color: $special-seven-white !important;
         .five-side-left{
             // border: 2px solid red;
             .first-p{
