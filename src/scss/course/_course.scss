@@ -1747,6 +1747,11 @@
                 opacity: 1;
                }
             }
+            @media (max-width:768px) {
+                top: 101%;
+                left: 24%;
+                width: 50%;
+            }
         }
     }
     

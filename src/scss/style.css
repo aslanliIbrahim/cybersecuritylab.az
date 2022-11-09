@@ -4267,6 +4267,14 @@ footer .footer-down-right a {
   opacity: 1;
 }
 
+@media (max-width: 768px) {
+  #lastSlider .two-slide .owl-nav {
+    top: 101%;
+    left: 24%;
+    width: 50%;
+  }
+}
+
 #lastAccordion h2 {
   font-weight: 700;
   font-size: 44px;
