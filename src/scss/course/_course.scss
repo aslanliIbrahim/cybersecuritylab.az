@@ -118,7 +118,7 @@
     }
 }
 #course-two{
-    // border: 2px solid red;
+    // border-bottom: 1px solid gray;
     position: sticky !important;
     top: 0;
     background-color: $white;
@@ -1373,6 +1373,10 @@
             }
             .third-area{
                 @include flexible(center,center,row);
+                .for-na{
+                    color: red;
+                    font-weight: bolder;
+                }
             }
             .fourty-area{
                 @include flexible(center,center,row);
@@ -1726,6 +1730,26 @@
             margin-top: 25px;
         }
     }
+    .two-slide{
+        .owl-nav{
+            // border: 2px solid red;
+            position: absolute;
+            top: 85%;
+            left: 51%;
+            width: 5%;
+            display: flex;
+            justify-content: space-between;
+            .for-nav-img{
+               width: 20px !important;
+               opacity: 0.5;
+               transition: 0.1s all;
+               &:hover{
+                opacity: 1;
+               }
+            }
+        }
+    }
+    
 }
 #lastAccordion{
     // border: 2px solid red;

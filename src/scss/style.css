@@ -3747,6 +3747,11 @@ footer .footer-down-right a {
           flex-direction: row;
 }
 
+#bootcamp-table .bootcamp-table-area .tables-area .third-area .for-na {
+  color: red;
+  font-weight: bolder;
+}
+
 #bootcamp-table .bootcamp-table-area .tables-area .fourty-area {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4236,6 +4241,30 @@ footer .footer-down-right a {
   #lastSlider .caruesel-content {
     margin-top: 25px;
   }
+}
+
+#lastSlider .two-slide .owl-nav {
+  position: absolute;
+  top: 85%;
+  left: 51%;
+  width: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#lastSlider .two-slide .owl-nav .for-nav-img {
+  width: 20px !important;
+  opacity: 0.5;
+  -webkit-transition: 0.1s all;
+  transition: 0.1s all;
+}
+
+#lastSlider .two-slide .owl-nav .for-nav-img:hover {
+  opacity: 1;
 }
 
 #lastAccordion h2 {
