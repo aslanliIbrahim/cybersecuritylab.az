@@ -162,17 +162,17 @@
         .left-up{
             @include padding(0px 40px);
             @include margin(32px 0px);
+            h3{
+                
+                font-size: 52px;
+                font-weight: 700;
+            }
             @media (max-width:768px) {
                 @include margin(16px 0);
                 @include padding(0 0);
                 h3{
                     font-size: 36px !important;
                 }
-            }
-            h3{
-                
-                font-size: 54px;
-                font-weight: 700;
             }
         }
         .left-down{
@@ -1218,6 +1218,9 @@
                             font-size: 14px;
                         }
 
+                        .common-down-second{
+                            width: 98px;
+                        }
                         @media (max-width:768px) {
                             .common-down-first{
                                 display: none;
@@ -1366,6 +1369,7 @@
             }
             .first-area{
                 @include flexible(center,center,row);
+                text-align: center;
             }
             .second-area{
                 background-color: $table-left-white;

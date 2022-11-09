@@ -159,7 +159,7 @@ main{
     }
     #highlights{
         // border: 2px solid red;
-        background-color: #E7D59B;
+        background-color: $special-seven-white;
         ul{
             @include ul($list-style:none, $pad:0, $mar:0);
             @include flexible(space-between, center, row);

@@ -790,6 +790,16 @@ main #three .programs-title h2 {
 
 main #three .cards-area {
   margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 main #three .cards-area .card-area a {
@@ -2063,6 +2073,11 @@ footer .footer-down-right a {
   margin: 32px 0px;
 }
 
+#strat-learning .learning-left .left-up h3 {
+  font-size: 52px;
+  font-weight: 700;
+}
+
 @media (max-width: 768px) {
   #strat-learning .learning-left .left-up {
     margin: 16px 0;
@@ -2071,11 +2086,6 @@ footer .footer-down-right a {
   #strat-learning .learning-left .left-up h3 {
     font-size: 36px !important;
   }
-}
-
-#strat-learning .learning-left .left-up h3 {
-  font-size: 54px;
-  font-weight: 700;
 }
 
 #strat-learning .learning-left .left-down {
@@ -3467,6 +3477,10 @@ footer .footer-down-right a {
   font-size: 14px;
 }
 
+#payment-options .payment-information-common .payment-information .payment-up-inf .common-left .common-down .common-down-second {
+  width: 98px;
+}
+
 @media (max-width: 768px) {
   #payment-options .payment-information-common .payment-information .payment-up-inf .common-left .common-down .common-down-first {
     display: none;
@@ -3737,6 +3751,7 @@ footer .footer-down-right a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  text-align: center;
 }
 
 #bootcamp-table .bootcamp-table-area .tables-area .second-area {
@@ -5142,7 +5157,7 @@ main #bootcamp-table .bootcamp-table-text p {
 }
 
 main #highlights {
-  background-color: #E7D59B;
+  background-color: #F8F9F2;
 }
 
 main #highlights ul {
