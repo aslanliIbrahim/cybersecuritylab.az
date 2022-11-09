@@ -298,6 +298,12 @@ main{
                         font-size: 2.25rem !important;
                         line-height: 1;
                     }
+                    @media (max-width:768px) {
+                        margin-bottom: 18px;
+                        h1{
+                            font-size: 2.06rem !important;
+                        }
+                    }
                 }
                 .first-side-middle{
                     ul{
@@ -713,6 +719,9 @@ main{
                 font-weight: 700;
                 font-size: 44px;
                 margin-bottom: 32px;
+                @media (max-width:768px) {
+                    font-size: 41px;
+                }
             }
             .five-side-middle{
                 // border: 2px solid red;
@@ -798,6 +807,7 @@ main{
                 font-size: 28px;
                 font-weight: 600;
                 margin-bottom: 40px;
+
             }
             .six-donw-side{
             
@@ -842,7 +852,7 @@ main{
                 padding: 0 24px !important;
                h4{
                 width: 100% !important;
-                font-size: 19px !important;
+                font-size: 21px !important;
                 text-align: center;
                }
                 
