@@ -1510,7 +1510,7 @@
             @include TextFont($f_size:20px, $margin:0 0 8px 0, );
         }
         h2{
-            @include TextFont($f_size:44px,$text_weight:700, $margin:16px 0 24px 0, $line_height:1.07, );
+            @include TextFont($f_size:37px,$text_weight:700, $margin:16px 0 24px 0, $line_height:1.07, );
             max-width: 400px;
         }
         p{
@@ -1610,7 +1610,7 @@
             align-items: flex-end;
             button{
                 border: none;
-                width: 70%;
+                width: 73%;
                 color: $special-green-hover;
                 background-color: $special-green;
                 font-weight: 700;
