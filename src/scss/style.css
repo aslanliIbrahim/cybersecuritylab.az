@@ -6525,6 +6525,46 @@ main #webinarsevent .addtion-button a:hover {
   }
 }
 
+#contact-one {
+  background-color: #005249;
+}
+
+#contact-one .contact-root-area {
+  color: white;
+}
+
+#contact-one .contact-root-area p {
+  padding: 24px 10px 40px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 0.5;
+  margin-bottom: 16px;
+}
+
+#contact-one .contact-root-area p span {
+  opacity: 1;
+}
+
+#contact-one .contact-root-area h2 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  padding-bottom: 124px;
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  #contact-one .contact-root-area p {
+    display: none;
+  }
+  #contact-one .contact-root-area h2 {
+    padding: 34px 0 34px 16px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
