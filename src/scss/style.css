@@ -6364,6 +6364,62 @@ main #webinarsevent .addtion-button a:hover {
   }
 }
 
+.in-communities {
+  width: 89% !important;
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+}
+
+.h2-communities {
+  font-size: 39px !important;
+}
+
+.h2-communitiestwo {
+  font-size: 43px !important;
+}
+
+.for-border-communities {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.for-border-communities h2 {
+  width: 65%;
+}
+
+.for-correct-distances button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly !important;
+      -ms-flex-pack: space-evenly !important;
+          justify-content: space-evenly !important;
+}
+
+.for-correct-distances button span {
+  width: 45%;
+  text-align: left;
+}
+
+.for-correct-distances-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.for-correct-distances-content p {
+  width: 64%;
+}
+
 * {
   margin: 0;
   padding: 0;

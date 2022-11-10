@@ -1,0 +1,37 @@
+.in-communities{
+    width: 89% !important;
+    object-fit: contain !important;
+}
+.h2-communities{
+    font-size: 39px !important;
+}
+.h2-communitiestwo{
+    font-size: 43px !important;
+}
+
+.for-border-communities{
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+    display: flex;
+    justify-content: center;
+    h2{
+        width: 65%;
+    }
+}
+.for-correct-distances{
+    button{
+        display:flex;
+        justify-content: space-evenly !important;
+        span{
+            width: 45%;
+            text-align: left;
+        }
+    }
+}
+.for-correct-distances-content{
+    display: flex;
+    justify-content: center;
+    p{
+        width: 64%;
+    }
+}
