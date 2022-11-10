@@ -6364,6 +6364,83 @@ main #webinarsevent .addtion-button a:hover {
   }
 }
 
+.first-communities-upside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.first-communities-upside .communities-up {
+  width: 93%;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.first-communities-upside .communities-up h1 {
+  text-align: left;
+  font-size: 48px !important;
+}
+
+.first-communities-upside .communities-down {
+  padding: 0px 23px !important;
+  margin: 0 !important;
+}
+
+.first-communities-upside .button-communities {
+  text-decoration: none;
+  color: #005249;
+  background-color: #CEFA05;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  padding: 0px 36px;
+  height: 46px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  border-radius: 24px;
+}
+
+.first-communities-upside .button-communities:hover {
+  color: #CEFA05;
+  background-color: #005249;
+}
+
+.communities-first-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.communities-first-left img {
+  width: 510px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .in-communities {
   width: 89% !important;
   -o-object-fit: contain !important;
