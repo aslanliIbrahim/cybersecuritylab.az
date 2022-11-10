@@ -10,6 +10,14 @@
             text-align: left;
             font-size: 48px !important;
         }
+        h3{
+            font-size: 18px;
+        }
+        @media (min-width:768px) and (max-width:1400px) {
+            h1{
+                font-size: 42px !important;
+            }
+        }
    }
    .communities-down{
         padding: 0px 23px !important;
@@ -36,7 +44,6 @@
         }
     }
 }
-
 .communities-first-left{
     display: flex;
     align-items: center;
@@ -47,9 +54,6 @@
         object-fit: contain;
     }
 }
-
-
-
 .in-communities{
     width: 89% !important;
     object-fit: contain !important;
@@ -60,7 +64,6 @@
 .h2-communitiestwo{
     font-size: 43px !important;
 }
-
 .for-border-communities{
     border-top: 1px solid $black;
     border-bottom: 1px solid $black;
@@ -87,3 +90,26 @@
         width: 64%;
     }
 }
+
+@media (min-width:768px) and (max-width:1400px) {
+    .communities-card{
+        padding: 7px 16px !important;
+    }
+    .communities-cyber-area{
+        padding: 0px 0px 0px 31px !important;
+    }
+    #four{
+        h1{
+            font-size: 38px !important;
+        }
+    }
+}
+
+
+    @media (min-width:768px) and (max-width:1400px) {
+        .for-comminutes-mob-cyber{
+            padding: 0px 0px !important;
+        }
+    }
+
+
