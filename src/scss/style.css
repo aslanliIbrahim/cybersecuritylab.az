@@ -6707,6 +6707,14 @@ main #webinarsevent .addtion-button a:hover {
   background-color: #005249;
 }
 
+@media (max-width: 768px) {
+  #contact-four .button-side {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 #subscribe {
   background-color: #C7E3E2;
 }
@@ -6734,6 +6742,12 @@ main #webinarsevent .addtion-button a:hover {
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
+}
+
+@media (max-width: 768px) {
+  #subscribe .subscribe-header h5 {
+    text-align: center;
+  }
 }
 
 #subscribe .contact-inputs-area {
@@ -6803,6 +6817,12 @@ main #webinarsevent .addtion-button a:hover {
 #subscribe .contact-inputs-area button:hover {
   color: #CEFA05;
   background-color: #005249;
+}
+
+@media (max-width: 768px) {
+  #subscribe .contact-inputs-area form {
+    width: 95%;
+  }
 }
 
 * {
