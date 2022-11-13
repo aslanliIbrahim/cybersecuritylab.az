@@ -6825,6 +6825,30 @@ main #webinarsevent .addtion-button a:hover {
   }
 }
 
+.for-faq {
+  background-color: #F3F3F3 !important;
+}
+
+.for-faq .faqs-first-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.for-faq .faqs-first-right img {
+  height: 233.188px;
+}
+
 * {
   margin: 0;
   padding: 0;

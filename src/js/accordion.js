@@ -57,9 +57,5 @@ paymentInformation.forEach(element => {
 });
 
 
-function paymnetToglle() {
-    
-
-}
 
 

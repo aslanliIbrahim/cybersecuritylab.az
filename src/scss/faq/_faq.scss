@@ -1,0 +1,11 @@
+
+.for-faq{
+    background-color: #F3F3F3 !important;
+    .faqs-first-right{
+        @include flexible(center,center,row);
+        img{
+            height: 233.188px;
+        }
+    }
+}
+
