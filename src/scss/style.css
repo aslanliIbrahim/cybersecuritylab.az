@@ -6825,11 +6825,11 @@ main #webinarsevent .addtion-button a:hover {
   }
 }
 
-.for-faq {
-  background-color: #F3F3F3 !important;
+main .for-faq {
+  background-color: #f3f3f3 !important;
 }
 
-.for-faq .faqs-first-right {
+main .for-faq .faqs-first-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6845,8 +6845,153 @@ main #webinarsevent .addtion-button a:hover {
           flex-direction: row;
 }
 
-.for-faq .faqs-first-right img {
+main .for-faq .faqs-first-right img {
   height: 233.188px;
+}
+
+main #question {
+  background-color: #f3f3f3 !important;
+}
+
+main #question .question-left h2 {
+  font-size: 44px;
+  line-height: 1.07;
+  font-weight: bold;
+  text-align: inherit;
+  width: 90%;
+}
+
+main #question .question-left .question-left-p-side {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+main #question .question-left .question-left-p-side p {
+  font-size: 18px;
+  width: 82%;
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  main #question .question-left {
+    padding-right: 10%;
+  }
+  main #question .question-left h2 {
+    font-size: 39px;
+    width: 100%;
+  }
+  main #question .question-left .question-left-p-side p {
+    width: 100%;
+  }
+}
+
+main #question .question-right form {
+  width: 100%;
+}
+
+main #question .question-right form .inputs-div {
+  margin-bottom: 24px;
+}
+
+main #question .question-right form .inputs-div label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+main #question .question-right form .inputs-div input {
+  background-color: transparent;
+  display: block;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  height: 46px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px 16px;
+  border: 1px solid #A8A8A0;
+}
+
+main #question .question-right form .what-selected {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+main #question .question-right form .what-selected label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+main #question .question-right form .what-selected select {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #a8a8a8;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  outline: none;
+  background-color: transparent;
+  font-size: 1rem;
+  height: 46px;
+  width: 100%;
+  color: #a8a8a8;
+  box-sizing: border-box;
+  text-indent: 16px;
+  z-index: 3;
+}
+
+main #question .question-right form .what-selected .faq-select-img {
+  position: absolute;
+  top: 55%;
+  left: 93%;
+}
+
+main #question .question-right form button {
+  outline: none;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  height: 46px;
+  padding: 0px 36px;
+  text-decoration: none;
+  border: none;
+  border-radius: 24px;
+  background-color: #CEFA05;
+  color: #005249;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+main #question .question-right form button:hover {
+  background-color: #005249;
+  color: #CEFA05;
+}
+
+main #question .question-right form .title-area-faq p {
+  line-height: 1.4;
+  grid-column: 1 / auto;
+  text-align: center;
+  width: 80%;
+  margin: 16px auto 0px;
 }
 
 * {
