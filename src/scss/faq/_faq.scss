@@ -6,6 +6,23 @@ main {
       img {
         height: 233.188px;
       }
+      @media (max-width:768px) {
+        display: none;
+      }
+    }
+  }
+  #lastAccordion{
+    @media (max-width:768px) {
+        .for-faq-mobile{
+            padding: 0px 10px !important;
+        }
+        .for-faq-title-mobile{
+            h2{
+                font-size: 30px;
+                margin: 0px;
+                
+            };
+        }
     }
   }
   #question {
@@ -24,6 +41,19 @@ main {
         p {
           font-size: 18px;
           width: 82%;
+        }
+      }
+      @media (max-width:768px) {
+        h2{
+            width: 100%;
+            font-size: 30px;
+            text-align: center;
+        }
+        .question-left-p-side{
+            p{
+                width: 100%;
+                text-align: center;
+            }
         }
       }
       @media (min-width:768px) and (max-width:1400px) {
@@ -129,9 +159,17 @@ main {
             text-align: center;
             width: 80%;
             margin: 16px auto 0px;
+            @media (max-width:768px) {
+                width: 100%;
+            }
           }
         }
       }
+    }
+    @media (max-width:768px) {
+        .for-faq-mobile{
+            padding: 0px 10px;
+        }
     }
   }
 }
