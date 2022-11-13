@@ -73,7 +73,6 @@ main {
     .question-right {
       form {
         width: 100%;
-        // border: 2px solid red;
         .inputs-div {
           margin-bottom: 24px;
           label {
@@ -103,7 +102,6 @@ main {
             margin-bottom: 8px;
           }
           select {
-            // max-width: 544px;
             width: 100%;
             box-sizing: border-box;
             border-width: 1px;
@@ -160,7 +158,7 @@ main {
             width: 80%;
             margin: 16px auto 0px;
             @media (max-width:768px) {
-                width: 100%;
+                width: 100%; 
             }
           }
         }
