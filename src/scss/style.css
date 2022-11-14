@@ -6566,6 +6566,7 @@ main #webinarsevent .addtion-button a:hover {
 }
 
 #contact-two .icons-area {
+  color: #201E1E;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6609,7 +6610,7 @@ main #webinarsevent .addtion-button a:hover {
 }
 
 #contact-four {
-  background-color: #E6EEED;
+  background-color: #F8F9F2;
 }
 
 #contact-four .contact-left-side {
@@ -6629,7 +6630,7 @@ main #webinarsevent .addtion-button a:hover {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 #contact-four .contact-left-side input {
@@ -6638,7 +6639,7 @@ main #webinarsevent .addtion-button a:hover {
           box-sizing: border-box;
   border-radius: 8px;
   padding: 16px 14px;
-  background-color: #E6EEED;
+  background-color: #F8F9F2;
   margin-bottom: 30px;
   outline: none;
   -webkit-transition: 0.3s all ease-in-out;
@@ -6658,10 +6659,10 @@ main #webinarsevent .addtion-button a:hover {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
+  margin-bottom: 9px;
 }
 
 #contact-four .content-right-area textarea {
-  margin-top: 13px;
   border: 1px solid #CADEEA;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -6688,9 +6689,9 @@ main #webinarsevent .addtion-button a:hover {
 }
 
 #contact-four .button-side button {
-  border-radius: 8px;
+  border-radius: 24px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -6716,7 +6717,7 @@ main #webinarsevent .addtion-button a:hover {
 }
 
 #subscribe {
-  background-color: #C7E3E2;
+  background-color: #005249;
 }
 
 #subscribe .subscribe-header {
@@ -6739,6 +6740,7 @@ main #webinarsevent .addtion-button a:hover {
 }
 
 #subscribe .subscribe-header h5 {
+  color: white;
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
@@ -6800,9 +6802,9 @@ main #webinarsevent .addtion-button a:hover {
 }
 
 #subscribe .contact-inputs-area button {
-  border-radius: 8px;
+  border-radius: 24px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -6811,12 +6813,13 @@ main #webinarsevent .addtion-button a:hover {
   padding: 14px 36px;
   -webkit-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
-  border: none;
+  border: 1px solid transparent;
 }
 
 #subscribe .contact-inputs-area button:hover {
   color: #CEFA05;
   background-color: #005249;
+  border: 1px solid;
 }
 
 @media (max-width: 768px) {

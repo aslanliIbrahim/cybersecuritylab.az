@@ -38,6 +38,7 @@
 
 #contact-two{
     .icons-area{
+        color: $footer-black;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -67,7 +68,7 @@
 }
 
 #contact-four{
-    background-color: $background-color-white;
+    background-color: $special-seven-white;
     .contact-left-side{
         // border: 2px solid red;
         display: flex;
@@ -77,14 +78,14 @@
             font-weight: 400;
             font-size: 12px;
             line-height: 16px;
-            margin-bottom: 10px;
+            margin-bottom: 16px;
         }
         input{
             border: 1px solid $soft-blue;
             box-sizing: border-box;
             border-radius: 8px;
             padding: 16px 14px;
-            background-color: $background-color-white;
+            background-color: $special-seven-white;
             margin-bottom: 30px;
             outline: none;
             transition: 0.3s all ease-in-out;
@@ -101,9 +102,9 @@
             font-weight: 400;
             font-size: 12px;
             line-height: 16px;
+            margin-bottom: 9px;
         }
         textarea{
-            margin-top: 13px;
             border: 1px solid $soft-blue;
             box-sizing: border-box;
             border-radius: 8px;
@@ -121,9 +122,9 @@
         display: flex;
         justify-content: flex-end;
         button{
-            border-radius: 8px;
+            border-radius: 24px;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 700;
             font-size: 16px;
             line-height: 20px;
             text-align: center;
@@ -145,7 +146,8 @@
 }
 
 #subscribe{
-    background-color: $light-white;
+    background-color: $special-green-hover;
+    
     .subscribe-header{
         padding-top: 150px;
         display: flex;
@@ -155,6 +157,7 @@
         padding-top: 104px;
         padding-bottom: 24px;
         h5{
+            color: $white;
             font-weight: 400;
             font-size: 24px;
             line-height: 40px;
@@ -193,9 +196,9 @@
         }
         
         button{
-            border-radius: 8px;
+            border-radius: 24px;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 700;
             font-size: 16px;
             line-height: 20px;
             text-align: center;
@@ -203,10 +206,11 @@
             color: $special-green-hover;
             padding: 14px 36px;
             transition: 0.3s all ease-in-out;
-            border: none;
+            border: 1px solid transparent;
             &:hover{
                 color: $special-green;
                 background-color: $special-green-hover;
+                border: 1px solid ;
             }
         }
         @media (max-width:768px) {
