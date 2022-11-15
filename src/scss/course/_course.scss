@@ -1134,6 +1134,10 @@
         margin-bottom: 40px;
         display: flex;
         justify-content: center;
+        form{
+            width: 100%;
+            @include flexible($jus:center);
+        }
         .payment-button-left{
             border-left: 2px solid $special-green !important    ;
             border-top: 2px solid $special-green;

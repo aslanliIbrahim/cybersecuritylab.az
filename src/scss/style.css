@@ -1273,12 +1273,6 @@ main #seven .seven-side-left .slider-area-side {
   width: 70%;
 }
 
-@media (max-width: 768px) {
-  main #seven .seven-side-left .slider-area-side {
-    width: 100%;
-  }
-}
-
 main #seven .seven-side-left .slider-area-side .for-span-area {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1457,6 +1451,12 @@ main #seven .seven-side-left .slider-area-side .slide-area .content-area ul li .
   font-weight: 700;
 }
 
+@media (max-width: 768px) {
+  main #seven .seven-side-left .slider-area-side {
+    width: 100%;
+  }
+}
+
 main #seven .seven-side-left a {
   width: 37%;
   text-decoration: none;
@@ -1469,17 +1469,17 @@ main #seven .seven-side-left a {
   font-weight: 700;
 }
 
+main #seven .seven-side-left a:hover {
+  background-color: #005249;
+  color: #CEFA05;
+}
+
 @media (max-width: 768px) {
   main #seven .seven-side-left a {
     text-align: center;
     margin-top: 15px;
     width: 100%;
   }
-}
-
-main #seven .seven-side-left a:hover {
-  background-color: #005249;
-  color: #CEFA05;
 }
 
 @media (max-width: 768px) {
@@ -1497,7 +1497,7 @@ main #seven .seven-side-left a:hover {
     margin-bottom: 14px;
   }
   main #seven .seven-side-left a {
-    width: 48%;
+    width: 51%;
     text-align: center;
     margin: 30px 0 0 0;
   }
@@ -3345,6 +3345,16 @@ footer .footer-down-right a {
 
 #payment-options .payment-button-area {
   margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#payment-options .payment-button-area form {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

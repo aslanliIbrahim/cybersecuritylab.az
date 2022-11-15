@@ -905,10 +905,6 @@ main{
             }
             
             .slider-area-side{
-                // border: 2px solid red;
-                @media (max-width:768px) {
-                    width: 100%;
-                }
                     width: 70%;
                     .for-span-area{
                         // border: 2px solid red;
@@ -1042,15 +1038,12 @@ main{
                             }
                         }
                     }
-                
-                
+                    @media (max-width:768px) {
+                        width: 100%;
+                    }
             }
             a{
-                @media (max-width:768px) {
-                    text-align: center;
-                    margin-top: 15px;
-                    width: 100%;
-                }
+                
                     width: 37%;
                     text-decoration: none;
                     color: $special-green-hover;
@@ -1061,6 +1054,11 @@ main{
                     &:hover{
                         background-color: $special-green-hover;
                         color: $special-green;
+                    }
+                    @media (max-width:768px) {
+                        text-align: center;
+                        margin-top: 15px;
+                        width: 100%;
                     }
             }
             @media (max-width:768px) {
@@ -1075,7 +1073,7 @@ main{
                     margin-bottom: 14px;
                 }
                 a{
-                    width: 48%;
+                    width: 51%;
                     text-align: center;
                     margin: 30px 0 0 0;
                 }
